@@ -1,0 +1,160 @@
+/* share — the source's .share-actions--offset. Values: stardust/prototypes/canon.css.
+   The wrapper takes no height; the bar hangs in the right rail 90px above the column top. */
+main .share-wrapper {
+  position: relative;
+  height: 0;
+}
+
+.share {
+  position: absolute;
+  top: -90px;
+  left: 100%;
+  z-index: 2;
+  width: 180px;
+  height: 61px;
+}
+
+.share .share-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.share .share-label-inner {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 61px;
+  padding: 0 30px 0 24px;
+  background: var(--surface-dark);
+  color: #fff;
+  font-family: var(--ff-bold);
+  font-size: 12px;
+  line-height: 60px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.share .share-label-inner p {
+  display: inline;
+  margin: 0;
+}
+
+.share .share-label-inner .share-icon {
+  position: relative;
+  top: 2px;
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.share .share-label-inner .share-icon::after {
+  content: "↺";
+  font-family: var(--ff-icons);
+  line-height: 0;
+}
+
+.share .share-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.share .share-item a:any-link {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 61.4375px;
+  background: #fff;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+
+.share .share-item + .share-item a::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 1px;
+  height: 36px;
+  background: var(--border);
+}
+
+.share .share-item a:hover,
+.share .share-item a:focus {
+  background: var(--red);
+  text-decoration: none;
+}
+
+.share .share-item a:hover::after,
+.share .share-item a:focus::after {
+  display: none;
+}
+
+.share .share-svg {
+  display: block;
+  width: 20px;
+  height: 20.4375px;
+  padding: 20px 20px 21px;
+  fill: var(--red);
+}
+
+.share .share-item a:hover .share-svg,
+.share .share-item a:focus .share-svg {
+  fill: #fff;
+}
+
+.share .share-item .share-icon {
+  position: relative;
+  top: 5px;
+  font-size: 19px;
+}
+
+.share .share-item .share-icon::after {
+  color: var(--red);
+  font-family: var(--ff-icons);
+  line-height: 0;
+}
+
+.share .share-item-facebook .share-icon::after {
+  content: "f";
+}
+
+.share .share-item-linkedin .share-icon::after {
+  content: "l";
+}
+
+.share .share-item a:hover .share-icon::after,
+.share .share-item a:focus .share-icon::after {
+  color: #fff;
+}
+
+@media (width <= 959px) {
+  main .share-wrapper {
+    height: auto;
+  }
+
+  .share {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+
+  .share .share-label {
+    display: none;
+  }
+
+  .share .share-list {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+
+  .share .share-item {
+    display: table-cell;
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-18T10:43:44.964Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "search",
+  "url": "https://www.about.hsbc.co.uk/search",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-18T10:43:44.964Z",
+  "finalUrl": "https://www.about.hsbc.co.uk/search",
+  "title": "Search - About HSBC | HSBC UK",
+  "description": "Learn about the history and businesses of HSBC in UK",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Search"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookies on this website"
+    }
+  ],
+  "body": [
+    "No results found. Please try a different search term."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Cookie Notice",
+      "href": "https://www.about.hsbc.co.uk/cookie-notice"
+    }
+  ],
+  "links": [
+    "https://www.about.hsbc.co.uk/search#",
+    "https://www.about.hsbc.co.uk/search#nav-tray-sub-view-1",
+    "https://www.about.hsbc.co.uk/search#nav-tray-sub-view-2",
+    "https://www.about.hsbc.co.uk/search#nav-tray-sub-view-3",
+    "https://www.about.hsbc.co.uk/search#nav-tray-sub-view-4",
+    "https://www.hsbc.co.uk/",
+    "https://www.business.hsbc.uk/en-gb",
+    "https://www.about.hsbc.co.uk/hsbc-uk",
+    "https://www.about.hsbc.co.uk/hsbc-uk/postcode-lending-data",
+    "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+    "https://www.about.hsbc.co.uk/hsbc-uk/working-with-fintechs",
+    "https://www.about.hsbc.co.uk/hsbc-uk/regulated-covered-bond-programme",
+    "https://www.about.hsbc.co.uk/news-and-media",
+    "https://www.about.hsbc.co.uk/management-team",
+    "https://www.about.hsbc.co.uk/history-timeline",
+    "https://www.about.hsbc.co.uk/search#page",
+    "https://www.about.hsbc.co.uk/",
+    "https://www.about.hsbc.co.uk/accessibility",
+    "https://www.about.hsbc.co.uk/privacy-notice",
+    "https://www.about.hsbc.co.uk/terms-of-use",
+    "https://www.about.hsbc.co.uk/cookie-notice",
+    "https://www.hsbc.co.uk/help/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      }
+    ],
+    "allImgCount": 2,
+    "cssBackgrounds": [],
+    "modals": [
+      "Cookies on this websiteWe use cookies to help keep our website and services working properly. These cookies are necessary and set automatically.We'd also like to use some optional cookies that:Make your visit more personalImprove our website based on how you use itSupport our marketingYou can either 'Accept' or 'Decline' these cookies or choose what cookies to accept in 'Manage cookies'.To learn more about how we use cookies, visit our Cookie Notice."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 2,
+    "mainTextLen": 67,
+    "realImageCount": 2,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "akamai.tiqcdn.com",
+        "path": "/location/location.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 18,
+        "hits": 1,
+        "example": "https://akamai.tiqcdn.com/location/location.js",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 3
+      },
+      {
+        "host": "sadmin.brightcove.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://www.about.hsbc.co.uk/search",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "query"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/search.png",
+  "renderedHtml": "pages/search.html"
+}

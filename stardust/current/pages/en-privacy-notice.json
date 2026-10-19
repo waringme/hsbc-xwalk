@@ -1,0 +1,144 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-18T10:33:06.647Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-privacy-notice",
+  "url": "https://www.about.hsbc.co.uk/en/privacy-notice",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-18T10:33:06.647Z",
+  "finalUrl": "https://www.about.hsbc.co.uk/en/privacy-notice",
+  "title": null,
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [],
+  "body": [],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Main content",
+      "href": "#page"
+    },
+    {
+      "label": "Personal",
+      "href": "https://www.hsbc.co.uk/"
+    },
+    {
+      "label": "Business",
+      "href": "https://www.business.hsbc.uk/en-gb"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/en/accessibility"
+    },
+    {
+      "label": "Terms of use",
+      "href": "/en/terms-of-use"
+    },
+    {
+      "label": "Cookie notice",
+      "href": "/en/cookie-notice"
+    },
+    {
+      "label": "Contact and support",
+      "href": "https://www.hsbc.co.uk/help/"
+    }
+  ],
+  "links": [
+    "https://www.about.hsbc.co.uk/en/privacy-notice#",
+    "https://www.hsbc.co.uk/",
+    "https://www.business.hsbc.uk/en-gb",
+    "https://www.about.hsbc.co.uk/en/privacy-notice#page",
+    "https://www.about.hsbc.co.uk/",
+    "https://www.about.hsbc.co.uk/en/accessibility",
+    "https://www.about.hsbc.co.uk/en/privacy-notice",
+    "https://www.about.hsbc.co.uk/en/terms-of-use",
+    "https://www.about.hsbc.co.uk/en/cookie-notice",
+    "https://www.hsbc.co.uk/help/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      }
+    ],
+    "allImgCount": 2,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 0,
+    "mainTextLen": 0,
+    "realImageCount": 2,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "akamai.tiqcdn.com",
+        "path": "/location/location.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 18,
+        "hits": 1,
+        "example": "https://akamai.tiqcdn.com/location/location.js",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "sadmin.brightcove.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/en-privacy-notice.png",
+  "renderedHtml": "pages/en-privacy-notice.html"
+}

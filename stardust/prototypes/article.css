@@ -1,0 +1,22 @@
+/* stardust:provenance writtenBy=stardust:replica phase=recreate archetype=article
+   Per-archetype layer (press release): tertiary page description, summary list, disclaimer.
+   Imports canon.css. Values from application.css + measure.mjs at 1440 / 360. */
+
+/* Page description */
+.page-description__meta { margin: -2px 0 14px; font-family: var(--ff-bold); font-size: 14px; line-height: 18px; }
+.page-description--tertiary .page-description__heading { margin: -7px 0 9px; font-family: var(--ff-ultra-light); }
+.page-description__summary ul { margin: 24px 0 24px 17px; list-style: square; font-family: var(--ff-light); font-size: 24px; line-height: 30px; }
+.page-description__summary li { display: list-item; margin: 0 0 12px; }
+.page-description__summary sup { line-height: 13.75px; } /* 11px × 1.25 */
+
+/* Disclaimer (Editor's notes / media enquiries) */
+.disclaimer { margin: -3px 0 0; font-family: var(--ff-light); font-size: 12px; line-height: 18px; }
+.disclaimer p { margin: -4px 0 15px; }
+.disclaimer strong { font-size: 12px; line-height: 18px; }
+
+@media (max-width: 640px) {
+  .page-description--tertiary .page-description__heading { margin: 0 0 9px; font-size: 48px; line-height: 48px; letter-spacing: -1.2px; }
+  .page-description__summary ul { font-size: 18px; line-height: 24.12px; }
+  .page-description__summary sup { line-height: 14.74px; }
+  .disclaimer p { margin: -3px 0 15px; }
+}

@@ -1,0 +1,2346 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-18T11:44:22.441Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.about.hsbc.co.uk/",
+   "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+   "https://www.about.hsbc.co.uk/news-and-media",
+   "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+   "https://www.about.hsbc.co.uk/terms-of-use",
+   "https://www.about.hsbc.co.uk/history-timeline",
+   "https://www.about.hsbc.co.uk/management-team",
+   "https://www.about.hsbc.co.uk/search",
+   "https://www.about.hsbc.co.uk/hsbc-uk/regulated-covered-bond-programme",
+   "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+  ],
+  "reachSource": "/backups/waringme/hsbc-xwalk/repo/stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.about.hsbc.co.uk/",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [
+    {
+     "tag": "video",
+     "src": "/-/media/uk/images/260618-tracking-slow-motion.mp4?sc_lang=en-GB",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 10,
+   "inlineFetch": true,
+   "mainText": 2291,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 22,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323863091"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 2268,
+   "mainEmptyAtLoad": false
+  },
+  "/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk": {
+   "url": "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "100 year Biodiversity bid for South of Scotland gets boost from HSBC UK - About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 1
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 10,
+   "inlineFetch": true,
+   "mainText": 6480,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 13,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323874085"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 6480,
+   "mainEmptyAtLoad": false
+  },
+  "/news-and-media": {
+   "url": "https://www.about.hsbc.co.uk/news-and-media",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "News and media - About HSBC | HSBC in the UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-introduces-220-current-account-switch-incentive",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-offers-up-to-750-cashback-for-new-customers-who-sign-up-for-their-premier-account",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-new-200-current-account-switch-offer",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-student-account-proposition-to-support-students-with-cost-of-living-concerns",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-current-account-switch-offer-worth-170-springs-up",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-sees-in-2022-with-150-current-account-switch-offer",
+    "https://www.about.hsbc.co.uk/news-and-media/current-account-offer-gbp150-cash-plus-gbp10-to-shelter",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-student-account-offer-launched"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 11,
+   "inlineFetch": true,
+   "mainText": 2750,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 15,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "www.hsbc.com": 3,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "www.hsbc.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323885596"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 2750,
+   "mainEmptyAtLoad": false
+  },
+  "/hsbc-uk/inclusion": {
+   "url": "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "Inclusion - About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 1
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb/campaigns/wellbeing-personal-and-business/health-and-accessibility",
+     "https://www.business.hsbc.uk/en-gb/campaigns/wellbeing-personal-and-business/financial-capability"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 11,
+   "inlineFetch": true,
+   "mainText": 7930,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 14,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323896543"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 7930,
+   "mainEmptyAtLoad": false
+  },
+  "/terms-of-use": {
+   "url": "https://www.about.hsbc.co.uk/terms-of-use",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "Terms of use - About HSBC | HSBC in the UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.moneyadviceservice.org.uk/en"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 10,
+   "inlineFetch": true,
+   "mainText": 11581,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 12,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323907305"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 11581,
+   "mainEmptyAtLoad": false
+  },
+  "/history-timeline": {
+   "url": "https://www.about.hsbc.co.uk/history-timeline",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "History timeline - About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 1
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width",
+     "ut.domain"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": true,
+   "mainText": 4851,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 27,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323918194"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 4851,
+   "mainEmptyAtLoad": false
+  },
+  "/management-team": {
+   "url": "https://www.about.hsbc.co.uk/management-team",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "Management team - About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": true,
+   "mainText": 266,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 15,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323929113"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 266,
+   "mainEmptyAtLoad": false
+  },
+  "/search": {
+   "url": "https://www.about.hsbc.co.uk/search",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "Search - About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": true,
+   "mainText": 67,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 11,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323940056"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 67,
+   "mainEmptyAtLoad": false
+  },
+  "/hsbc-uk/regulated-covered-bond-programme": {
+   "url": "https://www.about.hsbc.co.uk/hsbc-uk/regulated-covered-bond-programme",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "Regulated Covered Bond Programme - About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Regulated Covered Bond Programme",
+     "textLen": 6253,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Regulated Covered Bond Programme",
+     "textLen": 6253,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 5,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.fca.org.uk/firms/regulated-covered-bonds/register"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.viewCount",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 10,
+   "inlineFetch": true,
+   "mainText": 698,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 13,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323951414"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 698,
+   "mainEmptyAtLoad": false
+  },
+  "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough": {
+   "url": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough",
+   "status": 200,
+   "host": "www.about.hsbc.co.uk",
+   "title": "HSBC UK to open new branch in Loughborough - About HSBC | HSBC UK",
+   "forms": [
+    {
+     "name": "nav-tray__search-form",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "search-box__inner",
+     "action": "https://www.about.hsbc.co.uk/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:query"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Accept Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 23,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Decline Optional Cookies",
+     "href": null,
+     "marker": "cookie-modal__show",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Cookies on this website",
+     "textLen": 515,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "mailto:UKPressOffice@hsbc.co.uk"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en-GB",
+    "hreflang": [],
+    "switcher": [
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb",
+     "https://www.business.hsbc.uk/en-gb"
+    ]
+   },
+   "cms": {
+    "utag_data": [
+     "page_url",
+     "page_name",
+     "page_language",
+     "page_type",
+     "page_category",
+     "page_subcategory",
+     "page_customer_group",
+     "page_product_line",
+     "cp.shell#lang",
+     "cp.utag_main_v_id",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.HandheldFriendly",
+     "meta.MobileOptimized",
+     "meta.viewport",
+     "meta.description",
+     "meta.keywords",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url",
+     "dom.pathname",
+     "dom.viewport_height",
+     "dom.viewport_width",
+     "ut.domain"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 11,
+   "inlineFetch": true,
+   "mainText": 6653,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.about.hsbc.co.uk": 15,
+    "tags.tiqcdn.com": 3,
+    "sadmin.brightcove.com": 1,
+    "akamai.tiqcdn.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "sadmin.brightcove.com",
+    "akamai.tiqcdn.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.sync.js",
+    "https://sadmin.brightcove.com/js/BrightcoveExperiences_All.js",
+    "https://tags.tiqcdn.com/utag/hsbc/uk-common/prod/utag.js",
+    "https://www.about.hsbc.co.uk/assets/PWS171/javascripts/dist/dojo/dojo.js?v=104.0.0.0",
+    "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=hsbc/uk-common/202601300849&cb=1792323962282"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "GET akamai.tiqcdn.com/location/location.js"
+   ],
+   "postBodies": [],
+   "textAtLoad": 6653,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-cms-app-settings-object-utag-data",
+   "class": "A",
+   "feature": "CMS / app settings object utag_data",
+   "hint": "settings",
+   "evidence": [
+    "page_url",
+    "dom.url"
+   ],
+   "pages": [
+    "/",
+    "/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+    "/news-and-media",
+    "/hsbc-uk/inclusion",
+    "/terms-of-use",
+    "/history-timeline",
+    "/management-team",
+    "/search",
+    "/hsbc-uk/regulated-covered-bond-programme",
+    "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-gb-en-gb-en-gb-en-gb",
+   "class": "I18N",
+   "feature": "locale variants en-gb,en-gb,en-gb,en-gb",
+   "hint": "locale",
+   "evidence": [
+    "https://www.business.hsbc.uk/en-gb"
+   ],
+   "pages": [
+    "/",
+    "/history-timeline",
+    "/management-team",
+    "/search"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-gb-en-gb-en-gb",
+   "class": "I18N",
+   "feature": "locale variants en-gb,en-gb,en-gb",
+   "hint": "locale",
+   "evidence": [
+    "https://www.business.hsbc.uk/en-gb"
+   ],
+   "pages": [
+    "/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+    "/news-and-media",
+    "/hsbc-uk/regulated-covered-bond-programme",
+    "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-gb-en-gb-en-gb-en-gb-en-gb",
+   "class": "I18N",
+   "feature": "locale variants en-gb,en-gb,en-gb,en-gb,en-gb",
+   "hint": "locale",
+   "evidence": [
+    "https://www.business.hsbc.uk/en-gb"
+   ],
+   "pages": [
+    "/hsbc-uk/inclusion"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-gb-en-gb-en-gb-en",
+   "class": "I18N",
+   "feature": "locale variants en-gb,en-gb,en-gb,en",
+   "hint": "locale",
+   "evidence": [
+    "https://www.business.hsbc.uk/en-gb"
+   ],
+   "pages": [
+    "/terms-of-use"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-cookie-modal-show-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger cookie-modal__show (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Accept Optional Cookies",
+    "Decline Optional Cookies"
+   ],
+   "pages": [
+    "/",
+    "/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+    "/news-and-media",
+    "/hsbc-uk/inclusion",
+    "/terms-of-use",
+    "/history-timeline",
+    "/management-team",
+    "/search",
+    "/hsbc-uk/regulated-covered-bond-programme",
+    "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+   ]
+  },
+  {
+   "id": "s-site-search-form-search",
+   "class": "S",
+   "feature": "site search form → /search",
+   "hint": "search",
+   "evidence": [
+    "text:query"
+   ],
+   "pages": [
+    "/",
+    "/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+    "/news-and-media",
+    "/hsbc-uk/inclusion",
+    "/terms-of-use",
+    "/history-timeline",
+    "/management-team",
+    "/search",
+    "/hsbc-uk/regulated-covered-bond-programme",
+    "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 579
+   }
+  },
+  {
+   "id": "t-tag-manager-tealium",
+   "class": "T",
+   "feature": "tag manager: Tealium",
+   "role": "tag manager: Tealium",
+   "hint": "tags",
+   "evidence": [
+    "tags.tiqcdn.com",
+    "akamai.tiqcdn.com"
+   ],
+   "pages": [
+    "/",
+    "/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+    "/news-and-media",
+    "/hsbc-uk/inclusion",
+    "/terms-of-use",
+    "/history-timeline",
+    "/management-team",
+    "/search",
+    "/hsbc-uk/regulated-covered-bond-programme",
+    "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-hsbc-com",
+   "class": "T",
+   "feature": "unknown third-party host www.hsbc.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.hsbc.com"
+   ],
+   "pages": [
+    "/news-and-media"
+   ]
+  },
+  {
+   "id": "v-video-brightcove",
+   "class": "V",
+   "feature": "video: Brightcove",
+   "role": "video: Brightcove",
+   "hint": "media",
+   "evidence": [
+    "sadmin.brightcove.com"
+   ],
+   "pages": [
+    "/",
+    "/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+    "/news-and-media",
+    "/hsbc-uk/inclusion",
+    "/terms-of-use",
+    "/history-timeline",
+    "/management-team",
+    "/search",
+    "/hsbc-uk/regulated-covered-bond-programme",
+    "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-introduces-220-current-account-switch-incentive",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-offers-up-to-750-cashback-for-new-customers-who-sign-up-for-their-premier-account",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-new-200-current-account-switch-offer",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-student-account-proposition-to-support-students-with-cost-of-living-concerns",
+    "https://www.fca.org.uk/firms/regulated-covered-bonds/register",
+    "mailto:UKPressOffice@hsbc.co.uk"
+   ],
+   "pages": [
+    "/news-and-media",
+    "/hsbc-uk/regulated-covered-bond-programme",
+    "/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 579,
+  "of": 579,
+  "endpoints": {
+   "GET akamai.tiqcdn.com/location/location.js": 579
+  },
+  "searchFormPages": 2,
+  "formPages": 0,
+  "triggerPages": {}
+ }
+}

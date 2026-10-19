@@ -1,0 +1,357 @@
+{
+  "url": "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".search-box__submit",
+      "frames": [
+        {
+          "t": 16043.09999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16245,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16446.80000001192,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16649.09999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".text--editorial a[href^=\"http\"]",
+      "frames": [
+        {
+          "t": 17666.30000001192,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17868.40000000596,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18070.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18272.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".primary-nav__item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.primary-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat__heading",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.primary-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat__heading",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".share-actions__item a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": [
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": [
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".text--editorial a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [],
+    "classMutations": [
+      {
+        "added": [
+          "header--cookie-dissabled"
+        ],
+        "el": "html.gt-ie9.js > body > div.site-wrapper.site-wrapper__header-variant > div.page-wrapper > div.header.header--shrunk.header--fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "header--cookie-dissabled"
+        ],
+        "el": "html.gt-ie9.js > body > div.site-wrapper.site-wrapper__header-variant > div.page-wrapper > div.header.header--shrunk.header--fixed",
+        "y": 1445
+      },
+      {
+        "added": [
+          "search-box__input--hidden"
+        ],
+        "el": "div.site-tools > div.search-box.search-box--header > form.search-box__inner > div.search-box__fields > input.search-box__input.search-box__input--hidden",
+        "y": 0
+      },
+      {
+        "added": [
+          "search-box__submit--disabled"
+        ],
+        "el": "div.site-tools > div.search-box.search-box--header > form.search-box__inner > div.search-box__fields > button.search-box__submit.search-box__submit--disabled",
+        "y": 0
+      },
+      {
+        "added": [
+          "lock-scroll"
+        ],
+        "el": "html.gt-ie9.js.no-scroll > body.lock-scroll",
+        "y": 0
+      },
+      {
+        "added": [
+          "lightbox--active"
+        ],
+        "el": "html.gt-ie9.js.no-scroll > body.lock-scroll > div.lightbox.lightbox--active",
+        "y": 0
+      },
+      {
+        "added": [
+          "lightbox-overlay--active"
+        ],
+        "el": "html.gt-ie9.js.no-scroll > body.lock-scroll > div.lightbox-overlay.lightbox-overlay--active",
+        "y": 0
+      },
+      {
+        "added": [
+          "no-scroll"
+        ],
+        "el": "html.gt-ie9.js.no-scroll",
+        "y": 0
+      }
+    ]
+  }
+}

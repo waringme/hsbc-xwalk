@@ -1,0 +1,38 @@
+/* stardust:provenance writtenBy=stardust:replica phase=recreate archetype=program
+   Per-archetype layer (HSBC UK section pages): editorial lists, rail image, factbox, 3-3-3-3
+   text-only promo tiles. Imports canon.css (+ landing.css/listing.css for shared modules).
+   Values from application.css + measure.mjs at 1440 / 360. */
+
+.page-description__summary { font-family: var(--ff-light); font-size: 24px; line-height: 30px; }
+.layout--9-3 .layout__primary > .text { margin-bottom: 20px; }
+.text--editorial ul { margin: 24px 0 24px 17px; list-style: square; }
+.text--editorial li { margin: 0 0 12px; }
+.text--editorial li > p { margin-bottom: 0; }
+.text img { max-width: 100%; height: auto; vertical-align: baseline; }
+
+/* Factbox (list variant) */
+.factbox { background: #929292; color: #ffffff; }
+.factbox.factbox--list { background: var(--surface, #ededed); color: #000000; }
+.factbox__inner { padding: 29px 28px 25px; line-height: 1.5; }
+.factbox__heading { margin: 0 0 20px; font-family: var(--ff-light); font-size: 30px; line-height: 30px; letter-spacing: -0.04em; }
+.factbox__list ul { margin: 0 0 -11px; list-style: square; }
+.factbox__list li { margin: 0 0 11px 18px; }
+
+/* 3-3-3-3 tiles */
+.layout--3-3-3-3 { display: flow-root; margin-bottom: 20px; }
+.layout--3-3-3-3 .layout__primary, .layout--3-3-3-3 .layout__secondary, .layout--3-3-3-3 .layout__tertiary, .layout--3-3-3-3 .layout__quaternary {
+  position: relative; display: flow-root; float: left; width: 23.7288135593%; margin-right: 1.6949152542%;
+}
+.layout--3-3-3-3 .layout__quaternary { float: right; margin-right: 0; }
+.long-form-promo--no-image .long-form-promo__inner-content { padding: 0 0 15px; }
+
+@media (max-width: 800px) {
+  .layout--3-3-3-3 .layout__primary, .layout--3-3-3-3 .layout__secondary, .layout--3-3-3-3 .layout__tertiary, .layout--3-3-3-3 .layout__quaternary {
+    float: none; width: 100%; margin: 0 0 24px;
+  }
+  .layout--3-3-3-3 .layout__quaternary { margin-bottom: 0; }
+}
+
+@media (max-width: 640px) {
+  .page-description__summary { font-size: 18px; line-height: 24.12px; }
+}

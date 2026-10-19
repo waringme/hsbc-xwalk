@@ -1,0 +1,338 @@
+{
+  "url": "https://www.about.hsbc.co.uk/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".cinemagraph__toggle",
+      "frames": [
+        {
+          "t": 16343.300000011921,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16545.600000023842,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16747.600000023842,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16950.600000023842,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".long-form-promo__heading",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "i.icon",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "i.icon",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".primary-nav__item",
+      "changed": [
+        "a.primary-nav__link.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.primary-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat__heading",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.primary-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgb(215, 216, 214)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat__heading",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.doormat-nav__link",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/uk/images/260618-tracking-slow-motion.mp4?sc_lang=en-GB",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "currentTime": 3.638828,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 5.142056,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [],
+    "classMutations": [
+      {
+        "added": [
+          "header--cookie-dissabled"
+        ],
+        "el": "html.gt-ie9.js > body > div.site-wrapper.site-wrapper__header-variant > div.page-wrapper > div.header.header--shrunk.header--fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "icon-play"
+        ],
+        "el": "main.page > div.layout-container > div.cinemagraph.cinemagraph--active.cinemagraph--paused > button.cinemagraph__toggle.cinemagraph__toggle--bottom-left > span.icon.icon-play",
+        "y": 1200
+      },
+      {
+        "added": [
+          "icon-play"
+        ],
+        "el": "main.page > div.layout-container > div.cinemagraph.cinemagraph--active.cinemagraph--paused > button.cinemagraph__toggle.cinemagraph__toggle--bottom-left > span.icon.icon-play",
+        "y": 1200
+      },
+      {
+        "added": [
+          "cinemagraph--paused"
+        ],
+        "el": "div.site-wrapper.site-wrapper__header-variant > div.page-wrapper > main.page > div.layout-container > div.cinemagraph.cinemagraph--active.cinemagraph--paused",
+        "y": 1200
+      },
+      {
+        "added": [
+          "header--cookie-dissabled"
+        ],
+        "el": "html.gt-ie9.js > body > div.site-wrapper.site-wrapper__header-variant > div.page-wrapper > div.header.header--shrunk.header--fixed",
+        "y": 376
+      },
+      {
+        "added": [
+          "icon-pause"
+        ],
+        "el": "main.page > div.layout-container > div.cinemagraph.cinemagraph--active > button.cinemagraph__toggle.cinemagraph__toggle--bottom-left > span.icon.icon-pause",
+        "y": 376
+      },
+      {
+        "added": [
+          "icon-pause"
+        ],
+        "el": "main.page > div.layout-container > div.cinemagraph.cinemagraph--active > button.cinemagraph__toggle.cinemagraph__toggle--bottom-left > span.icon.icon-pause",
+        "y": 376
+      }
+    ]
+  }
+}

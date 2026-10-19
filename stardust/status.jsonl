@@ -1,0 +1,31 @@
+{"ts":"2026-10-18T10:28:51Z","skill":"stardust:stardust","phase":"setup","event":"end","detail":"flow=replica (default); analysis-only ask"}
+{"ts":"2026-10-18T10:28:51Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics, 554 sitemap URLs via --pages (sitemap is UTF-16, scheme-less locs)"}
+{"ts":"2026-10-18T10:56:33Z","skill":"stardust:extract","phase":"prep","event":"start","detail":"crawl 554 + 2 gap pages"}
+{"ts":"2026-10-18T10:56:33Z","skill":"stardust:extract","phase":"prep","event":"end","detail":"553/556 live (3 intentional error pages); uncaptured first-level targets: en 0; 243 /en/ empty shells; consent overlay in screenshots","artifact":"stardust/current/brand-review.html"}
+{"ts":"2026-10-18T10:56:33Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"Phase 1 complete — analysis-only stop before Phase 2 (user asked for a plan, no repo changes)","next":"replica Phase 2 on approval"}
+{"ts":"2026-10-18T11:39:11Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"owner: drop 243 /en/ empty shells; promote current spec; register; dynamics gate"}
+{"ts":"2026-10-18T11:49:34Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"spec promoted verbatim; 243 /en/ shells descoped; +26 sitemap-missing articles (roster 336); register 4 deferred; dynamics 14 rows all dispositioned, owner batch 3","next":"Phase 3 recreate: article archetype first"}
+{"ts":"2026-10-18T14:30:44Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"A1 article: news-and-media-100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk"}
+{"ts":"2026-10-18T14:56:04Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"A1 article prototype authored; canon.css + article.css"}
+{"ts":"2026-10-18T14:56:04Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"A1 article 1440/360"}
+{"ts":"2026-10-18T14:56:05Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"blocked","detail":"A1 cap 3 reached: 1440 6.36% Δh-9 (bar ±8), 360 11.01% Δh+73; 3 structural 🔴 (leaving modal); residual root cause = font substitute","owner":"font licence decision"}
+{"ts":"2026-10-18T15:29:59Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"owner-approved exception: 4th round for A1 (modal markup, copyright width, mobile font tuning)"}
+{"ts":"2026-10-18T15:53:28Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"A1 article PASS: 1440 5.56% Δh5, 360 8.18% Δh5, 0 🔴, clip 0, cap PASS@2560, header crop 1.85%/0.11%; interaction parity 6/6 fired behaviours; 4 rounds (owner exception)","next":"owner approval of A1, then landing archetype"}
+{"ts":"2026-10-18T17:18:46Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"A2 landing: index (/)"}
+{"ts":"2026-10-18T17:40:42Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"A2 home prototype; landing.css; canon cumulative"}
+{"ts":"2026-10-18T17:40:42Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"A2 home"}
+{"ts":"2026-10-18T17:40:42Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"A2 home PASS: 1440 2.28% Δh0, 360 2.80% Δh0, 0 🔴, cap 9/9, 4 rounds (1 over default cap, structural)","next":"owner approval A2, then listing"}
+{"ts":"2026-10-18T18:01:31Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"A3 listing: news-and-media"}
+{"ts":"2026-10-18T18:26:58Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"A3 listing prototype; listing.css; archive data-authored"}
+{"ts":"2026-10-18T18:26:58Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"A3 listing"}
+{"ts":"2026-10-18T18:26:58Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"A3 listing PASS in 3 rounds: 1440 2.17% Δh0, 360 3.94% Δh0, 0 🔴, cap 4/4; interaction 6 parity","next":"owner approval A3, then program"}
+{"ts":"2026-10-18T18:27:55Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"A4 program: hsbc-uk-inclusion"}
+{"ts":"2026-10-18T18:46:21Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"A4 program prototype via generic builder"}
+{"ts":"2026-10-18T18:46:21Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"A4 program"}
+{"ts":"2026-10-18T18:46:22Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"A4 PASS in 2 rounds: 1440 4.49% Δh0, 360 8.33% Δh5, 0 🔴, cap 3/3; lightbox rule corrected site-wide","next":"owner approval A4, then static"}
+{"ts":"2026-10-18T18:47:11Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"A5 static: terms-of-use"}
+{"ts":"2026-10-18T19:25:55Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"A5–A8 prototypes via generic builder"}
+{"ts":"2026-10-18T19:25:55Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"A5–A8"}
+{"ts":"2026-10-18T19:25:55Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"all 8 archetypes PASS prototype table @1440+360; justified font residuals on terms/timeline","next":"owner approval A5–A8, then Phase 5 handoff"}
+{"ts":"2026-10-19T06:45:44Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"Phase 5, split delivery; first template: article (310 pages)"}
+{"ts":"2026-10-19T07:20:37Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"article template delivered locally: C0 + header/footer + hero/share; import script; gate 5.56%/8.16% Δh5"}

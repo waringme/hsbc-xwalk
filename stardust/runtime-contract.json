@@ -1,0 +1,13 @@
+{
+  "runtime": "vanilla-eds (aem-boilerplate-xwalk)",
+  "blockWrapperClass": "block",
+  "buttonClasses": "a.button + .primary / .secondary / .accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": false,
+  "instrumentation": "Universal Editor data-aue-* / data-richtext-* (moveInstrumentation in scripts.js); not da.live prose indices",
+  "cellWrap": "wrapTextNodes wraps cells whose first child is not P/PRE/UL/OL/PICTURE/TABLE/H1-6/HR",
+  "sectionMetadataStyle": "comma-split, each value toClassName'd onto the section",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "probedAt": "2026-10-19"
+}

@@ -1,37 +1,36 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
+/* hero — the source's .header-area banner. Image box 22.5694 % of the width with a 31px bottom
+   margin above 1220px, clipped by the 485px max-height wrapper (live: 356px at 1440). */
+main > .section.hero-container {
+  max-width: none;
   padding: 0;
 }
 
+main > .section.hero-container > div {
+  width: auto;
+}
+
 .hero {
+  max-height: 485px;
+  overflow: hidden;
+}
+
+.hero .hero-image {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
-}
-
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 0;
+  margin-bottom: 31px;
+  padding-bottom: 22.5694%;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .hero-image picture,
+.hero .hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (width <= 1220px) {
+  .hero .hero-image {
+    margin-bottom: 0;
   }
 }

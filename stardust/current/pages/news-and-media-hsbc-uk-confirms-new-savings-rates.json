@@ -1,0 +1,177 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-18T11:40:48.384Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "news-and-media-hsbc-uk-confirms-new-savings-rates",
+  "url": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-18T11:40:48.384Z",
+  "finalUrl": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates",
+  "title": "HSBC UK confirms new savings rates - About HSBC | HSBC UK",
+  "description": "Customers with savings across a number of HSBC UK accounts will see their interest rates increase from Friday 30th June.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "HSBC UK confirms new savings rates"
+    },
+    {
+      "tag": "h2",
+      "text": "Media enquiries to:"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookies on this website"
+    }
+  ],
+  "body": [
+    "Share link to this page on X",
+    "Share link to this page on Facebook",
+    "Share link to this page on LinkedIn",
+    "30 June 2023",
+    "The Savings rate changes include:",
+    "Online Bonus Saver 4.00% tier increasing to £50k for the higher rate, which increases the rate from £10k to £50k by 1.70% from 2.30% and could add £680 in annual interest to account holders",
+    "An increase of 0.40% to 1.75% on all non-bonus rate balances, where a withdrawal has been made in that particular month. Balances over £50k continue to receive 2.30% when there’s no withdrawal in that month",
+    "0.40% increase on instant access Premier Savings (up to 2.00%) and Flexible Saver (up to 1.75%)",
+    "These rates, which come into effect on 30th June, are complimented by a Regular Saver account which pays 5.00% interest, helping to encourage customers to build a savings habit.",
+    "Savings rates will continue to be kept under review.",
+    "Jose Carvalho, Head of Wealth and Personal Banking at HSBC UK said:",
+    "“We want to support customers through this period and provide overall value on our savings accounts that goes beyond interest rates to provide flexibility and convenience for customers who want to save with a trusted high street brand. We can confirm the thirteenth round of increases since the beginning of last year, including a change to our popular Online Bonus Saver account that will see a large number of our customers benefitting with additional returns on the money they have saved with us.”",
+    "Steve Gracey, Steve.gracey@hsbc.com | 020 7991 4118",
+    "Email: UKPressOffice@hsbc.co.uk",
+    "Note to editors:",
+    "HSBC UK",
+    "HSBC UK serves over 14.75 million customers across the UK, supported by 24,000 colleagues. HSBC UK offers a complete range of retail banking and wealth management to personal and private banking customers, as well as commercial banking for small to medium businesses and large corporates. HSBC UK is a wholly owned subsidiary of HSBC Holdings plc.",
+    "HSBC Holdings plc, the parent company of HSBC, is headquartered in London. HSBC serves customers worldwide from offices in 62 countries and territories. With assets of $2,990bn at 31 March 2023, HSBC is one of the world’s largest banking and financial services organisations."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Cookie Notice",
+      "href": "https://www.about.hsbc.co.uk/cookie-notice"
+    }
+  ],
+  "links": [
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates#",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates#nav-tray-sub-view-1",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates#nav-tray-sub-view-2",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates#nav-tray-sub-view-3",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates#nav-tray-sub-view-4",
+    "https://www.hsbc.co.uk/",
+    "https://www.business.hsbc.uk/en-gb",
+    "https://www.about.hsbc.co.uk/hsbc-uk",
+    "https://www.about.hsbc.co.uk/hsbc-uk/postcode-lending-data",
+    "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+    "https://www.about.hsbc.co.uk/hsbc-uk/working-with-fintechs",
+    "https://www.about.hsbc.co.uk/hsbc-uk/regulated-covered-bond-programme",
+    "https://www.about.hsbc.co.uk/news-and-media",
+    "https://www.about.hsbc.co.uk/management-team",
+    "https://www.about.hsbc.co.uk/history-timeline",
+    "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates#page",
+    "https://www.about.hsbc.co.uk/",
+    "http://twitter.com/intent/tweet?url={URL}",
+    "https://www.facebook.com/sharer/sharer.php?u={URL}",
+    "http://www.linkedin.com/shareArticle?mini=true&url={URL}&title={title}",
+    "mailto:Steve.gracey@hsbc.com",
+    "mailto:UKPressOffice@hsbc.co.uk",
+    "https://www.about.hsbc.co.uk/accessibility",
+    "https://www.about.hsbc.co.uk/privacy-notice",
+    "https://www.about.hsbc.co.uk/terms-of-use",
+    "https://www.about.hsbc.co.uk/cookie-notice",
+    "https://www.hsbc.co.uk/help/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/hsbc-press-release-banner-1520x400.jpg",
+        "alt": "",
+        "w": 1520,
+        "h": 400
+      }
+    ],
+    "allImgCount": 3,
+    "cssBackgrounds": [],
+    "modals": [
+      "Cookies on this websiteWe use cookies to help keep our website and services working properly. These cookies are necessary and set automatically.We'd also like to use some optional cookies that:Make your visit more personalImprove our website based on how you use itSupport our marketingYou can either 'Accept' or 'Decline' these cookies or choose what cookies to accept in 'Manage cookies'.To learn more about how we use cookies, visit our Cookie Notice."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 3,
+    "mainTextLen": 2664,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "akamai.tiqcdn.com",
+        "path": "/location/location.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 18,
+        "hits": 1,
+        "example": "https://akamai.tiqcdn.com/location/location.js",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "sadmin.brightcove.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/news-and-media-hsbc-uk-confirms-new-savings-rates.png",
+  "renderedHtml": "pages/news-and-media-hsbc-uk-confirms-new-savings-rates.html"
+}

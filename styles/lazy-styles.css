@@ -1,1 +1,145 @@
-/* add global styles that can be loaded post LCP here */
+/* add global styles that may be used post LCP here */
+
+/* Confirmation lightbox (built by the footer block; observed after an off-site link click) */
+.no-scroll,
+.no-scroll body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  background: #000;
+  opacity: 0.7;
+}
+
+.lightbox-overlay-active {
+  display: block;
+}
+
+.lightbox {
+  display: none;
+  position: absolute;
+  left: 50%;
+  z-index: 100;
+  width: 520px;
+  max-width: 580px;
+  margin-left: -290px;
+  padding: 30px;
+  background: #fff;
+}
+
+.lightbox-active {
+  display: block;
+}
+
+.lightbox-inner {
+  position: relative;
+  z-index: 100;
+  margin-top: -4px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 3px;
+  right: 18px;
+  width: 28px;
+  height: 40px;
+  color: var(--muted);
+  font-family: var(--ff-thin);
+  font-size: 45px;
+  line-height: 40px;
+}
+
+.lightbox-close::before {
+  content: "×";
+}
+
+.lightbox-close:hover {
+  text-decoration: none;
+}
+
+.lightbox .leaving-confirmation {
+  display: flow-root;
+}
+
+.lightbox .leaving-confirmation h2 {
+  max-width: 380px;
+  margin: 0 0 9px;
+  font-family: var(--ff-thin);
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.lightbox .leaving-confirmation > p {
+  margin: 0 0 48px;
+  font-family: var(--ff-light);
+  font-size: 18px;
+  line-height: 24.12px;
+}
+
+.lightbox .leaving-confirmation-links {
+  display: flow-root;
+  margin-top: 2px;
+}
+
+.lightbox .leaving-confirmation-proceed {
+  float: right;
+}
+
+.lightbox .leaving-confirmation-close {
+  float: left;
+}
+
+.lightbox .leaving-confirmation-close a.button {
+  padding-right: 0;
+  padding-left: 0;
+  border-color: transparent;
+  background: transparent;
+  color: var(--text);
+}
+
+@media (width <= 640px) {
+  .lightbox {
+    top: 0 !important;
+    left: 0;
+    width: auto;
+    max-width: none;
+    margin-left: 0;
+  }
+
+  .lightbox-inner {
+    min-height: calc(100vh - 60px);
+    margin-top: -1px;
+  }
+
+  .lightbox-close {
+    top: -3px;
+    right: 10px;
+  }
+
+  .lightbox .leaving-confirmation h2 {
+    max-width: 100%;
+    padding-right: 30px;
+    font-size: 35px;
+    line-height: 38px;
+  }
+
+  .lightbox .leaving-confirmation-proceed,
+  .lightbox .leaving-confirmation-close {
+    float: none;
+  }
+
+  .lightbox .leaving-confirmation-proceed a.button {
+    display: block;
+    margin-bottom: 19px;
+    padding: 14px 40px 11px 50px;
+  }
+
+  .lightbox .leaving-confirmation-close a.button {
+    display: block;
+  }
+}

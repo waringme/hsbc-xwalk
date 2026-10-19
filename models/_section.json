@@ -33,6 +33,14 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "Article description",
+              "value": "article-description"
+            },
+            {
+              "name": "Disclaimer",
+              "value": "disclaimer"
             }
           ]
         }
@@ -50,7 +58,8 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "share"
       ]
     }
   ]

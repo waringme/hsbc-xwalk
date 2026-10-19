@@ -10,74 +10,82 @@
  * governing permissions and limitations under the License.
  */
 
+/*
+ * about.hsbc.co.uk foundation — replica of the live design (stardust replica, delivery C0).
+ * Values lifted from the source's application.css via the gated prototype canon
+ * (stardust/prototypes/canon.css). Source breakpoints kept: 1220, 959, 640.
+ *
+ * FONT NOTICE: Univers Next for HSBC (Monotype) is licensed and is not shipped. The brand
+ * family names lead every stack so a licensed webfont kit can be dropped in; Noto Sans
+ * (OFL) substitutes are declared in fonts.css.
+ */
+
 :root {
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --text: #333;
+  --bg: #fff;
+  --black: #000;
+  --red: #de0011;
+  --border: #d7d8d6;
+  --surface-dark: #253038;
+  --muted: #929292;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* layout */
+  --container: 1180px;
+  --gutter: 20px;
+  --primary-col: 74.5763%;
+  --nav-height: 91px;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* fonts: brand face, metric-matched substitute, local fallback */
+  --ff-ultra-light: "univers-ultra-light", univers-ultra-light-sub, univers-fallback, sans-serif;
+  --ff-thin: "univers-thin", univers-thin-sub, univers-fallback, sans-serif;
+  --ff-light: "univers-light", univers-light-sub, univers-fallback, sans-serif;
+  --ff-regular: "univers-regular", univers-regular-sub, univers-fallback, sans-serif;
+  --ff-italic: "univers-regular-italic", univers-regular-italic-sub, univers-fallback, sans-serif;
+  --ff-medium: "univers-medium", univers-medium-sub, univers-fallback, sans-serif;
+  --ff-bold: "univers-bold", univers-bold-sub, univers-fallback-bold, sans-serif;
+  --ff-icons: pwsicons, arial;
 }
 
-/* fallback fonts */
+/* first-paint fallbacks (fonts.css loads after LCP) */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+  font-family: univers-fallback;
+  src: local("Arial");
+  size-adjust: 100%;
+  ascent-override: 94.7%;
+  descent-override: 24.9%;
+  line-gap-override: 0%;
 }
 
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+  font-family: univers-fallback-bold;
+  src: local("Arial Bold");
+  size-adjust: 100%;
+  ascent-override: 89%;
+  descent-override: 23.2%;
+  line-gap-override: 0%;
 }
 
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
+/* reset — the source lays out in content-box; every lifted width assumes it */
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
 
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+html {
+  font-size: 62.5%;
 }
 
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 body.appear {
@@ -103,47 +111,61 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
-}
-
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
+h6,
 p,
-dl,
-ol,
 ul,
-pre,
+ol,
+li,
+figure,
 blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+ul {
+  list-style: none;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+img {
+  border: 0;
 }
 
-main > div {
-  margin: 40px 16px;
+main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+strong,
+b {
+  font-family: var(--ff-bold);
+  font-weight: 400;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+em {
+  font-family: var(--ff-italic);
+}
+
+/* live sup inherits the paragraph's unitless ratio: 11px × 1.5 */
+sup {
+  font-size: 11px;
+  line-height: 16.5px;
+}
+
+a:any-link {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
 
 input,
@@ -153,173 +175,264 @@ button {
   font: inherit;
 }
 
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
+.a11y {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* buttons */
+/* buttons — the source's .button--large (red primary, text-link secondary) */
 p.button-wrapper {
-  margin: 12px 0;
+  margin: 0;
 }
 
 a.button:any-link,
 button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
+  display: inline-block;
+  padding: 14px 20px 11px;
+  border: 1px solid transparent;
+  font-size: 18px;
+  line-height: 23.4px;
   text-decoration: none;
   cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
 }
 
 a.button.primary,
+a.button.accent,
 button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+  border-color: var(--red);
+  background: var(--red);
+  color: #fff;
 }
 
 a.button.secondary,
 button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
+  padding-right: 0;
+  padding-left: 0;
+  background: transparent;
+  color: var(--text);
 }
 
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
+/* icon glyphs from the HSBC icon font */
+.icon-external::after {
+  content: "\e900";
+  margin: 0 5px;
+  color: var(--red);
+  font-family: var(--ff-icons);
+  font-size: 0.8em;
+  line-height: 0;
 }
 
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-
-.icon {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
-}
-
-.icon img {
-  height: 100%;
-  width: 100%;
-}
-
-/* sections */
+/* ---------- sections: each one is a source .layout-container (9-3 grid, rail empty) ---------- */
 main > .section {
-  margin: 40px 0;
+  position: relative;
+  display: flow-root;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter) 20px;
 }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+  box-sizing: border-box;
+  width: var(--primary-col);
 }
 
-main > .section:first-of-type {
+main > .section:last-child {
+  margin-bottom: 82px;
+}
+
+/* the first content row after a banner (source .layout-container--first) */
+main > .section.hero-container + .section {
+  margin-top: 20px;
+}
+
+/* ---------- default content = the source's .text.text--editorial ---------- */
+main .default-content-wrapper p {
+  margin: -4px 0 15px;
+}
+
+main .default-content-wrapper h1 {
+  margin: -8px 0 21px;
+  font-family: var(--ff-thin);
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -1.4px;
+}
+
+main .default-content-wrapper h2 {
+  margin: 58px 0 25px;
+  font-family: var(--ff-light);
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.84px;
+}
+
+main .default-content-wrapper h2:first-child {
   margin-top: 0;
 }
 
-@media (width >= 900px) {
+main .default-content-wrapper h3 {
+  margin: 24px 0 12px;
+  font-family: var(--ff-regular);
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.48px;
+}
+
+main .default-content-wrapper ul {
+  margin: 24px 0 24px 17px;
+  list-style: square;
+}
+
+main .default-content-wrapper li {
+  margin: 0 0 12px;
+}
+
+main .default-content-wrapper li > p {
+  margin-bottom: 0;
+}
+
+main .default-content-wrapper a:any-link {
+  background-image: linear-gradient(transparent 50%, var(--text) 50%);
+  background-repeat: repeat-x;
+  background-position: left 90%;
+  background-size: 0.15em 0.15em;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- section style: article-description (source .page-description--tertiary) ---------- */
+main .section.article-description .default-content-wrapper p {
+  margin: -2px 0 14px;
+  font-family: var(--ff-bold);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+main .section.article-description .default-content-wrapper h1 {
+  margin: -7px 0 9px;
+  font-family: var(--ff-ultra-light);
+}
+
+main .section.article-description .default-content-wrapper ul {
+  margin: 21px 0 24px 17px;
+  font-family: var(--ff-light);
+  font-size: 24px;
+  line-height: 30px;
+}
+
+main .section.article-description .default-content-wrapper li {
+  display: list-item;
+}
+
+/* 11px × 1.25 */
+main .section.article-description sup {
+  line-height: 13.75px;
+}
+
+/* ---------- section style: disclaimer (editor's notes, continues the text above) ---------- */
+main > .section.disclaimer {
+  margin-top: -20px;
+}
+
+main .section.disclaimer .default-content-wrapper {
+  margin: -3px 0 0;
+  font-family: var(--ff-light);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+main .section.disclaimer .default-content-wrapper p {
+  margin: -4px 0 15px;
+}
+
+main .section.disclaimer strong {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* ---------- ≤ 959px: single column, compact header ---------- */
+@media (width <= 959px) {
+  :root {
+    --nav-height: 49px;
+  }
+
+  /* the stacked primary column keeps its own 20px bottom margin (source .layout__primary) */
+  main > .section {
+    padding-bottom: 40px;
+  }
+
+  main > .section.disclaimer {
+    margin-top: -40px;
+  }
+
   main > .section > div {
-    padding: 0 32px;
+    width: auto;
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+/* ---------- ≤ 640px: mobile type + gutters ---------- */
+@media (width <= 640px) {
+  body {
+    font-size: 18px;
+    line-height: 1.34;
+  }
+
+  /* 11px × 1.34 */
+  sup {
+    line-height: 14.74px;
+  }
+
+  main > .section {
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+
+  main .default-content-wrapper p {
+    margin: -3px 0 15px;
+  }
+
+  main .default-content-wrapper h1 {
+    margin: 0 0 21px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  main .default-content-wrapper h2 {
+    font-family: var(--ff-regular);
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.672px;
+  }
+
+  main .default-content-wrapper h3 {
+    font-family: var(--ff-medium);
+    line-height: 24px;
+  }
+
+  main .section.article-description .default-content-wrapper h1 {
+    margin: 0 0 9px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+  }
+
+  main .section.article-description .default-content-wrapper ul {
+    font-size: 18px;
+    line-height: 24.12px;
+  }
+
+  main .section.article-description sup {
+    line-height: 14.74px;
+  }
+
+  main .section.disclaimer .default-content-wrapper p {
+    margin: -3px 0 15px;
+  }
+
+  main .section.disclaimer sup {
+    line-height: 16.5px;
+  }
 }

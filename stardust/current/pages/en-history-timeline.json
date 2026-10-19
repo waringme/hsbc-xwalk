@@ -1,0 +1,145 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-18T10:29:19.138Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-history-timeline",
+  "url": "https://www.about.hsbc.co.uk/en/history-timeline",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-18T10:29:19.138Z",
+  "finalUrl": "https://www.about.hsbc.co.uk/en/history-timeline",
+  "title": null,
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "History timeline"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookies on this website"
+    }
+  ],
+  "body": [
+    "Share link to this page on X",
+    "Share link to this page on Facebook",
+    "Share link to this page on LinkedIn"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Cookie Notice",
+      "href": "https://www.about.hsbc.co.uk/cookie-notice"
+    }
+  ],
+  "links": [
+    "https://www.about.hsbc.co.uk/en/history-timeline#",
+    "https://www.hsbc.co.uk/",
+    "https://www.business.hsbc.uk/en-gb",
+    "https://www.about.hsbc.co.uk/en/history-timeline#page",
+    "https://www.about.hsbc.co.uk/",
+    "http://twitter.com/intent/tweet?url={URL}",
+    "https://www.facebook.com/sharer/sharer.php?u={URL}",
+    "http://www.linkedin.com/shareArticle?mini=true&url={URL}&title={title}",
+    "https://www.about.hsbc.co.uk/en/accessibility",
+    "https://www.about.hsbc.co.uk/en/privacy-notice",
+    "https://www.about.hsbc.co.uk/en/terms-of-use",
+    "https://www.about.hsbc.co.uk/en/cookie-notice",
+    "https://www.hsbc.co.uk/help/",
+    "https://www.about.hsbc.co.uk/cookie-notice"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/history-timeline-1520x400.jpg",
+        "alt": "",
+        "w": 1520,
+        "h": 400
+      }
+    ],
+    "allImgCount": 3,
+    "cssBackgrounds": [],
+    "modals": [
+      "Cookies on this websiteWe use cookies to help keep our website and services working properly. These cookies are necessary and set automatically.We'd also like to use some optional cookies that:Make your visit more personalImprove our website based on how you use itSupport our marketingYou can either 'Accept' or 'Decline' these cookies or choose what cookies to accept in 'Manage cookies'.To learn more about how we use cookies, visit our Cookie Notice."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 2,
+    "mainTextLen": 238,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "akamai.tiqcdn.com",
+        "path": "/location/location.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 18,
+        "hits": 1,
+        "example": "https://akamai.tiqcdn.com/location/location.js",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "sadmin.brightcove.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/en-history-timeline.png",
+  "renderedHtml": "pages/en-history-timeline.html"
+}

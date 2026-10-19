@@ -1,0 +1,61 @@
+/* stardust:provenance writtenBy=stardust:replica phase=recreate archetype=landing
+   Per-archetype layer (home): cinemagraph, full-width text, 6-6 image columns, long-form
+   promo tiles. Imports canon.css. Values from application.css + measure.mjs at 1440 / 360
+   (stardust/.work/replica/a2-live.txt). Source breakpoints: 800px (6-6 stacks), 780px
+   (cinemagraph video + toggle), 640px (type). */
+
+/* Cinemagraph — video from 780px when active; poster on pause (data-props-poster-on-pause="yes")
+   and always below 780px. Autoplay is observed live (motion/index.json: autoplay+loop+muted). */
+.cinemagraph { position: relative; display: flow-root; max-width: 1600px; margin: 0 auto; }
+.cinemagraph__video, .cinemagraph__poster { display: block; width: 100%; max-width: 100%; height: auto; }
+.cinemagraph__video { display: none; object-fit: contain; }
+.cinemagraph__toggle {
+  display: none; position: absolute; z-index: 2; bottom: 0; left: 0; box-sizing: border-box; width: 44px; height: 44px;
+  padding: 22px 12px 2px; border: 0; background: rgba(0, 0, 0, 0.7); cursor: pointer; text-align: center;
+}
+.cinemagraph__toggle:hover, .cinemagraph__toggle:focus { background: rgba(0, 0, 0, 0.85); outline-offset: 2px; }
+.cinemagraph__toggle .icon { display: block; width: 20px; height: 20px; font-size: 20px; }
+.cinemagraph__toggle .icon::before { font-family: pwsicons, Arial; color: #ffffff; line-height: 0; }
+.cinemagraph__toggle .icon-play::before { content: "▶"; }
+.cinemagraph__toggle .icon-pause::before { content: "ǁ"; }
+
+/* Full-width text row */
+.layout--12 { display: flow-root; margin-bottom: 20px; }
+.layout--12 .layout__primary { width: 100%; }
+.text--dropcap { margin-bottom: 20px; }
+
+/* 6-6 columns */
+.layout--6-6 { display: flow-root; margin-bottom: 20px; }
+.layout--6-6 .layout__primary, .layout--6-6 .layout__secondary { display: flow-root; width: 49.1525423729%; }
+.layout--6-6 .layout__primary { float: left; margin-right: 1.6949152542%; }
+.layout--6-6 .layout__secondary { float: right; margin-right: 0; }
+.inline-image--with-bottom-margin { margin-bottom: 20px; }
+.inline-image__image { overflow: hidden; }
+.inline-image__image img { display: block; width: 100%; max-width: none; height: auto; }
+.inline-image + .text { margin-bottom: 20px; }
+.inline-image + .text p { margin-bottom: 0; }
+
+/* Long-form promo — wide no-meta tiles in 6-6 rows overlap the image (desktop only);
+   the base card lives in canon.css */
+@media (min-width: 641px) {
+  .layout--6-6 .long-form-promo__image { margin-bottom: 0; }
+  .layout--6-6 .long-form-promo__inner { margin: -65px 40px 0; padding: 19px 20px 0; }
+  .layout--6-6 .long-form-promo__inner-content { margin: 0 40px; padding: 0 20px; }
+}
+
+@media (min-width: 780px) {
+  .cinemagraph--active .cinemagraph__video { display: block; }
+  .cinemagraph--active .cinemagraph__poster { display: none; }
+  .cinemagraph--active .cinemagraph__toggle { display: block; }
+}
+.cinemagraph--paused .cinemagraph__video { display: none; }
+.cinemagraph--paused .cinemagraph__poster { display: block; }
+
+@media (max-width: 800px) {
+  .layout--6-6 .layout__primary, .layout--6-6 .layout__secondary { float: none; width: 100%; margin: 0 0 40px; }
+  .layout--6-6 .layout__secondary { margin-bottom: 0; }
+}
+
+@media (max-width: 640px) {
+  .text--dropcap p:last-child { margin-bottom: 0; }
+}

@@ -110,6 +110,29 @@ export function decorateButtons(main) {
 }
 
 /**
+ * Marks off-site links in authored text the way the source CMS renders them: the
+ * external-link glyph before the link (aria-hidden) and a visually hidden hint inside it.
+ * @param {HTMLElement} main The main container element
+ */
+function decorateExternalLinks(main) {
+  if (!main.isConnected) return; // page body only — not the nav/footer fragments
+  const sourceHosts = ['www.about.hsbc.co.uk', 'about.hsbc.co.uk', window.location.hostname];
+  main.querySelectorAll('.default-content-wrapper a[href^="http"]').forEach((a) => {
+    if (sourceHosts.includes(a.hostname) || a.classList.contains('button')) return;
+    if (a.previousElementSibling?.classList.contains('icon-external')) return;
+    const icon = document.createElement('i');
+    icon.className = 'icon-external';
+    icon.setAttribute('aria-hidden', 'true');
+    a.before(icon);
+    // the source's screen-reader hint for off-site links (they open after a confirmation)
+    const hint = document.createElement('span');
+    hint.className = 'a11y';
+    hint.textContent = ' Opens in new window';
+    a.append(hint);
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -120,6 +143,7 @@ export function decorateMain(main) {
   decorateSections(main);
   decorateBlocks(main);
   decorateButtons(main);
+  decorateExternalLinks(main);
 }
 
 /**

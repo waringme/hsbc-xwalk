@@ -1,0 +1,92 @@
+/* stardust:provenance writtenBy=stardust:replica phase=recreate archetype=listing
+   Per-archetype layer (/news-and-media): nested 4-4-4 card grid, year accordion with tabular
+   release list, media-contacts rail. Imports canon.css. Values from application.css +
+   measure.mjs at 1440 / 360 (stardust/.work/replica/a3-live.txt). */
+
+/* Page description summary (plain text, no list) */
+.page-description__summary { font-family: var(--ff-light); font-size: 24px; line-height: 30px; }
+
+/* A layout-container nested in a column carries no gutter */
+.layout-container .layout-container { max-width: none; margin: 0; padding: 0; }
+
+/* 4-4-4 card grid */
+.layout--4-4-4 { display: flow-root; margin-bottom: 20px; }
+.layout--spaced { margin-bottom: 72px; }
+.layout--4-4-4 .layout__primary, .layout--4-4-4 .layout__secondary, .layout--4-4-4 .layout__tertiary {
+  position: relative; display: flow-root; box-sizing: border-box; float: left; width: 32.2033898305%; margin-right: 1.6949152542%;
+}
+.layout--4-4-4 .layout__tertiary { float: right; margin-right: 0; }
+
+/* Year accordion (closed by default) */
+.accordion__heading {
+  position: relative; margin: 0; border-top: 1px solid var(--border);
+  font-family: var(--ff-light); font-size: 30px; line-height: 1; letter-spacing: -0.028em;
+}
+.accordion__heading button {
+  display: block; box-sizing: border-box; width: 100%; padding: 22px 12px calc(19px + 0.0807em) 20px; border: 0; border-radius: 0;
+  /* +0.0807em: inline-block label line box under Univers metrics is taller than the substitute's (measured 2.42px @30px, 1.45px @18px) */
+  background: none; color: #000000; font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer;
+  -webkit-appearance: none; appearance: none; transition: background 0.2s ease;
+}
+.accordion__heading button span { display: inline-block; width: calc(100% - 20px); }
+.accordion__heading button .icon::after { font-family: pwsicons, Arial; content: "⌄"; position: absolute; right: 12px; top: 50%; margin-top: -5px; color: #000000; }
+.accordion__content { display: none; height: 0; background: var(--surface, #ededed); }
+.accordion__item--active .accordion__heading button { background: #272727; color: #ffffff; }
+.accordion__item--active .accordion__heading button .icon::after { content: "˰"; color: #ffffff; }
+.accordion__item--active .accordion__content { display: block; height: auto; border-bottom: 1px solid #c6c6c6; }
+
+/* Media contacts rail */
+.contact-details__heading {
+  margin: 0 0 16px; padding: 0 0 8px; border-bottom: 1px solid var(--border);
+  font-family: var(--ff-regular); font-size: 18px; line-height: 1;
+}
+.layout--9-3 .layout__secondary > p { margin: -4px 0 15px; }
+.layout--9-3 .layout__secondary > p.text { margin-bottom: 20px; }
+.layout--9-3 .layout__secondary > p:last-child { margin-bottom: 0; }
+.layout--9-3 .layout__secondary a:link, .layout--9-3 .layout__secondary a:visited {
+  background-image: linear-gradient(transparent 50%, var(--text) 50%); background-repeat: repeat-x; background-size: 0.15em 0.15em; background-position: left 90%;
+}
+
+/* External-link h2 ("Views on HSBC.com") */
+.text h2 .icon-external { font-family: pwsicons, Arial; line-height: 0; }
+.text h2 .icon-external::before { content: "\e900"; color: var(--red); font-size: 0.8em; margin-right: 5px; }
+
+@media (max-width: 1080px) {
+  .layout--4-4-4 .layout__primary, .layout--4-4-4 .layout__secondary, .layout--4-4-4 .layout__tertiary { float: none; width: 100%; margin: 0 0 40px; }
+  .layout--4-4-4 .layout__tertiary { margin-bottom: 0; }
+}
+
+@media (max-width: 640px) {
+  .page-description__summary { font-size: 18px; line-height: 24.12px; }
+  .accordion__heading { font-family: var(--ff-regular); font-size: 18px; line-height: 18px; }
+  .layout--9-3 .layout__secondary > p { margin-top: -3px; }
+}
+
+/* Archive download entries (PDF releases): glyph from the source (U+21D3 "⇓" in pwsicons) */
+.tabular-list__title-wrapper .icon-download::before { font-family: pwsicons, Arial; content: "⇓"; color: var(--red); }
+
+/* Open accordion panel (observed after click: stardust/.work/replica/probe-open.mjs) */
+.accordion__inner { padding: 29px 20px 27px; }
+.accordion__inner > .text { margin-bottom: 20px; }
+.accordion__inner h4 { margin: 0 0 12px; font-family: var(--ff-bold); font-size: 18px; line-height: 24.12px; }
+.tabular-list { display: table; width: 100%; margin: 0 0 26px; }
+.tabular-list__item { display: table-row; font-size: 14px; line-height: 1.5; }
+.tabular-list__date { display: table-cell; width: 125px; vertical-align: top; }
+.tabular-list__date dt { display: block; margin: 0; }
+.tabular-list__details { display: table; width: 100%; margin: 0; }
+.tabular-list__title-wrapper { display: table-cell; padding: 0 0 27px; vertical-align: top; }
+.tabular-list__title { font-family: var(--ff-bold); }
+.icon-chevron-right { font-family: pwsicons, Arial; font-size: 14px; line-height: 0; }
+.icon-chevron-right::before { content: ">"; font-size: 18px; }
+.tabular-list__description { display: block; margin: 0 0 0 32px; }
+.tabular-list__row { display: none; }
+
+@media (max-width: 640px) {
+  .accordion__inner h4 { font-family: var(--ff-medium); font-size: 24px; line-height: 24px; }
+  .tabular-list { margin-bottom: 30px; }
+  .tabular-list__item { display: block; margin: 0 0 21px; line-height: 1.34; }
+  .tabular-list__item:last-child { margin-bottom: 0; }
+  .tabular-list__date { display: block; float: left; width: 100%; margin: 0 -8px 15px 0; }
+  .tabular-list__title-wrapper { display: block; padding: 0 0 6px; }
+  .tabular-list__description { margin: 10px 0 0; }
+}

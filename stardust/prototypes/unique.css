@@ -1,0 +1,41 @@
+/* stardust:provenance writtenBy=stardust:replica phase=recreate archetype=unique
+   Per-archetype layer (history timeline, management team): exec-bio rows and the 6-3-3 row.
+   Values from application.css (L5015–5095, L15223–15335) + measure.mjs at 1440 / 360. */
+
+/* Exec bio */
+.exec-bio { padding: 25px 0 22px; border-bottom: 1px solid var(--border); overflow: hidden; }
+.exec-bio__image { float: left; max-width: 100%; height: auto; }
+.exec-bio__copy { margin-left: 200px; padding-top: 5px; }
+.exec-bio__no-image .exec-bio__copy { margin-left: 0; }
+.exec-bio__name { margin: 0 0 10px; font-family: var(--ff-thin); font-size: 36px; line-height: 36px; letter-spacing: -0.005em; }
+.exec-bio__position { margin: 0 0 20px; font-family: var(--ff-bold); font-size: 23px; line-height: 1; }
+.exec-bio__text { height: 70px; overflow: hidden; margin-bottom: 10px; }
+.exec-bio__text--view-all { height: auto; overflow: visible; }
+.exec-bio__copy strong, .exec-bio__copy b { font-family: var(--ff-bold); }
+
+/* 6-3-3 row */
+.layout--6-3-3 { display: flow-root; margin-bottom: 20px; }
+.layout--6-3-3 .layout__primary, .layout--6-3-3 .layout__secondary, .layout--6-3-3 .layout__tertiary { position: relative; display: flow-root; }
+.layout--6-3-3 .layout__primary { float: left; width: 49.1525423729%; margin-right: 1.6949152542%; }
+.layout--6-3-3 .layout__secondary { float: left; width: 23.7288135593%; margin-right: 1.6949152542%; }
+.layout--6-3-3 .layout__tertiary { float: right; width: 23.7288135593%; margin-right: 0; }
+
+@media (max-width: 1080px) {
+  .layout--6-3-3 .layout__primary, .layout--6-3-3 .layout__secondary, .layout--6-3-3 .layout__tertiary { width: 32.2033898305%; }
+}
+@media (max-width: 800px) {
+  .layout--6-3-3 .layout__primary { width: 100%; margin-bottom: 20px; }
+  .layout--6-3-3 .layout__secondary { width: 48.7179487179%; margin-right: 2.5641025641%; }
+  .layout--6-3-3 .layout__tertiary { width: 48.7179487179%; }
+}
+/* Source element query .exec-bio[max-width~="560px"]: bio ≤560px wide = viewport ≤586px here */
+@media (max-width: 586px) {
+  .exec-bio__image { display: none; }
+  .exec-bio__copy { margin-left: 0; }
+}
+@media (max-width: 560px) {
+  .layout--6-3-3 .layout__primary, .layout--6-3-3 .layout__secondary, .layout--6-3-3 .layout__tertiary {
+    float: left; width: 100%; margin: 0 1.6949152542% 20px 0;
+  }
+  .layout--6-3-3 .layout__tertiary { margin-bottom: 0; }
+}

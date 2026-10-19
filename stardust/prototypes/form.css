@@ -1,0 +1,30 @@
+/* stardust:provenance writtenBy=stardust:replica phase=recreate archetype=form
+   Per-archetype layer (/search): in-page search box, tabs strip, results summary.
+   Values from application.css (L2923–3090) + measure.mjs at 1440 / 360. Header search keeps
+   its own rules (scoped under .site-tools in canon.css). */
+#page .search-box { margin-bottom: 80px; overflow: hidden; }
+#page .search-box__inner { position: relative; width: 100%; max-width: 580px; }
+#page .search-box__fields { overflow: hidden; width: 100%; }
+#page .search-box__input {
+  display: block; box-sizing: border-box; width: 100%; height: 47px; margin: 0; padding: 13px 20px 11px;
+  border: 2px solid var(--border); background: #ffffff; color: #6d6d6d; font-family: var(--ff-regular); font-size: 16px; line-height: normal;
+}
+#page .search-box__input:focus { border-color: #afb0ae; outline: none; }
+#page .search-box__submit {
+  position: absolute; right: 3px; top: 3px; box-sizing: border-box; width: 44px; height: 40px; margin: 0; padding: 1px 6px;
+  border: 0; background: #ffffff; cursor: pointer; -webkit-appearance: none; appearance: none;
+}
+#page .search-box__submit .icon { color: #929292; font-size: 24px; line-height: 1.6; }
+#page .search-box__submit .icon::after { font-family: pwsicons, Arial; content: "⦿"; }
+#page .search-box__submit:hover .icon::after, #page .search-box__submit:focus .icon::after { color: var(--text); }
+.tabs { width: 100%; margin: 0 0 35px; background: var(--surface, #ededed); border-left: 2px solid var(--border); } /* empty block: its margins collapse into the box's 80px gap (as live) */
+.search-results { margin: 0 0 0 22px; }
+.search-result-summary { margin: 0 0 30px; color: #929292; font-family: var(--ff-bold); font-size: 14px; line-height: 1.5; }
+.search-result-summary p { margin: -4px 0 0; }
+
+@media (max-width: 640px) {
+  #page .search-box__submit { display: none; }
+  .search-results { margin-left: 0; }
+  .search-result-summary { line-height: 1.34; }
+  .search-result-summary p { margin-top: -3px; }
+}

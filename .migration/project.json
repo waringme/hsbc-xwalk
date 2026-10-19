@@ -1,0 +1,16 @@
+{
+  "sites": {
+    "hsbc-xwalk": {
+      "previewOrg": "waringme",
+      "previewSite": "hsbc-xwalk",
+      "contentHostUrl": "author-p147324-e2050468.adobeaemcloud.com",
+      "aemSitePath": "/content/hsbc-xwalk",
+      "aemAssetsFolderPath": "/content/dam/hsbc-xwalk",
+      "aemSiteName": "hsbc-xwalk",
+      "aemSiteTitle": "hsbc-xwalk"
+    }
+  },
+  "features": [
+    "site-planning"
+  ]
+}

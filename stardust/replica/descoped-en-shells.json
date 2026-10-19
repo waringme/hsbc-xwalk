@@ -1,0 +1,1470 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-10-18T11:39:30Z",
+    "decision": "owner, 2026-10-18: drop the empty /en/ locale shells from the roster"
+  },
+  "rule": "locale=en AND mainTextLen=0 AND no title (crawl evidence)",
+  "count": 243,
+  "redirectProposal": "301 each /en/<path> to its en-GB twin /<path> (twin exists for every row)",
+  "pages": [
+    {
+      "slug": "en-hsbc-uk-inclusion",
+      "url": "https://www.about.hsbc.co.uk/en/hsbc-uk/inclusion",
+      "twin": "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+      "currentStatePath": "stardust/current/pages/en-hsbc-uk-inclusion.json"
+    },
+    {
+      "slug": "en-hsbc-uk-regulated-covered-bond-programme",
+      "url": "https://www.about.hsbc.co.uk/en/hsbc-uk/regulated-covered-bond-programme",
+      "twin": "https://www.about.hsbc.co.uk/hsbc-uk/regulated-covered-bond-programme",
+      "currentStatePath": "stardust/current/pages/en-hsbc-uk-regulated-covered-bond-programme.json"
+    },
+    {
+      "slug": "en-hsbc-uk-working-with-fintechs",
+      "url": "https://www.about.hsbc.co.uk/en/hsbc-uk/working-with-fintechs",
+      "twin": "https://www.about.hsbc.co.uk/hsbc-uk/working-with-fintechs",
+      "currentStatePath": "stardust/current/pages/en-hsbc-uk-working-with-fintechs.json"
+    },
+    {
+      "slug": "en-news-and-media-100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-1m-donation-for-net-coronavirus-appeal-and-red-cross",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/1m-donation-for-net-coronavirus-appeal-and-red-cross",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/1m-donation-for-net-coronavirus-appeal-and-red-cross",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-1m-donation-for-net-coronavirus-appeal-and-red-cross.json"
+    },
+    {
+      "slug": "en-news-and-media-40-per-cent-of-adults-fear-housing-pressures-will-get-worse-in-2024",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/40-per-cent-of-adults-fear-housing-pressures-will-get-worse-in-2024",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/40-per-cent-of-adults-fear-housing-pressures-will-get-worse-in-2024",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-40-per-cent-of-adults-fear-housing-pressures-will-get-worse-in-2024.json"
+    },
+    {
+      "slug": "en-news-and-media-60-ltv-mortgage-goes-sub-1-as-rate-refresh-provides-savings-of-up-to-020",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/60-ltv-mortgage-goes-sub-1-as-rate-refresh-provides-savings-of-up-to-020",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/60-ltv-mortgage-goes-sub-1-as-rate-refresh-provides-savings-of-up-to-020",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-60-ltv-mortgage-goes-sub-1-as-rate-refresh-provides-savings-of-up-to-020.json"
+    },
+    {
+      "slug": "en-news-and-media-accelerated-onboarding-helps-hsbc-uk-hit-broker-milestone",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/accelerated-onboarding-helps-hsbc-uk-hit-broker-milestone",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/accelerated-onboarding-helps-hsbc-uk-hit-broker-milestone",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-accelerated-onboarding-helps-hsbc-uk-hit-broker-milestone.json"
+    },
+    {
+      "slug": "en-news-and-media-ambitious-uk-businesses-encouraged-to-go-for-gold",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/ambitious-uk-businesses-encouraged-to-go-for-gold",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/ambitious-uk-businesses-encouraged-to-go-for-gold",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-ambitious-uk-businesses-encouraged-to-go-for-gold.json"
+    },
+    {
+      "slug": "en-news-and-media-battersea-spanish-school-goes-virtual-with-support-from-hsbc-uk-during-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/battersea-spanish-school-goes-virtual-with-support-from-hsbc-uk-during-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/battersea-spanish-school-goes-virtual-with-support-from-hsbc-uk-during-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-battersea-spanish-school-goes-virtual-with-support-from-hsbc-uk-during-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-battling-brits-taking-action-amid-increased-cost-of-living",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/battling-brits-taking-action-amid-increased-cost-of-living",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/battling-brits-taking-action-amid-increased-cost-of-living",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-battling-brits-taking-action-amid-increased-cost-of-living.json"
+    },
+    {
+      "slug": "en-news-and-media-becky-moffat-appointed-head-of-marketing-for-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/becky-moffat-appointed-head-of-marketing-for-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/becky-moffat-appointed-head-of-marketing-for-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-becky-moffat-appointed-head-of-marketing-for-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-bolton-pushchair-manufacturer-secures-funding-to-protect-future",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/bolton-pushchair-manufacturer-secures-funding-to-protect-future",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/bolton-pushchair-manufacturer-secures-funding-to-protect-future",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-bolton-pushchair-manufacturer-secures-funding-to-protect-future.json"
+    },
+    {
+      "slug": "en-news-and-media-british-business-bullish-on-growth",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/british-business-bullish-on-growth",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/british-business-bullish-on-growth",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-british-business-bullish-on-growth.json"
+    },
+    {
+      "slug": "en-news-and-media-british-businesses-spend-big-on-online-marketing-as-strategies-change-through-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/british-businesses-spend-big-on-online-marketing-as-strategies-change-through-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/british-businesses-spend-big-on-online-marketing-as-strategies-change-through-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-british-businesses-spend-big-on-online-marketing-as-strategies-change-through-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-british-importers-and-exporters-bullish-about-growth",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/british-importers-and-exporters-bullish-about-growth",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/british-importers-and-exporters-bullish-about-growth",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-british-importers-and-exporters-bullish-about-growth.json"
+    },
+    {
+      "slug": "en-news-and-media-brits-ditch-the-summer-staycation-for-budget-winter-holidays-abroad",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/brits-ditch-the-summer-staycation-for-budget-winter-holidays-abroad",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/brits-ditch-the-summer-staycation-for-budget-winter-holidays-abroad",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-brits-ditch-the-summer-staycation-for-budget-winter-holidays-abroad.json"
+    },
+    {
+      "slug": "en-news-and-media-brits-more-likely-to-reveal-salary-than-admit-to-getting-scammed",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/brits-more-likely-to-reveal-salary-than-admit-to-getting-scammed",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/brits-more-likely-to-reveal-salary-than-admit-to-getting-scammed",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-brits-more-likely-to-reveal-salary-than-admit-to-getting-scammed.json"
+    },
+    {
+      "slug": "en-news-and-media-brits-spend-less-in-lockdown-but-half-say-savings-would-last-only-2-months",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/brits-spend-less-in-lockdown-but-half-say-savings-would-last-only-2-months",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/brits-spend-less-in-lockdown-but-half-say-savings-would-last-only-2-months",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-brits-spend-less-in-lockdown-but-half-say-savings-would-last-only-2-months.json"
+    },
+    {
+      "slug": "en-news-and-media-burton-upon-trent-manufacturer-secures-additional-support-from-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/burton-upon-trent-manufacturer-secures-additional-support-from-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/burton-upon-trent-manufacturer-secures-additional-support-from-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-burton-upon-trent-manufacturer-secures-additional-support-from-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-comment-from-hsbc-uks-head-of-intermediary-mortgages-chris-pearson",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/comment-from-hsbc-uks-head-of-intermediary-mortgages-chris-pearson",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/comment-from-hsbc-uks-head-of-intermediary-mortgages-chris-pearson",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-comment-from-hsbc-uks-head-of-intermediary-mortgages-chris-pearson.json"
+    },
+    {
+      "slug": "en-news-and-media-commercial-cards-make-petty-cash-a-thing-of-the-past-for-british-business",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/commercial-cards-make-petty-cash-a-thing-of-the-past-for-british-business",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/commercial-cards-make-petty-cash-a-thing-of-the-past-for-british-business",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-commercial-cards-make-petty-cash-a-thing-of-the-past-for-british-business.json"
+    },
+    {
+      "slug": "en-news-and-media-covid-cs-clarke-cpap-machines",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/covid-cs-clarke-cpap-machines",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-covid-cs-clarke-cpap-machines.json"
+    },
+    {
+      "slug": "en-news-and-media-covid-cs-marches-bottle-and-packaging",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/covid-cs-marches-bottle-and-packaging",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/covid-cs-marches-bottle-and-packaging",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-covid-cs-marches-bottle-and-packaging.json"
+    },
+    {
+      "slug": "en-news-and-media-current-account-offer-gbp150-cash-plus-gbp10-to-shelter",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/current-account-offer-gbp150-cash-plus-gbp10-to-shelter",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/current-account-offer-gbp150-cash-plus-gbp10-to-shelter",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-current-account-offer-gbp150-cash-plus-gbp10-to-shelter.json"
+    },
+    {
+      "slug": "en-news-and-media-dbt-and-hsbc-uk-join-forces-to-support-uk-businesses",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/dbt-and-hsbc-uk-join-forces-to-support-uk-businesses",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/dbt-and-hsbc-uk-join-forces-to-support-uk-businesses",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-dbt-and-hsbc-uk-join-forces-to-support-uk-businesses.json"
+    },
+    {
+      "slug": "en-news-and-media-doncaster-security-specialist-set-for-growth-with-hsbc-uk-funding",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/doncaster-security-specialist-set-for-growth-with-hsbc-uk-funding",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/doncaster-security-specialist-set-for-growth-with-hsbc-uk-funding",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-doncaster-security-specialist-set-for-growth-with-hsbc-uk-funding.json"
+    },
+    {
+      "slug": "en-news-and-media-evolution-of-format-the-key-to-long-term-branch-future-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/evolution-of-format-the-key-to-long-term-branch-future-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/evolution-of-format-the-key-to-long-term-branch-future-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-evolution-of-format-the-key-to-long-term-branch-future-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-fareham-beauty-salon-gets-support-from-hsbc-uk-during-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/fareham-beauty-salon-gets-support-from-hsbc-uk-during-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/fareham-beauty-salon-gets-support-from-hsbc-uk-during-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-fareham-beauty-salon-gets-support-from-hsbc-uk-during-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-farming-sector-needs-changes-and-investments-to-meet-green-ambitions",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/farming-sector-needs-changes-and-investments-to-meet-green-ambitions",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/farming-sector-needs-changes-and-investments-to-meet-green-ambitions",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-farming-sector-needs-changes-and-investments-to-meet-green-ambitions.json"
+    },
+    {
+      "slug": "en-news-and-media-flexible-working-as-important-as-salary-say-uk-businesses",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/flexible-working-as-important-as-salary-say-uk-businesses",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/flexible-working-as-important-as-salary-say-uk-businesses",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-flexible-working-as-important-as-salary-say-uk-businesses.json"
+    },
+    {
+      "slug": "en-news-and-media-fraud-app-to-help-protect-more-customers-from-scammers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/fraud-app-to-help-protect-more-customers-from-scammers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/fraud-app-to-help-protect-more-customers-from-scammers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-fraud-app-to-help-protect-more-customers-from-scammers.json"
+    },
+    {
+      "slug": "en-news-and-media-future-of-north-east-nhs-ambulance-service-safeguarded",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/future-of-north-east-nhs-ambulance-service-safeguarded",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/future-of-north-east-nhs-ambulance-service-safeguarded",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-future-of-north-east-nhs-ambulance-service-safeguarded.json"
+    },
+    {
+      "slug": "en-news-and-media-gbp15bn-fund-launched-to-support-smes-across-the-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/gbp15bn-fund-launched-to-support-smes-across-the-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/gbp15bn-fund-launched-to-support-smes-across-the-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-gbp15bn-fund-launched-to-support-smes-across-the-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-girlguiding-and-hsbc-uk-launch-new-money-confidence-badge-and-activities-for-girls-aged-4-18",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/girlguiding-and-hsbc-uk-launch-new-money-confidence-badge-and-activities-for-girls-aged-4-18",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/girlguiding-and-hsbc-uk-launch-new-money-confidence-badge-and-activities-for-girls-aged-4-18",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-girlguiding-and-hsbc-uk-launch-new-money-confidence-badge-and-activities-for-girls-aged-4-18.json"
+    },
+    {
+      "slug": "en-news-and-media-great-block-sports-fans-urged-to-make-use-of-their-in-app-gambling-freeze-feature",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/great-block-sports-fans-urged-to-make-use-of-their-in-app-gambling-freeze-feature",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/great-block-sports-fans-urged-to-make-use-of-their-in-app-gambling-freeze-feature",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-great-block-sports-fans-urged-to-make-use-of-their-in-app-gambling-freeze-feature.json"
+    },
+    {
+      "slug": "en-news-and-media-growth-in-number-and-value-of-scams-in-q3-identified-by-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/growth-in-number-and-value-of-scams-in-q3-identified-by-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/growth-in-number-and-value-of-scams-in-q3-identified-by-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-growth-in-number-and-value-of-scams-in-q3-identified-by-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-highland-transport-firm-purchases-new-vessel-with-13-5m-funding",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/highland-transport-firm-purchases-new-vessel-with-13-5m-funding",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/highland-transport-firm-purchases-new-vessel-with-13-5m-funding",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-highland-transport-firm-purchases-new-vessel-with-13-5m-funding.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-announces-additional-relief-for-customers-affected-by-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-announces-additional-relief-for-customers-affected-by-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-announces-additional-relief-for-customers-affected-by-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-announces-additional-relief-for-customers-affected-by-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-announces-further-rate-reduction-on-variable-rate-mortgages",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-announces-further-rate-reduction-on-variable-rate-mortgages",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-announces-further-rate-reduction-on-variable-rate-mortgages",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-announces-further-rate-reduction-on-variable-rate-mortgages.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-around-the-clock-virtual-healthcare-support-for-life-insurance-customers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-around-the-clock-virtual-healthcare-support-for-life-insurance-customers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-around-the-clock-virtual-healthcare-support-for-life-insurance-customers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-around-the-clock-virtual-healthcare-support-for-life-insurance-customers.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-bank-accounts-for-people-without-a-fixed-address-now-available-in-over-100-branches",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-bank-accounts-for-people-without-a-fixed-address-now-available-in-over-100-branches",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-bank-accounts-for-people-without-a-fixed-address-now-available-in-over-100-branches",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-bank-accounts-for-people-without-a-fixed-address-now-available-in-over-100-branches.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-bank-uk-pension-scheme-sets-out-plans-to-achieve-net-zero-by-2050-or-sooner",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-bank-uk-pension-scheme-sets-out-plans-to-achieve-net-zero-by-2050-or-sooner",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-bank-uk-pension-scheme-sets-out-plans-to-achieve-net-zero-by-2050-or-sooner",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-bank-uk-pension-scheme-sets-out-plans-to-achieve-net-zero-by-2050-or-sooner.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-current-account-switch-offer-worth-170-springs-up",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-current-account-switch-offer-worth-170-springs-up",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-current-account-switch-offer-worth-170-springs-up",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-current-account-switch-offer-worth-170-springs-up.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-in-the-uk-to-purchase-power-from-100-renewable-sources-by-2023",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-in-the-uk-to-purchase-power-from-100-renewable-sources-by-2023",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-in-the-uk-to-purchase-power-from-100-renewable-sources-by-2023",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-in-the-uk-to-purchase-power-from-100-renewable-sources-by-2023.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-launches-1bn-lending-fund-for-female-entrepreneurs",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-launches-1bn-lending-fund-for-female-entrepreneurs",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-launches-1bn-lending-fund-for-female-entrepreneurs",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-launches-1bn-lending-fund-for-female-entrepreneurs.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-shares-uk-employee-ethnic-representation-data",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-shares-uk-employee-ethnic-representation-data",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-shares-uk-employee-ethnic-representation-data",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-shares-uk-employee-ethnic-representation-data.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-to-become-title-sponsor-for-the-ltas-championships-for-womens-and-mens-tennis-at-queens",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-to-become-title-sponsor-for-the-ltas-championships-for-womens-and-mens-tennis-at-queens",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-to-become-title-sponsor-for-the-ltas-championships-for-womens-and-mens-tennis-at-queens",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-to-become-title-sponsor-for-the-ltas-championships-for-womens-and-mens-tennis-at-queens.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-125-current-account-switching-offer-returns",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-125-current-account-switching-offer-returns",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-125-current-account-switching-offer-returns",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-125-current-account-switching-offer-returns.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-add-new-video-call-feature-to-its-online-advice-investment-service",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-add-new-video-call-feature-to-its-online-advice-investment-service",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-add-new-video-call-feature-to-its-online-advice-investment-service",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-add-new-video-call-feature-to-its-online-advice-investment-service.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-adds-mortgage-fixed-rates-plus-more-cashback-options",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-adds-mortgage-fixed-rates-plus-more-cashback-options",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-adds-mortgage-fixed-rates-plus-more-cashback-options",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-adds-mortgage-fixed-rates-plus-more-cashback-options.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-adds-pounds-200-switching-offer-and-increases-saving-rates",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-adds-pounds-200-switching-offer-and-increases-saving-rates",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-adds-pounds-200-switching-offer-and-increases-saving-rates",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-adds-pounds-200-switching-offer-and-increases-saving-rates.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-aims-to-raise-gbp2-million-for-the-big-night-in-appeal",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-aims-to-raise-gbp2-million-for-the-big-night-in-appeal",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-aims-to-raise-gbp2-million-for-the-big-night-in-appeal",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-aims-to-raise-gbp2-million-for-the-big-night-in-appeal.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-and-ember-launch-financial-insights-tool-to-unlock-small-business-growth",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-and-ember-launch-financial-insights-tool-to-unlock-small-business-growth",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-and-ember-launch-financial-insights-tool-to-unlock-small-business-growth",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-and-ember-launch-financial-insights-tool-to-unlock-small-business-growth.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-and-fertility-network-uk-announce-major-new-partnership-in-support-of-employees",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-and-fertility-network-uk-announce-major-new-partnership-in-support-of-employees",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-and-fertility-network-uk-announce-major-new-partnership-in-support-of-employees",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-and-fertility-network-uk-announce-major-new-partnership-in-support-of-employees.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-and-mastercard-launch-payment-card-recycling-pilot",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-and-mastercard-launch-payment-card-recycling-pilot",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-and-mastercard-launch-payment-card-recycling-pilot",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-and-mastercard-launch-payment-card-recycling-pilot.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-and-shelter-launch-new-flagship-partnership",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-and-shelter-launch-new-flagship-partnership",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-and-shelter-launch-new-flagship-partnership",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-and-shelter-launch-new-flagship-partnership.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-additional-relief-for-personal-loan-and-credit-card-customers-affected-by-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-additional-relief-for-personal-loan-and-credit-card-customers-affected-by-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-additional-relief-for-personal-loan-and-credit-card-customers-affected-by-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-additional-relief-for-personal-loan-and-credit-card-customers-affected-by-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-branch-network-plans-for-2020",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-branch-network-plans-for-2020",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-branch-network-plans-for-2020",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-branch-network-plans-for-2020.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-branch-network-plans-for-2023",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-branch-network-plans-for-2023",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-branch-network-plans-for-2023",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-branch-network-plans-for-2023.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-changes-following-interest-rate-review-8-july-2022",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-changes-following-interest-rate-review-8-july-2022",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-changes-following-interest-rate-review-8-july-2022",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-changes-following-interest-rate-review-8-july-2022.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-changes-following-interest-rate-review",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-changes-following-interest-rate-review",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-changes-following-interest-rate-review",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-changes-following-interest-rate-review.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-commercial-banking-leadership-change",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-commercial-banking-leadership-change",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-commercial-banking-leadership-change",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-commercial-banking-leadership-change.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-green-team-to-help-customers-become-more-sustainable",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-green-team-to-help-customers-become-more-sustainable",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-green-team-to-help-customers-become-more-sustainable",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-green-team-to-help-customers-become-more-sustainable.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-interest-rate-changes",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-interest-rate-changes",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-interest-rate-changes",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-interest-rate-changes.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-key-retail-banking-appointment",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-key-retail-banking-appointment",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-key-retail-banking-appointment",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-key-retail-banking-appointment.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-new-head-of-wealth-and-personal-banking",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-new-head-of-wealth-and-personal-banking",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-new-head-of-wealth-and-personal-banking",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-new-head-of-wealth-and-personal-banking.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-new-measures-to-support-british-firms-trading-internationally",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-new-measures-to-support-british-firms-trading-internationally",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-new-measures-to-support-british-firms-trading-internationally",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-new-measures-to-support-british-firms-trading-internationally.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-announces-package-of-support-for-customers-affected-by-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-announces-package-of-support-for-customers-affected-by-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-announces-package-of-support-for-customers-affected-by-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-announces-package-of-support-for-customers-affected-by-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-appoints-new-head-of-agriculture-to-support-customers-through-brexit-and-beyond",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-appoints-new-head-of-agriculture-to-support-customers-through-brexit-and-beyond",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-appoints-new-head-of-agriculture-to-support-customers-through-brexit-and-beyond",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-appoints-new-head-of-agriculture-to-support-customers-through-brexit-and-beyond.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-boosts-future-financial-fitness",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-boosts-future-financial-fitness",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-boosts-future-financial-fitness",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-boosts-future-financial-fitness.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-boosts-one-year-fixed-rate-saver-to-five-point-sevent-per-cent-aer",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-boosts-one-year-fixed-rate-saver-to-five-point-sevent-per-cent-aer",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-boosts-one-year-fixed-rate-saver-to-five-point-sevent-per-cent-aer",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-boosts-one-year-fixed-rate-saver-to-five-point-sevent-per-cent-aer.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-branch-transformation-programme-update",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-branch-transformation-programme-update",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-branch-transformation-programme-update",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-branch-transformation-programme-update.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-branches-introduce-daily-quiet-hour-for-customers-with-hidden-disabilities",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-branches-introduce-daily-quiet-hour-for-customers-with-hidden-disabilities",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-branches-introduce-daily-quiet-hour-for-customers-with-hidden-disabilities",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-branches-introduce-daily-quiet-hour-for-customers-with-hidden-disabilities.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-colchester-branch-gets-a-facelift",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-colchester-branch-gets-a-facelift",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-colchester-branch-gets-a-facelift",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-colchester-branch-gets-a-facelift.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-colleagues-bolster-welsh-language-skills-in-welsh-branches",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-colleagues-bolster-welsh-language-skills-in-welsh-branches",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-colleagues-bolster-welsh-language-skills-in-welsh-branches",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-colleagues-bolster-welsh-language-skills-in-welsh-branches.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-confirms-95-percent-mortgage-guarantee-scheme-details",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-confirms-95-percent-mortgage-guarantee-scheme-details",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-95-percent-mortgage-guarantee-scheme-details",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-confirms-95-percent-mortgage-guarantee-scheme-details.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-confirms-new-savings-rates",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-confirms-new-savings-rates",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-new-savings-rates",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-confirms-new-savings-rates.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-confirms-savings-rate-increases",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-confirms-savings-rate-increases",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-confirms-savings-rate-increases",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-confirms-savings-rate-increases.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-creates-new-black-friday-campaign-to-protect-customers-from-scams",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-creates-new-black-friday-campaign-to-protect-customers-from-scams",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-creates-new-black-friday-campaign-to-protect-customers-from-scams",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-creates-new-black-friday-campaign-to-protect-customers-from-scams.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-15-mortgage-rates-and-comments-on-budget-announcements",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-15-mortgage-rates-and-comments-on-budget-announcements",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-15-mortgage-rates-and-comments-on-budget-announcements",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-15-mortgage-rates-and-comments-on-budget-announcements.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-20-mortgage-rates-and-increases-lending-limits",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-20-mortgage-rates-and-increases-lending-limits",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-20-mortgage-rates-and-increases-lending-limits",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-20-mortgage-rates-and-increases-lending-limits.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-mortage-rates",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-mortage-rates",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-mortage-rates",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-mortage-rates.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-mortgage-rates-across-the-board-by-up-to-0-40-per-cent",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-mortgage-rates-across-the-board-by-up-to-0-40-per-cent",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-mortgage-rates-across-the-board-by-up-to-0-40-per-cent",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-mortgage-rates-across-the-board-by-up-to-0-40-per-cent.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-mortgage-rates-and-now-offers-lowest-ever-rate",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-mortgage-rates-and-now-offers-lowest-ever-rate",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-mortgage-rates-and-now-offers-lowest-ever-rate",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-mortgage-rates-and-now-offers-lowest-ever-rate.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-mortgage-rates-and-re-introduces-trackers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-mortgage-rates-and-re-introduces-trackers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-mortgage-rates-and-re-introduces-trackers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-mortgage-rates-and-re-introduces-trackers.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-mortgage-rates-on-60-percent-ltv-to-75-percent-ltv-mortgages",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-mortgage-rates-on-60-percent-ltv-to-75-percent-ltv-mortgages",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-mortgage-rates-on-60-percent-ltv-to-75-percent-ltv-mortgages",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-mortgage-rates-on-60-percent-ltv-to-75-percent-ltv-mortgages.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-cuts-rates-across-all-ltv-mortgages",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-cuts-rates-across-all-ltv-mortgages",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-cuts-rates-across-all-ltv-mortgages",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-cuts-rates-across-all-ltv-mortgages.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-data-highlights-flourishing-uk-india-business-corridor",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-data-highlights-flourishing-uk-india-business-corridor",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-data-highlights-flourishing-uk-india-business-corridor",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-data-highlights-flourishing-uk-india-business-corridor.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-data-highlights-strength-of-uk-us-business-corridor",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-data-highlights-strength-of-uk-us-business-corridor",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-data-highlights-strength-of-uk-us-business-corridor",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-data-highlights-strength-of-uk-us-business-corridor.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-data-live-event-sales-steal-the-show-in-2023",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-data-live-event-sales-steal-the-show-in-2023",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-data-live-event-sales-steal-the-show-in-2023",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-data-live-event-sales-steal-the-show-in-2023.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-data-reveals-a-nation-of-investors",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-data-reveals-a-nation-of-investors",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-data-reveals-a-nation-of-investors",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-data-reveals-a-nation-of-investors.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-doubles-availability-of-accounts-to-help-homeless-people-get-access-to-banking",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-doubles-availability-of-accounts-to-help-homeless-people-get-access-to-banking",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-doubles-availability-of-accounts-to-help-homeless-people-get-access-to-banking",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-doubles-availability-of-accounts-to-help-homeless-people-get-access-to-banking.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-doubles-support-for-stormzy-scholars-at-the-university-of-cambridge",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-doubles-support-for-stormzy-scholars-at-the-university-of-cambridge",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-doubles-support-for-stormzy-scholars-at-the-university-of-cambridge",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-doubles-support-for-stormzy-scholars-at-the-university-of-cambridge.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-enhances-its-gbp125-current-account-switch-offer-with-a-tasty-addition",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-enhances-its-gbp125-current-account-switch-offer-with-a-tasty-addition",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-enhances-its-gbp125-current-account-switch-offer-with-a-tasty-addition",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-enhances-its-gbp125-current-account-switch-offer-with-a-tasty-addition.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-enters-point-of-sale-finance-market-with-flexipay",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-enters-point-of-sale-finance-market-with-flexipay",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-enters-point-of-sale-finance-market-with-flexipay",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-enters-point-of-sale-finance-market-with-flexipay.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-expands-availability-of-buy-to-let-mortgages",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-expands-availability-of-buy-to-let-mortgages",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-expands-availability-of-buy-to-let-mortgages",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-expands-availability-of-buy-to-let-mortgages.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-expands-energy-efficient-home-cashback-and-cuts-mortgage-rates",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-expands-energy-efficient-home-cashback-and-cuts-mortgage-rates",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-expands-energy-efficient-home-cashback-and-cuts-mortgage-rates",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-expands-energy-efficient-home-cashback-and-cuts-mortgage-rates.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-expands-global-portfolio-with-additional-buy-to-let-mortgage-options",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-expands-global-portfolio-with-additional-buy-to-let-mortgage-options",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-expands-global-portfolio-with-additional-buy-to-let-mortgage-options",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-expands-global-portfolio-with-additional-buy-to-let-mortgage-options.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-extends-commitment-to-announce-no-new-branch-closures-until-at-least-2026",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-extends-commitment-to-announce-no-new-branch-closures-until-at-least-2026",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-extends-commitment-to-announce-no-new-branch-closures-until-at-least-2026",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-extends-commitment-to-announce-no-new-branch-closures-until-at-least-2026.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-extends-credit-cards-support-for-problem-gamblers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-extends-credit-cards-support-for-problem-gamblers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-extends-credit-cards-support-for-problem-gamblers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-extends-credit-cards-support-for-problem-gamblers.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-extends-financial-support-for-businesses-dealing-with-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-extends-financial-support-for-businesses-dealing-with-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-extends-financial-support-for-businesses-dealing-with-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-extends-financial-support-for-businesses-dealing-with-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-extends-support-for-sole-traders-partnerships-and-large-businesses-impacted-by-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-extends-support-for-sole-traders-partnerships-and-large-businesses-impacted-by-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-extends-support-for-sole-traders-partnerships-and-large-businesses-impacted-by-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-extends-support-for-sole-traders-partnerships-and-large-businesses-impacted-by-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-first-direct-m-and-s-bank-are-the-uks-first-accredited-menopause-friendly-employers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-first-direct-m-and-s-bank-are-the-uks-first-accredited-menopause-friendly-employers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-first-direct-m-and-s-bank-are-the-uks-first-accredited-menopause-friendly-employers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-first-direct-m-and-s-bank-are-the-uks-first-accredited-menopause-friendly-employers.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-help-customers-zoom-towards-home-ownership",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-help-customers-zoom-towards-home-ownership",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-help-customers-zoom-towards-home-ownership",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-help-customers-zoom-towards-home-ownership.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-increases-lending-limits-on-most-residential-mortgages",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-increases-lending-limits-on-most-residential-mortgages",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-increases-lending-limits-on-most-residential-mortgages",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-increases-lending-limits-on-most-residential-mortgages.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-increases-maximum-lending-tiers-on-residential-mortgages-for-new-builds-and-flats",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-increases-maximum-lending-tiers-on-residential-mortgages-for-new-builds-and-flats",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-increases-maximum-lending-tiers-on-residential-mortgages-for-new-builds-and-flats",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-increases-maximum-lending-tiers-on-residential-mortgages-for-new-builds-and-flats.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-increases-savings-rates-for-the-sixth-time-in-2022",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-increases-savings-rates-for-the-sixth-time-in-2022",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-increases-savings-rates-for-the-sixth-time-in-2022",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-increases-savings-rates-for-the-sixth-time-in-2022.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-installs-first-cash-pod-in-nailsea-to-help-with-access-to-cash",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-installs-first-cash-pod-in-nailsea-to-help-with-access-to-cash",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-installs-first-cash-pod-in-nailsea-to-help-with-access-to-cash",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-installs-first-cash-pod-in-nailsea-to-help-with-access-to-cash.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-introduces-500-cashback-on-higher-ltv-mortgages",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-introduces-500-cashback-on-higher-ltv-mortgages",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-introduces-500-cashback-on-higher-ltv-mortgages",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-introduces-500-cashback-on-higher-ltv-mortgages.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-introduces-apple-business-chat-to-customers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-introduces-apple-business-chat-to-customers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-introduces-apple-business-chat-to-customers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-introduces-apple-business-chat-to-customers.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-introduces-new-interest-rates-on-fixed-rate-saver",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-introduces-new-interest-rates-on-fixed-rate-saver",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-introduces-new-interest-rates-on-fixed-rate-saver",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-introduces-new-interest-rates-on-fixed-rate-saver.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-introduces-untraceable-sort-code-to-protect-victims-of-financial-abuse",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-introduces-untraceable-sort-code-to-protect-victims-of-financial-abuse",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-introduces-untraceable-sort-code-to-protect-victims-of-financial-abuse",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-introduces-untraceable-sort-code-to-protect-victims-of-financial-abuse.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-issues-black-frauday-warning",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-issues-black-frauday-warning",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-issues-black-frauday-warning",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-issues-black-frauday-warning.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-issues-cryptocurrency-warning",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-issues-cryptocurrency-warning",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-issues-cryptocurrency-warning",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-issues-cryptocurrency-warning.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-issues-customer-warning-as-one-time-passcode-fraud-increases",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-issues-customer-warning-as-one-time-passcode-fraud-increases",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-issues-customer-warning-as-one-time-passcode-fraud-increases",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-issues-customer-warning-as-one-time-passcode-fraud-increases.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-issues-urgent-fraud-warning-against-dummy-apps",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-issues-urgent-fraud-warning-against-dummy-apps",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-issues-urgent-fraud-warning-against-dummy-apps",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-issues-urgent-fraud-warning-against-dummy-apps.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-15bn-sme-fund-to-support-british-businesses-to-grow-again",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-15bn-sme-fund-to-support-british-businesses-to-grow-again",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-15bn-sme-fund-to-support-british-businesses-to-grow-again",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-15bn-sme-fund-to-support-british-businesses-to-grow-again.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-500m-green-sme-fund",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-500m-green-sme-fund",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-500m-green-sme-fund",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-500m-green-sme-fund.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-bounce-back-loans-to-support-small-businesses",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-bounce-back-loans-to-support-small-businesses",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-bounce-back-loans-to-support-small-businesses",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-bounce-back-loans-to-support-small-businesses.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-carbon-calculator-to-help-sme-clients-track",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-carbon-calculator-to-help-sme-clients-track",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-carbon-calculator-to-help-sme-clients-track",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-carbon-calculator-to-help-sme-clients-track.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-credit-card-instalments-to-help-customers-with-repayments",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-credit-card-instalments-to-help-customers-with-repayments",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-credit-card-instalments-to-help-customers-with-repayments",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-credit-card-instalments-to-help-customers-with-repayments.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-discount-and-offer-site",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-discount-and-offer-site",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-discount-and-offer-site",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-discount-and-offer-site.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-energy-efficient-home-cashback-mortgage",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-energy-efficient-home-cashback-mortgage",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-energy-efficient-home-cashback-mortgage",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-energy-efficient-home-cashback-mortgage.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-fraud-awareness-app-to-protect-businesses-from-scams",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-fraud-awareness-app-to-protect-businesses-from-scams",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-fraud-awareness-app-to-protect-businesses-from-scams",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-fraud-awareness-app-to-protect-businesses-from-scams.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-new-200-current-account-switch-offer",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-new-200-current-account-switch-offer",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-new-200-current-account-switch-offer",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-new-200-current-account-switch-offer.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-new-voice-driven-technology",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-new-voice-driven-technology",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-new-voice-driven-technology",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-new-voice-driven-technology.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-next-level-lending-for-next-level-tech-businesses",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-next-level-lending-for-next-level-tech-businesses",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-next-level-lending-for-next-level-tech-businesses",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-next-level-lending-for-next-level-tech-businesses.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-launches-student-account-proposition-to-support-students-with-cost-of-living-concerns",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-launches-student-account-proposition-to-support-students-with-cost-of-living-concerns",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-launches-student-account-proposition-to-support-students-with-cost-of-living-concerns",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-launches-student-account-proposition-to-support-students-with-cost-of-living-concerns.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-makes-banking-more-accessible-with-new-range-of-cards",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-makes-banking-more-accessible-with-new-range-of-cards",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-makes-banking-more-accessible-with-new-range-of-cards",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-makes-banking-more-accessible-with-new-range-of-cards.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-mortgage-rate-cuts-brings-lowest-ever-mortgage",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-mortgage-rate-cuts-brings-lowest-ever-mortgage",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-mortgage-rate-cuts-brings-lowest-ever-mortgage",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-mortgage-rate-cuts-brings-lowest-ever-mortgage.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-named-uk-bank-of-the-year-by-the-banker-for-the-second-year-in-a-row",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-named-uk-bank-of-the-year-by-the-banker-for-the-second-year-in-a-row",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-named-uk-bank-of-the-year-by-the-banker-for-the-second-year-in-a-row",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-named-uk-bank-of-the-year-by-the-banker-for-the-second-year-in-a-row.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-named-uks-best-bank-by-euromoney",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-named-uks-best-bank-by-euromoney",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-named-uks-best-bank-by-euromoney",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-named-uks-best-bank-by-euromoney.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-new-year-offers-to-help-customers-thrive",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-new-year-offers-to-help-customers-thrive",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-new-year-offers-to-help-customers-thrive",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-new-year-offers-to-help-customers-thrive.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-offer-helps-advance-towards-gbp-300-in-cash",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-offer-helps-advance-towards-gbp-300-in-cash",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-offer-helps-advance-towards-gbp-300-in-cash",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-offer-helps-advance-towards-gbp-300-in-cash.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-offers-digital-cheque-scanning-for-businesses",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-offers-digital-cheque-scanning-for-businesses",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-offers-digital-cheque-scanning-for-businesses",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-offers-digital-cheque-scanning-for-businesses.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-opens-doors-to-brand-new-state-of-the-art-branch-in-loughborough",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-opens-doors-to-brand-new-state-of-the-art-branch-in-loughborough",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-opens-doors-to-brand-new-state-of-the-art-branch-in-loughborough",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-opens-doors-to-brand-new-state-of-the-art-branch-in-loughborough.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-partners-with-experian-to-offer-tell-us-once-platform-for-customers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-partners-with-experian-to-offer-tell-us-once-platform-for-customers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-partners-with-experian-to-offer-tell-us-once-platform-for-customers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-partners-with-experian-to-offer-tell-us-once-platform-for-customers.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-partners-with-imperial-university-of-birmingham-and-national-trust",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-partners-with-imperial-university-of-birmingham-and-national-trust",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-partners-with-imperial-university-of-birmingham-and-national-trust",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-partners-with-imperial-university-of-birmingham-and-national-trust.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-partners-with-nova-credit-to-offer-international-credit-decisioning",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-partners-with-nova-credit-to-offer-international-credit-decisioning",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-partners-with-nova-credit-to-offer-international-credit-decisioning",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-partners-with-nova-credit-to-offer-international-credit-decisioning.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-pledges-gbp2m-to-support-30-new-stormzy-scholars",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-pledges-gbp2m-to-support-30-new-stormzy-scholars",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-pledges-gbp2m-to-support-30-new-stormzy-scholars",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-pledges-gbp2m-to-support-30-new-stormzy-scholars.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-provides-support-for-survivors-of-human-trafficking",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-provides-support-for-survivors-of-human-trafficking",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-provides-support-for-survivors-of-human-trafficking",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-provides-support-for-survivors-of-human-trafficking.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-provides-update-on-branch-network-plans",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-provides-update-on-branch-network-plans",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-provides-update-on-branch-network-plans",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-provides-update-on-branch-network-plans.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-pushing-new-boundaries-with-tiktok-activation",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-pushing-new-boundaries-with-tiktok-activation",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-pushing-new-boundaries-with-tiktok-activation",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-pushing-new-boundaries-with-tiktok-activation.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-re-introduces-gbp125-current-account-switch-offer",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-re-introduces-gbp125-current-account-switch-offer",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-re-introduces-gbp125-current-account-switch-offer",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-re-introduces-gbp125-current-account-switch-offer.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-re-introduces-mortgages-at-90-percent-ltv",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-re-introduces-mortgages-at-90-percent-ltv",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-re-introduces-mortgages-at-90-percent-ltv",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-re-introduces-mortgages-at-90-percent-ltv.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-reduces-all-buy-to-let-mortgage-fixed-rates-and-removes-349-fee",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-reduces-all-buy-to-let-mortgage-fixed-rates-and-removes-349-fee",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-reduces-all-buy-to-let-mortgage-fixed-rates-and-removes-349-fee",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-reduces-all-buy-to-let-mortgage-fixed-rates-and-removes-349-fee.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-reduces-rates-on-residential-mortgages",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-reduces-rates-on-residential-mortgages",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-reduces-rates-on-residential-mortgages",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-reduces-rates-on-residential-mortgages.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-refreshes-and-expands-mortgage-range",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-refreshes-and-expands-mortgage-range",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-refreshes-and-expands-mortgage-range",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-refreshes-and-expands-mortgage-range.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-reveals-top-20-international-gifts-this-christmas",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-reveals-top-20-international-gifts-this-christmas",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-reveals-top-20-international-gifts-this-christmas",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-reveals-top-20-international-gifts-this-christmas.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-reveals-uk-top-25-everyday-goals",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-reveals-uk-top-25-everyday-goals",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-reveals-uk-top-25-everyday-goals",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-reveals-uk-top-25-everyday-goals.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-sees-in-2022-with-150-current-account-switch-offer",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-sees-in-2022-with-150-current-account-switch-offer",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-sees-in-2022-with-150-current-account-switch-offer",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-sees-in-2022-with-150-current-account-switch-offer.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-sees-winter-increase-in-domestic-abuse-victims-using-branch-safe-spaces",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-sees-winter-increase-in-domestic-abuse-victims-using-branch-safe-spaces",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-sees-winter-increase-in-domestic-abuse-victims-using-branch-safe-spaces",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-sees-winter-increase-in-domestic-abuse-victims-using-branch-safe-spaces.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-sets-out-the-cost-of-fake-love-this-valentines-day",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-sets-out-the-cost-of-fake-love-this-valentines-day",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-sets-out-the-cost-of-fake-love-this-valentines-day",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-sets-out-the-cost-of-fake-love-this-valentines-day.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-student-account-for-2020-intake-launched",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-student-account-for-2020-intake-launched",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-student-account-for-2020-intake-launched",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-student-account-for-2020-intake-launched.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-student-account-offer-launched",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-student-account-offer-launched",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-student-account-offer-launched",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-student-account-offer-launched.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-supports-scheme-to-help-raise-awareness-of-hidden-disabilities",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-supports-scheme-to-help-raise-awareness-of-hidden-disabilities",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-supports-scheme-to-help-raise-awareness-of-hidden-disabilities",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-supports-scheme-to-help-raise-awareness-of-hidden-disabilities.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-switching-offer-returns-with-gbp110-cash-plus-additional-eat-in-or-eat-out-offer",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-switching-offer-returns-with-gbp110-cash-plus-additional-eat-in-or-eat-out-offer",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-switching-offer-returns-with-gbp110-cash-plus-additional-eat-in-or-eat-out-offer",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-switching-offer-returns-with-gbp110-cash-plus-additional-eat-in-or-eat-out-offer.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-teams-up-with-bbc-children-in-need-to-boost-future-financial-literacy",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-teams-up-with-bbc-children-in-need-to-boost-future-financial-literacy",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-teams-up-with-bbc-children-in-need-to-boost-future-financial-literacy",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-teams-up-with-bbc-children-in-need-to-boost-future-financial-literacy.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-teams-up-with-bbc-children-in-need-to-help-raise-vital-funds-for-children-across-the-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-teams-up-with-bbc-children-in-need-to-help-raise-vital-funds-for-children-across-the-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-teams-up-with-bbc-children-in-need-to-help-raise-vital-funds-for-children-across-the-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-teams-up-with-bbc-children-in-need-to-help-raise-vital-funds-for-children-across-the-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-teams-up-with-tennis-star-to-serve-financial-literacy-for-children",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-teams-up-with-tennis-star-to-serve-financial-literacy-for-children",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-teams-up-with-tennis-star-to-serve-financial-literacy-for-children",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-teams-up-with-tennis-star-to-serve-financial-literacy-for-children.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-to-open-new-branch-in-loughborough",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-to-open-new-branch-in-loughborough",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-to-open-new-branch-in-loughborough.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-to-roll-out-hsbc-home-programme",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-to-roll-out-hsbc-home-programme",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-to-roll-out-hsbc-home-programme",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-to-roll-out-hsbc-home-programme.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-unveils-new-40-year-mortgage-term",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-unveils-new-40-year-mortgage-term",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-unveils-new-40-year-mortgage-term",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-unveils-new-40-year-mortgage-term.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-unveils-new-best-in-class-premier-world-elite-credit-card",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-unveils-new-best-in-class-premier-world-elite-credit-card",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-unveils-new-best-in-class-premier-world-elite-credit-card",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-unveils-new-best-in-class-premier-world-elite-credit-card.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-unveils-new-enhanced-premier-offering",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-unveils-new-enhanced-premier-offering",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-unveils-new-enhanced-premier-offering",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-unveils-new-enhanced-premier-offering.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-updates-mortgage-rates-and-bonus-payments",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-updates-mortgage-rates-and-bonus-payments",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-updates-mortgage-rates-and-bonus-payments",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-updates-mortgage-rates-and-bonus-payments.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-updates-on-branch-plans-for-2020",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-updates-on-branch-plans-for-2020",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-updates-on-branch-plans-for-2020",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-updates-on-branch-plans-for-2020.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-updates-on-mortgage-availability",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-updates-on-mortgage-availability",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-updates-on-mortgage-availability",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-updates-on-mortgage-availability.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-urges-customers-to-shop-savvy-this-christmas",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-urges-customers-to-shop-savvy-this-christmas",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-urges-customers-to-shop-savvy-this-christmas",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-urges-customers-to-shop-savvy-this-christmas.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-warns-about-the-12-scams-of-christmas",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-warns-about-the-12-scams-of-christmas",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-warns-about-the-12-scams-of-christmas",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-warns-about-the-12-scams-of-christmas.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-warns-bargain-hunters-about-black-fraud-day",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-warns-bargain-hunters-about-black-fraud-day",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-warns-bargain-hunters-about-black-fraud-day",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-warns-bargain-hunters-about-black-fraud-day.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-warns-customers-of-the-tricks-fraudsters-will-play-this-black-friday",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-warns-customers-of-the-tricks-fraudsters-will-play-this-black-friday",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-warns-customers-of-the-tricks-fraudsters-will-play-this-black-friday",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-warns-customers-of-the-tricks-fraudsters-will-play-this-black-friday.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-warns-of-march-towards-hmrc-scams-by-criminals",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-warns-of-march-towards-hmrc-scams-by-criminals",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-warns-of-march-towards-hmrc-scams-by-criminals",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-warns-of-march-towards-hmrc-scams-by-criminals.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-warns-of-new-technique-used-by-scammers",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-warns-of-new-technique-used-by-scammers",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-warns-of-new-technique-used-by-scammers",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-warns-of-new-technique-used-by-scammers.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-warns-of-the-dangers-of-making-off-piste-payments",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-warns-of-the-dangers-of-making-off-piste-payments",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-warns-of-the-dangers-of-making-off-piste-payments",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-warns-of-the-dangers-of-making-off-piste-payments.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-welcomes-access-to-cash-statements",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-welcomes-access-to-cash-statements",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-welcomes-access-to-cash-statements",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-welcomes-access-to-cash-statements.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uk-women-falling-behind-men-with-saving-for-their-future",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uk-women-falling-behind-men-with-saving-for-their-future",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-women-falling-behind-men-with-saving-for-their-future",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uk-women-falling-behind-men-with-saving-for-their-future.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uks-90-per-cent-ltv-back-on-sale",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uks-90-per-cent-ltv-back-on-sale",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uks-90-per-cent-ltv-back-on-sale",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uks-90-per-cent-ltv-back-on-sale.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uks-ian-tandy-awarded-mbe-in-the-queens-birthday-honours-list-2020",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uks-ian-tandy-awarded-mbe-in-the-queens-birthday-honours-list-2020",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uks-ian-tandy-awarded-mbe-in-the-queens-birthday-honours-list-2020",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uks-ian-tandy-awarded-mbe-in-the-queens-birthday-honours-list-2020.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uks-latest-switching-offer-gbp100-cash-for-new-investors",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uks-latest-switching-offer-gbp100-cash-for-new-investors",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uks-latest-switching-offer-gbp100-cash-for-new-investors",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uks-latest-switching-offer-gbp100-cash-for-new-investors.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uks-lincoln-branch-re-opens-after-major-facelift",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uks-lincoln-branch-re-opens-after-major-facelift",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uks-lincoln-branch-re-opens-after-major-facelift",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uks-lincoln-branch-re-opens-after-major-facelift.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-uks-voice-id-prevents-gbp249-million-of-attempted-fraud",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-uks-voice-id-prevents-gbp249-million-of-attempted-fraud",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-uks-voice-id-prevents-gbp249-million-of-attempted-fraud",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-uks-voice-id-prevents-gbp249-million-of-attempted-fraud.json"
+    },
+    {
+      "slug": "en-news-and-media-hsbc-voiceid-attempted-fraud",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/hsbc-voiceid-attempted-fraud",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/hsbc-voiceid-attempted-fraud",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-hsbc-voiceid-attempted-fraud.json"
+    },
+    {
+      "slug": "en-news-and-media-increase-to-existing-overdraft-buffer-to-gbp500-to-help-customers-affected-by-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/increase-to-existing-overdraft-buffer-to-gbp500-to-help-customers-affected-by-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/increase-to-existing-overdraft-buffer-to-gbp500-to-help-customers-affected-by-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-increase-to-existing-overdraft-buffer-to-gbp500-to-help-customers-affected-by-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-innovative-thinking-and-a-clear-vision-drive-business-ambition",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/innovative-thinking-and-a-clear-vision-drive-business-ambition",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/innovative-thinking-and-a-clear-vision-drive-business-ambition",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-innovative-thinking-and-a-clear-vision-drive-business-ambition.json"
+    },
+    {
+      "slug": "en-news-and-media-international-ambitions-grow-at-uk-law-firms",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/international-ambitions-grow-at-uk-law-firms",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/international-ambitions-grow-at-uk-law-firms",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-international-ambitions-grow-at-uk-law-firms.json"
+    },
+    {
+      "slug": "en-news-and-media-international-businesses-most-optimistic-about-growth-in-2021",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/international-businesses-most-optimistic-about-growth-in-2021",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/international-businesses-most-optimistic-about-growth-in-2021",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-international-businesses-most-optimistic-about-growth-in-2021.json"
+    },
+    {
+      "slug": "en-news-and-media-invest-from-50-in-five-steps-through-hsbc-uk-mobile-app",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/invest-from-50-in-five-steps-through-hsbc-uk-mobile-app",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/invest-from-50-in-five-steps-through-hsbc-uk-mobile-app",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-invest-from-50-in-five-steps-through-hsbc-uk-mobile-app.json"
+    },
+    {
+      "slug": "en-news-and-media-land-rover-defender-specialist-secures-funding-to-safeguard-business-during-coronavirus",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/land-rover-defender-specialist-secures-funding-to-safeguard-business-during-coronavirus",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/land-rover-defender-specialist-secures-funding-to-safeguard-business-during-coronavirus",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-land-rover-defender-specialist-secures-funding-to-safeguard-business-during-coronavirus.json"
+    },
+    {
+      "slug": "en-news-and-media-lockdown-learning-hsbc-uk-supports-financial-literacy",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/lockdown-learning-hsbc-uk-supports-financial-literacy",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/lockdown-learning-hsbc-uk-supports-financial-literacy",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-lockdown-learning-hsbc-uk-supports-financial-literacy.json"
+    },
+    {
+      "slug": "en-news-and-media-lockdown-provides-opportunity-for-more-people-to-consider-future-life-goals",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/lockdown-provides-opportunity-for-more-people-to-consider-future-life-goals",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/lockdown-provides-opportunity-for-more-people-to-consider-future-life-goals",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-lockdown-provides-opportunity-for-more-people-to-consider-future-life-goals.json"
+    },
+    {
+      "slug": "en-news-and-media-london-drum-supplier-secures-covid-19-support-from-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/london-drum-supplier-secures-covid-19-support-from-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/london-drum-supplier-secures-covid-19-support-from-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-london-drum-supplier-secures-covid-19-support-from-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-midlands-safety-equipment-specialist-gets-support-from-hsbc-uk-during-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/midlands-safety-equipment-specialist-gets-support-from-hsbc-uk-during-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/midlands-safety-equipment-specialist-gets-support-from-hsbc-uk-during-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-midlands-safety-equipment-specialist-gets-support-from-hsbc-uk-during-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-mitchells-and-butlers-secures-100m-clbils-loan-safeguarding-45000-jobs",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/mitchells-and-butlers-secures-100m-clbils-loan-safeguarding-45000-jobs",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/mitchells-and-butlers-secures-100m-clbils-loan-safeguarding-45000-jobs",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-mitchells-and-butlers-secures-100m-clbils-loan-safeguarding-45000-jobs.json"
+    },
+    {
+      "slug": "en-news-and-media-mobile-phone-cover-confirmed-as-the-insurance-must-have",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/mobile-phone-cover-confirmed-as-the-insurance-must-have",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/mobile-phone-cover-confirmed-as-the-insurance-must-have",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-mobile-phone-cover-confirmed-as-the-insurance-must-have.json"
+    },
+    {
+      "slug": "en-news-and-media-mortgage-range-refresh-leads-to-rate-cuts",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/mortgage-range-refresh-leads-to-rate-cuts",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/mortgage-range-refresh-leads-to-rate-cuts",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-mortgage-range-refresh-leads-to-rate-cuts.json"
+    },
+    {
+      "slug": "en-news-and-media-ms-and-hsbc-uk-agree-new-ms-financial-services-partnership",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/ms-and-hsbc-uk-agree-new-ms-financial-services-partnership",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/ms-and-hsbc-uk-agree-new-ms-financial-services-partnership",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-ms-and-hsbc-uk-agree-new-ms-financial-services-partnership.json"
+    },
+    {
+      "slug": "en-news-and-media-new-flagship-hsbc-uk-branch-opens-in-sheffield",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/new-flagship-hsbc-uk-branch-opens-in-sheffield",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/new-flagship-hsbc-uk-branch-opens-in-sheffield",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-new-flagship-hsbc-uk-branch-opens-in-sheffield.json"
+    },
+    {
+      "slug": "en-news-and-media-new-franchise-numbers-remained-high-through-2020",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/new-franchise-numbers-remained-high-through-2020",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/new-franchise-numbers-remained-high-through-2020",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-new-franchise-numbers-remained-high-through-2020.json"
+    },
+    {
+      "slug": "en-news-and-media-new-research-reveals-sleepless-nights-for-people-facing-housing-pressures",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/new-research-reveals-sleepless-nights-for-people-facing-housing-pressures",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/new-research-reveals-sleepless-nights-for-people-facing-housing-pressures",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-new-research-reveals-sleepless-nights-for-people-facing-housing-pressures.json"
+    },
+    {
+      "slug": "en-news-and-media-new-research-shows-financial-optimism-far-exceeds-pessimism",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/new-research-shows-financial-optimism-far-exceeds-pessimism",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/new-research-shows-financial-optimism-far-exceeds-pessimism",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-new-research-shows-financial-optimism-far-exceeds-pessimism.json"
+    },
+    {
+      "slug": "en-news-and-media-new-student-offer-with-cash-and-mindfulness-app-subscription",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/new-student-offer-with-cash-and-mindfulness-app-subscription",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/new-student-offer-with-cash-and-mindfulness-app-subscription",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-new-student-offer-with-cash-and-mindfulness-app-subscription.json"
+    },
+    {
+      "slug": "en-news-and-media-new-year-new-money-one-third-of-consumers-optimistic-about-2024-finances",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/new-year-new-money-one-third-of-consumers-optimistic-about-2024-finances",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/new-year-new-money-one-third-of-consumers-optimistic-about-2024-finances",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-new-year-new-money-one-third-of-consumers-optimistic-about-2024-finances.json"
+    },
+    {
+      "slug": "en-news-and-media-newcomers-optimistic-about-financial-challenges",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/newcomers-optimistic-about-financial-challenges",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/newcomers-optimistic-about-financial-challenges",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-newcomers-optimistic-about-financial-challenges.json"
+    },
+    {
+      "slug": "en-news-and-media-northampton-shoe-manufacturer-secures-support-from-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/northampton-shoe-manufacturer-secures-support-from-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/northampton-shoe-manufacturer-secures-support-from-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-northampton-shoe-manufacturer-secures-support-from-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-not-too-late-to-save-for-your-retirement",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/not-too-late-to-save-for-your-retirement",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/not-too-late-to-save-for-your-retirement",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-not-too-late-to-save-for-your-retirement.json"
+    },
+    {
+      "slug": "en-news-and-media-oh-sod-it-im-on-holiday-brits-spend-over-1000-on-foreign-holiday-extras",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/oh-sod-it-im-on-holiday-brits-spend-over-1000-on-foreign-holiday-extras",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/oh-sod-it-im-on-holiday-brits-spend-over-1000-on-foreign-holiday-extras",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-oh-sod-it-im-on-holiday-brits-spend-over-1000-on-foreign-holiday-extras.json"
+    },
+    {
+      "slug": "en-news-and-media-one-in-four-smes-say-cost-of-living-has-impacted-their-wellbeing",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/one-in-four-smes-say-cost-of-living-has-impacted-their-wellbeing",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/one-in-four-smes-say-cost-of-living-has-impacted-their-wellbeing",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-one-in-four-smes-say-cost-of-living-has-impacted-their-wellbeing.json"
+    },
+    {
+      "slug": "en-news-and-media-parents-expect-to-feel-the-pinch-as-summer-holidays-aproach",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/parents-expect-to-feel-the-pinch-as-summer-holidays-aproach",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/parents-expect-to-feel-the-pinch-as-summer-holidays-aproach",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-parents-expect-to-feel-the-pinch-as-summer-holidays-aproach.json"
+    },
+    {
+      "slug": "en-news-and-media-payment-fears-putting-businesses-off-overseas-growth",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/payment-fears-putting-businesses-off-overseas-growth",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/payment-fears-putting-businesses-off-overseas-growth",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-payment-fears-putting-businesses-off-overseas-growth.json"
+    },
+    {
+      "slug": "en-news-and-media-rainy-day-savings-remain-a-priority-as-brits-plan-ahead-for-rising-cost-of-living",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/rainy-day-savings-remain-a-priority-as-brits-plan-ahead-for-rising-cost-of-living",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/rainy-day-savings-remain-a-priority-as-brits-plan-ahead-for-rising-cost-of-living",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-rainy-day-savings-remain-a-priority-as-brits-plan-ahead-for-rising-cost-of-living.json"
+    },
+    {
+      "slug": "en-news-and-media-remote-control-of-wealth-management-helps-sustainability-drive",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/remote-control-of-wealth-management-helps-sustainability-drive",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/remote-control-of-wealth-management-helps-sustainability-drive",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-remote-control-of-wealth-management-helps-sustainability-drive.json"
+    },
+    {
+      "slug": "en-news-and-media-responding-to-coronavirus-a-message-from-hsbc-uk-chief-executive",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/responding-to-coronavirus-a-message-from-hsbc-uk-chief-executive",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/responding-to-coronavirus-a-message-from-hsbc-uk-chief-executive",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-responding-to-coronavirus-a-message-from-hsbc-uk-chief-executive.json"
+    },
+    {
+      "slug": "en-news-and-media-scammers-expected-to-headline-around-glastonbury-this-summer",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/scammers-expected-to-headline-around-glastonbury-this-summer",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/scammers-expected-to-headline-around-glastonbury-this-summer",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-scammers-expected-to-headline-around-glastonbury-this-summer.json"
+    },
+    {
+      "slug": "en-news-and-media-school-uniform-provider-goes-green-with-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/school-uniform-provider-goes-green-with-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/school-uniform-provider-goes-green-with-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-school-uniform-provider-goes-green-with-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-scouts-launch-first-ever-financial-education-badge-for-beaver-scouts-and-cub-scouts",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/scouts-launch-first-ever-financial-education-badge-for-beaver-scouts-and-cub-scouts",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/scouts-launch-first-ever-financial-education-badge-for-beaver-scouts-and-cub-scouts",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-scouts-launch-first-ever-financial-education-badge-for-beaver-scouts-and-cub-scouts.json"
+    },
+    {
+      "slug": "en-news-and-media-shoppers-warned-of-scams-threat-as-fraudsters-get-head-start-on-black-friday",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/shoppers-warned-of-scams-threat-as-fraudsters-get-head-start-on-black-friday",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/shoppers-warned-of-scams-threat-as-fraudsters-get-head-start-on-black-friday",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-shoppers-warned-of-scams-threat-as-fraudsters-get-head-start-on-black-friday.json"
+    },
+    {
+      "slug": "en-news-and-media-smes-forecast-at-least-10-growth-in-profits-in-2023",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/smes-forecast-at-least-10-growth-in-profits-in-2023",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/smes-forecast-at-least-10-growth-in-profits-in-2023",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-smes-forecast-at-least-10-growth-in-profits-in-2023.json"
+    },
+    {
+      "slug": "en-news-and-media-south-wales-business-secures-gbp-226-million-loan-to-support-essential-industries",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/south-wales-business-secures-gbp-226-million-loan-to-support-essential-industries",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/south-wales-business-secures-gbp-226-million-loan-to-support-essential-industries",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-south-wales-business-secures-gbp-226-million-loan-to-support-essential-industries.json"
+    },
+    {
+      "slug": "en-news-and-media-south-yorkshire-care-provider-increases-pay-with-support-from-hsbc-uk",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/south-yorkshire-care-provider-increases-pay-with-support-from-hsbc-uk",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/south-yorkshire-care-provider-increases-pay-with-support-from-hsbc-uk",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-south-yorkshire-care-provider-increases-pay-with-support-from-hsbc-uk.json"
+    },
+    {
+      "slug": "en-news-and-media-stoke-health-supplement-firm-fulfils-high-demand-during-covid-19-thanks-to-hsbc-uk-backing",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/stoke-health-supplement-firm-fulfils-high-demand-during-covid-19-thanks-to-hsbc-uk-backing",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/stoke-health-supplement-firm-fulfils-high-demand-during-covid-19-thanks-to-hsbc-uk-backing",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-stoke-health-supplement-firm-fulfils-high-demand-during-covid-19-thanks-to-hsbc-uk-backing.json"
+    },
+    {
+      "slug": "en-news-and-media-switch-on-summer-with-the-new-hsbc-uk-current-account-switching-offer",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/switch-on-summer-with-the-new-hsbc-uk-current-account-switching-offer",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/switch-on-summer-with-the-new-hsbc-uk-current-account-switching-offer",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-switch-on-summer-with-the-new-hsbc-uk-current-account-switching-offer.json"
+    },
+    {
+      "slug": "en-news-and-media-telemarketing-company-poised-to-bounce-back-thanks-to-hsbc-uk-funding",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/telemarketing-company-poised-to-bounce-back-thanks-to-hsbc-uk-funding",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/telemarketing-company-poised-to-bounce-back-thanks-to-hsbc-uk-funding",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-telemarketing-company-poised-to-bounce-back-thanks-to-hsbc-uk-funding.json"
+    },
+    {
+      "slug": "en-news-and-media-two-thirds-of-brits-trim-holiday-costs-in-response-to-rising-cost-of-living",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/two-thirds-of-brits-trim-holiday-costs-in-response-to-rising-cost-of-living",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/two-thirds-of-brits-trim-holiday-costs-in-response-to-rising-cost-of-living",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-two-thirds-of-brits-trim-holiday-costs-in-response-to-rising-cost-of-living.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-businesses-among-the-most-impacted-by-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-businesses-among-the-most-impacted-by-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-businesses-among-the-most-impacted-by-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-businesses-among-the-most-impacted-by-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-businesses-eager-to-trade-overseas",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-businesses-eager-to-trade-overseas",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-businesses-eager-to-trade-overseas",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-businesses-eager-to-trade-overseas.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-businesses-look-to-overseas-markets-for-growth",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-businesses-look-to-overseas-markets-for-growth",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-businesses-look-to-overseas-markets-for-growth",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-businesses-look-to-overseas-markets-for-growth.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-businesses-remain-positive-about-international-trade-despite-supply-chain-concerns",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-businesses-remain-positive-about-international-trade-despite-supply-chain-concerns",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-businesses-remain-positive-about-international-trade-despite-supply-chain-concerns",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-businesses-remain-positive-about-international-trade-despite-supply-chain-concerns.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-firms-expect-focus-on-sustainability-to-deliver-growth",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-firms-expect-focus-on-sustainability-to-deliver-growth",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-firms-expect-focus-on-sustainability-to-deliver-growth",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-firms-expect-focus-on-sustainability-to-deliver-growth.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-first-time-buyers-now-more-confident-about-getting-on-the-property-ladder",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-first-time-buyers-now-more-confident-about-getting-on-the-property-ladder",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-first-time-buyers-now-more-confident-about-getting-on-the-property-ladder",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-first-time-buyers-now-more-confident-about-getting-on-the-property-ladder.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-jumps-six-spots-to-third-best-place-in-the-world-for-career-minded-expats",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-jumps-six-spots-to-third-best-place-in-the-world-for-career-minded-expats",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-jumps-six-spots-to-third-best-place-in-the-world-for-career-minded-expats",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-jumps-six-spots-to-third-best-place-in-the-world-for-career-minded-expats.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-law-firms-recognise-the-need-to-innovate-and-change-in-response-to-covid-19",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-law-firms-recognise-the-need-to-innovate-and-change-in-response-to-covid-19",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-law-firms-recognise-the-need-to-innovate-and-change-in-response-to-covid-19",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-law-firms-recognise-the-need-to-innovate-and-change-in-response-to-covid-19.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-manufacturing-needs-urgent-financing-to-reach-net-zero",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-manufacturing-needs-urgent-financing-to-reach-net-zero",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-manufacturing-needs-urgent-financing-to-reach-net-zero",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-manufacturing-needs-urgent-financing-to-reach-net-zero.json"
+    },
+    {
+      "slug": "en-news-and-media-uk-missing-out-financially-as-a-result-of-want-it-now-attitude",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uk-missing-out-financially-as-a-result-of-want-it-now-attitude",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uk-missing-out-financially-as-a-result-of-want-it-now-attitude",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uk-missing-out-financially-as-a-result-of-want-it-now-attitude.json"
+    },
+    {
+      "slug": "en-news-and-media-uni-students-act-to-address-cost-of-living-challenges",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/uni-students-act-to-address-cost-of-living-challenges",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/uni-students-act-to-address-cost-of-living-challenges",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-uni-students-act-to-address-cost-of-living-challenges.json"
+    },
+    {
+      "slug": "en-news-and-media-warning-the-christmas-presence-that-could-cost-you-thousands",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/warning-the-christmas-presence-that-could-cost-you-thousands",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/warning-the-christmas-presence-that-could-cost-you-thousands",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-warning-the-christmas-presence-that-could-cost-you-thousands.json"
+    },
+    {
+      "slug": "en-news-and-media-women-falling-into-financial-confidence-gap",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/women-falling-into-financial-confidence-gap",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/women-falling-into-financial-confidence-gap",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-women-falling-into-financial-confidence-gap.json"
+    },
+    {
+      "slug": "en-news-and-media-worth-the-gamble-hsbc-uk-increases-gambling-block-feature-to-72-hours",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/worth-the-gamble-hsbc-uk-increases-gambling-block-feature-to-72-hours",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/worth-the-gamble-hsbc-uk-increases-gambling-block-feature-to-72-hours",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-worth-the-gamble-hsbc-uk-increases-gambling-block-feature-to-72-hours.json"
+    },
+    {
+      "slug": "en-news-and-media-yorkshire-based-advanced-healthcare-business-upgrades-production-line-with-hsbc-uk-backing",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/yorkshire-based-advanced-healthcare-business-upgrades-production-line-with-hsbc-uk-backing",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/yorkshire-based-advanced-healthcare-business-upgrades-production-line-with-hsbc-uk-backing",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-yorkshire-based-advanced-healthcare-business-upgrades-production-line-with-hsbc-uk-backing.json"
+    },
+    {
+      "slug": "en-news-and-media-young-doesnt-mean-naive-when-it-comes-to-managing-money",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/young-doesnt-mean-naive-when-it-comes-to-managing-money",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/young-doesnt-mean-naive-when-it-comes-to-managing-money",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-young-doesnt-mean-naive-when-it-comes-to-managing-money.json"
+    },
+    {
+      "slug": "en-news-and-media-ysgol-gynradd-aberteifi-launches-first-hsbc-uk-schoolbank-in-wales",
+      "url": "https://www.about.hsbc.co.uk/en/news-and-media/ysgol-gynradd-aberteifi-launches-first-hsbc-uk-schoolbank-in-wales",
+      "twin": "https://www.about.hsbc.co.uk/news-and-media/ysgol-gynradd-aberteifi-launches-first-hsbc-uk-schoolbank-in-wales",
+      "currentStatePath": "stardust/current/pages/en-news-and-media-ysgol-gynradd-aberteifi-launches-first-hsbc-uk-schoolbank-in-wales.json"
+    },
+    {
+      "slug": "en-privacy-notice",
+      "url": "https://www.about.hsbc.co.uk/en/privacy-notice",
+      "twin": "https://www.about.hsbc.co.uk/privacy-notice",
+      "currentStatePath": "stardust/current/pages/en-privacy-notice.json"
+    }
+  ]
+}

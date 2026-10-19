@@ -1,0 +1,176 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 554,
+    "concurrency": 6
+  },
+  "consent": {
+    "method": "auto",
+    "note": "dismissal ran but matched nothing: Tealium .cookie-modal renders after domcontentloaded. style-census and cap-probe dismissed it via button:has-text(\"Accept\"). Every crawl screenshot carries the overlay; its h2 \"Cookies on this website\" was excluded from aggregates."
+  },
+  "favicon": {
+    "url": "https://www.about.hsbc.co.uk/-/media/pws171/StarterKit/Favicons/hsbc.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [
+      {
+        "url": "https://www.about.hsbc.co.uk/en/badrequest-400",
+        "slug": "en-badrequest-400",
+        "errorClass": "HTTPError",
+        "message": "HTTP 400",
+        "at": "2026-10-18T10:29:06.586Z"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/en/forbidden-403",
+        "slug": "en-forbidden-403",
+        "errorClass": "HTTPError",
+        "message": "HTTP 403",
+        "at": "2026-10-18T10:29:13.916Z"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/en/notfound-404",
+        "slug": "en-notfound-404",
+        "errorClass": "HTTPError",
+        "message": "HTTP 404",
+        "at": "2026-10-18T10:33:01.312Z"
+      }
+    ]
+  },
+  "captureGaps": {
+    "roots": [
+      {
+        "root": "/en",
+        "slug": "en",
+        "linked": 6,
+        "uncaptured": []
+      }
+    ],
+    "detail": "uncaptured first-level targets: en 0"
+  },
+  "dynamicSurface": {
+    "pages": 551,
+    "pagesWithSameSiteData": 0,
+    "pagesWithSearchForm": 1,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "akamai.tiqcdn.com",
+        "path": "/location/location.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://akamai.tiqcdn.com/location/location.js",
+        "pages": 551,
+        "examples": [
+          "en",
+          "en-accessibility",
+          "en-cookie-notice"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "pages": 551,
+        "examples": [
+          "en",
+          "en-accessibility",
+          "en-cookie-notice"
+        ]
+      },
+      {
+        "host": "sadmin.brightcove.com",
+        "pages": 551,
+        "examples": [
+          "en",
+          "en-accessibility",
+          "en-cookie-notice"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [],
+    "formTargets": [
+      {
+        "action": "https://www.about.hsbc.co.uk/en/search",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "query"
+        ],
+        "pages": 1,
+        "examples": [
+          "en-search"
+        ]
+      }
+    ]
+  },
+  "supplementaryCapture": {
+    "reason": "sitemap.xml omits /news-and-media (en-GB news listing, 200) and /search (200); captured by the same crawler, same flags",
+    "pages": [
+      "news-and-media",
+      "search"
+    ],
+    "log": {
+      "failures": []
+    }
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "suspect",
+      "notes": "record matches pixels (HSBC UK hero, 3 stats, services, HQ/CEO, 6 promo tiles); consent modal occludes top ~450px — crawler dismissal fires at domcontentloaded, before Tealium injects .cookie-modal; re-run with escalation ladder cannot fix (dismiss precedes wait)"
+    },
+    {
+      "slug": "hsbc-uk-inclusion",
+      "verdict": "suspect",
+      "notes": "content + right rail + 4 tiles match; consent modal overlay"
+    },
+    {
+      "slug": "history-timeline",
+      "verdict": "suspect",
+      "notes": "timeline entries match headings 1836…2023; consent modal overlay"
+    },
+    {
+      "slug": "management-team",
+      "verdict": "suspect",
+      "notes": "3 exec bios match; consent modal overlay"
+    },
+    {
+      "slug": "terms-of-use",
+      "verdict": "suspect",
+      "notes": "long text page matches; consent modal overlay"
+    },
+    {
+      "slug": "news-and-media-100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+      "verdict": "suspect",
+      "notes": "article matches; consent modal overlay"
+    },
+    {
+      "slug": "news-and-media",
+      "verdict": "suspect",
+      "notes": "featured cards, year accordion 2020–2026, media-contacts rail, Views on HSBC.com row all present; consent overlay"
+    },
+    {
+      "slug": "en-news-and-media",
+      "verdict": "ok",
+      "notes": "renders hero + intro only — the listing body is genuinely absent on the live /en/ tree"
+    },
+    {
+      "slug": "en",
+      "verdict": "ok",
+      "notes": "distinct About HSBC group page with promo grid — not a shell"
+    }
+  ],
+  "supplementaryCapture2": {
+    "reason": "25 en-GB press releases live (200) but absent from sitemap.xml — their /en/ shell was the only listed URL",
+    "pages": {
+      "failures": []
+    }
+  }
+}

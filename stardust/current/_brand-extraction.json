@@ -1,0 +1,660 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-18T10:50:17.219Z",
+    "stardustVersion": "0.10.0",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json (553)",
+      "https://www.about.hsbc.co.uk/Assets/PWS171/stylesheets/application.css"
+    ],
+    "synthesizedInputs": [],
+    "notes": [
+      "Census measured 35 representative pages x {1440,360} (named deviation: 553 pages x 2 widths ≈ 3 h; 280 template-constant articles sampled 1-in-20, 243 empty /en/ shells sampled 4).",
+      "Palette capped at 8; dropped: #000000b3 (8), #929292 (4), #afb0ae (4).",
+      "Every heading level renders at font-weight 400; weight is carried by separate font families (univers-thin / -light / -regular / -medium / -bold).",
+      "Consent modal (Tealium .cookie-modal) is baked into crawl screenshots and its h2 \"Cookies on this website\" was excluded from every aggregate."
+    ]
+  },
+  "site": {
+    "name": "About HSBC — HSBC UK",
+    "tagline": "Find out about the extensive range of services HSBC offers to its customers in the UK, along with information about our headquarters, our CEO, and our history.",
+    "originUrl": "https://www.about.hsbc.co.uk"
+  },
+  "origins": [
+    {
+      "origin": "https://www.about.hsbc.co.uk",
+      "role": "primary",
+      "pages": 553
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "url": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsic": "125x24",
+    "sourceSelector": ".brand__logo img",
+    "alt": "HSBC",
+    "variantsCaptured": [
+      "RGB masterbrand (hexagon + wordmark)"
+    ]
+  },
+  "favicon": {
+    "localPath": "stardust/current/assets/favicon.png",
+    "url": "https://www.about.hsbc.co.uk/-/media/pws171/StarterKit/Favicons/hsbc.png"
+  },
+  "palette": [
+    {
+      "role": "text-primary",
+      "value": "#333333",
+      "occurrences": 2928,
+      "usedAs": [
+        "text"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+        "https://www.about.hsbc.co.uk/terms-of-use",
+        "https://www.about.hsbc.co.uk/history-timeline"
+      ],
+      "sourceSelectors": [
+        "#primary-nav > li:nth-of-type(1) > a",
+        "#page > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1"
+      ]
+    },
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 1198,
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/en/",
+        "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+        "https://www.about.hsbc.co.uk/"
+      ],
+      "sourceSelectors": [
+        "body"
+      ]
+    },
+    {
+      "role": "surface-inverse",
+      "value": "#000000",
+      "occurrences": 205,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/news-and-media/footasylum-set-for-store-expansion-with-fresh-hsbc-uk-funding",
+        "https://www.about.hsbc.co.uk/cookie-notice",
+        "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+      ],
+      "sourceSelectors": [
+        "div:nth-of-type(3) > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+        "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)"
+      ]
+    },
+    {
+      "role": "border",
+      "value": "#d7d8d6",
+      "occurrences": 195,
+      "usedAs": [
+        "border",
+        "background"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/news-and-media/footasylum-set-for-store-expansion-with-fresh-hsbc-uk-funding",
+        "https://www.about.hsbc.co.uk/history-timeline",
+        "https://www.about.hsbc.co.uk/cookie-notice"
+      ],
+      "sourceSelectors": [
+        "div:nth-of-type(3) > div > div > div > table > thead > tr > th:nth-of-type(1)",
+        "#page > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3)"
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#da0011",
+      "occurrences": 8,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/cookie-notice"
+      ],
+      "sourceSelectors": [
+        "#page > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(3) > a"
+      ]
+    },
+    {
+      "role": "border-strong",
+      "value": "#505050",
+      "occurrences": 35,
+      "usedAs": [
+        "border"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/",
+        "https://www.about.hsbc.co.uk/accessibility",
+        "https://www.about.hsbc.co.uk/cookie-notice"
+      ],
+      "sourceSelectors": [
+        "#header > div:nth-of-type(2) > div > ul > li:nth-of-type(2) > a > span"
+      ]
+    },
+    {
+      "role": "surface-dark",
+      "value": "#253038",
+      "occurrences": 34,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-reveals-top-20-international-gifts-this-christmas",
+        "https://www.about.hsbc.co.uk/news-and-media/yorkshire-resort-to-expand-with-funding-from-hsbc-uk",
+        "https://www.about.hsbc.co.uk/news-and-media/hsbc-uk-issues-cryptocurrency-warning"
+      ],
+      "sourceSelectors": [
+        "#page > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > span > span",
+        "#page > div:nth-of-type(2) > div > div:nth-of-type(1) > div > span > span"
+      ]
+    },
+    {
+      "role": "surface",
+      "value": "#ededed",
+      "occurrences": 20,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        "https://www.about.hsbc.co.uk/news-and-media/footasylum-set-for-store-expansion-with-fresh-hsbc-uk-funding",
+        "https://www.about.hsbc.co.uk/cookie-notice",
+        "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+      ],
+      "sourceSelectors": [
+        "div:nth-of-type(1) > div:nth-of-type(3) > div > div > div > table > tbody > tr:nth-of-type(1)",
+        "div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > table > tbody > tr:nth-of-type(1)"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Univers Next for HSBC",
+      "stack": "\"univers-thin\", \"univers-light\", \"univers-regular\", sans-serif",
+      "faces": [
+        "univers-ultra-light",
+        "univers-thin",
+        "univers-light",
+        "univers-regular",
+        "univers-medium"
+      ],
+      "weights": [
+        400
+      ],
+      "sizes": [
+        "56px",
+        "48px",
+        "40px",
+        "36px",
+        "30px",
+        "24px"
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": 56,
+          "fontWeight": "400",
+          "count": 33,
+          "score": 321.7
+        },
+        "h2": {
+          "fontSize": 24,
+          "fontWeight": "400",
+          "count": 143,
+          "score": 287
+        },
+        "h3": {
+          "fontSize": 24,
+          "fontWeight": "400",
+          "count": 36,
+          "score": 144
+        },
+        "h4": {
+          "fontSize": 24,
+          "fontWeight": "400",
+          "count": 7,
+          "score": 63.5
+        }
+      },
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3"
+      ]
+    },
+    "bodyFamily": {
+      "name": "Univers Next for HSBC",
+      "stack": "\"univers-regular\", sans-serif",
+      "faces": [
+        "univers-regular",
+        "univers-bold",
+        "univers-regular-italic"
+      ],
+      "weights": [
+        400
+      ],
+      "sizes": [
+        "18px",
+        "16px",
+        "14px",
+        "12px"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li",
+        ".text--editorial"
+      ]
+    },
+    "monoFamily": null,
+    "rootFontSize": "62.5% (1rem = 10px)",
+    "families": [
+      {
+        "family": "univers-regular",
+        "count": 812,
+        "headings": 128,
+        "text": 682,
+        "buttons": 2
+      },
+      {
+        "family": "univers-light",
+        "count": 84,
+        "headings": 60,
+        "text": 24,
+        "buttons": 0
+      },
+      {
+        "family": "univers-thin",
+        "count": 80,
+        "headings": 80,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "family": "univers-medium",
+        "count": 71,
+        "headings": 71,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "family": "univers-ultra-light",
+        "count": 30,
+        "headings": 30,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "family": "univers-bold",
+        "count": 11,
+        "headings": 7,
+        "text": 4,
+        "buttons": 0
+      },
+      {
+        "family": "Arial",
+        "count": 4,
+        "headings": 0,
+        "text": 0,
+        "buttons": 4
+      }
+    ],
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        56,
+        48,
+        40,
+        36,
+        30,
+        24,
+        18,
+        16,
+        14,
+        13.33,
+        12
+      ],
+      "ratios": [
+        1.17,
+        1.2,
+        1.11,
+        1.2,
+        1.25,
+        1.33,
+        1.13,
+        1.14,
+        1.05,
+        1.11
+      ],
+      "matchedScale": null
+    },
+    "loadStrategy": "default (no font-display in @font-face)",
+    "files": [
+      {
+        "url": "https://www.about.hsbc.co.uk/assets/PWS171/fonts/UniversNextforHSBCW02-UltLt.woff",
+        "family": "univers-ultra-light",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/UniversNextforHSBCW02-UltLt.woff",
+        "sourceCssRule": "@font-face { font-family: \"univers-ultra-light\"; src: … UniversNextforHSBCW02-UltLt.{eot,woff,ttf} }  (application.css)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/assets/PWS171/fonts/UniversNextforHSBCW02-Lt.woff",
+        "family": "univers-light",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/UniversNextforHSBCW02-Lt.woff",
+        "sourceCssRule": "@font-face { font-family: \"univers-light\"; src: … UniversNextforHSBCW02-Lt.{eot,woff,ttf} }  (application.css)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/assets/PWS171/fonts/UniversNextforHSBCW02-Th.woff",
+        "family": "univers-thin",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/UniversNextforHSBCW02-Th.woff",
+        "sourceCssRule": "@font-face { font-family: \"univers-thin\"; src: … UniversNextforHSBCW02-Th.{eot,woff,ttf} }  (application.css)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/assets/PWS171/fonts/UniversNextforHSBCW02-Rg.woff",
+        "family": "univers-regular",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/UniversNextforHSBCW02-Rg.woff",
+        "sourceCssRule": "@font-face { font-family: \"univers-regular\"; src: … UniversNextforHSBCW02-Rg.{eot,woff,ttf} }  (application.css)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/assets/PWS171/fonts/UniversNextforHSBCW02-It.woff",
+        "family": "univers-regular-italic",
+        "weight": 400,
+        "style": "italic",
+        "localPath": "stardust/current/assets/fonts/UniversNextforHSBCW02-It.woff",
+        "sourceCssRule": "@font-face { font-family: \"univers-regular-italic\"; src: … UniversNextforHSBCW02-It.{eot,woff,ttf} }  (application.css)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/assets/PWS171/fonts/UniversNextforHSBCW02-Md.woff",
+        "family": "univers-medium",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/UniversNextforHSBCW02-Md.woff",
+        "sourceCssRule": "@font-face { font-family: \"univers-medium\"; src: … UniversNextforHSBCW02-Md.{eot,woff,ttf} }  (application.css)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.about.hsbc.co.uk/assets/PWS171/fonts/UniversNextforHSBCW02-Bd.woff",
+        "family": "univers-bold",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/UniversNextforHSBCW02-Bd.woff",
+        "sourceCssRule": "@font-face { font-family: \"univers-bold\"; src: … UniversNextforHSBCW02-Bd.{eot,woff,ttf} }  (application.css)",
+        "licensingFlag": "private"
+      }
+    ]
+  },
+  "motifs": {
+    "borderRadius": {
+      "mode": 0,
+      "occurrences": [],
+      "note": "No non-zero border-radius measured on any of 35 pages — square-cornered system."
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 1px 4px 0px",
+        "use": "site header (#header)",
+        "sources": [
+          "https://www.about.hsbc.co.uk/"
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.4) 0px 0px 5px 0px",
+        "count": 70,
+        "sources": [
+          "https://www.about.hsbc.co.uk/",
+          "https://www.about.hsbc.co.uk/accessibility",
+          "https://www.about.hsbc.co.uk/cookie-notice"
+        ],
+        "use": "consent modal dialog (Tealium) — overlay, not page chrome"
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(51, 51, 51) 50%)",
+        "count": 198,
+        "use": "link underline (50% hard-stop text-decoration substitute)",
+        "sources": [
+          "https://www.about.hsbc.co.uk/accessibility",
+          "https://www.about.hsbc.co.uk/cookie-notice",
+          "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+        ]
+      }
+    ],
+    "patterns": [
+      "hero-with-image (header-area, max-height 485px)",
+      "share bar (share-actions)",
+      "long-form-promo card",
+      "year accordion",
+      "exec-bio row",
+      "stat floating-container"
+    ]
+  },
+  "hover": [
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(51, 51, 51)"
+      },
+      "to": {
+        "color": "rgb(222, 0, 17)"
+      },
+      "count": 10
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgba(0, 0, 0, 0.7)"
+      },
+      "to": {
+        "backgroundColor": "rgba(0, 0, 0, 0.85)"
+      },
+      "count": 4
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(218, 0, 17)",
+        "borderColor": "rgb(218, 0, 17)"
+      },
+      "to": {
+        "backgroundColor": "rgb(186, 0, 14)",
+        "borderColor": "rgb(186, 0, 14)"
+      },
+      "count": 2
+    }
+  ],
+  "iconFont": {
+    "family": "pwsicons",
+    "glyphs": [
+      {
+        "iconClass": "icon--icon-external",
+        "pseudo": "::after",
+        "codepoint": "U+E900",
+        "count": 24
+      },
+      {
+        "iconClass": "icon icon-external",
+        "pseudo": "::before",
+        "codepoint": "U+E900",
+        "count": 20
+      }
+    ]
+  },
+  "voice": {
+    "heroHeadline": "HSBC UK",
+    "heroImage": "https://www.about.hsbc.co.uk/-/media/uk/images/240703-hsbc-in-uk-1520x400.jpg",
+    "heroMedium": {
+      "kind": "video-loop (cinemagraph)",
+      "src": "https://www.about.hsbc.co.uk/-/media/uk/images/260618-tracking-slow-motion.mp4",
+      "poster": "yes (poster-on-pause)",
+      "pages": [
+        "/",
+        "/hsbc-uk",
+        "/hsbc-uk/community"
+      ],
+      "placement": "second section of home, play/pause control"
+    },
+    "firstParagraph": "We are opening up a world of opportunity, supporting the financial health of individuals, businesses and communities across the UK – now and for the future.",
+    "ctaSamples": [
+      "Main content",
+      "Personal",
+      "Business",
+      "Accessibility",
+      "Terms of use",
+      "Contact and support"
+    ]
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      [
+        "Main content",
+        3
+      ],
+      [
+        "Personal",
+        3
+      ],
+      [
+        "Business",
+        3
+      ],
+      [
+        "Accessibility",
+        3
+      ],
+      [
+        "Terms of use",
+        3
+      ],
+      [
+        "Contact and support",
+        3
+      ],
+      [
+        "HSBC UK",
+        2
+      ],
+      [
+        "News and media",
+        2
+      ],
+      [
+        "Management team",
+        2
+      ],
+      [
+        "History",
+        2
+      ],
+      [
+        "Manage cookie settings",
+        1
+      ],
+      [
+        "Accept",
+        1
+      ]
+    ],
+    "headingFrequency": [
+      [
+        "h2|Media enquiries to:",
+        77
+      ],
+      [
+        "h3|Media enquiries to:",
+        63
+      ],
+      [
+        "h1|HSBC UK",
+        5
+      ],
+      [
+        "h2|Our services",
+        5
+      ],
+      [
+        "h2|Our headquarters",
+        5
+      ],
+      [
+        "h2|Our CEO",
+        5
+      ],
+      [
+        "h3|Trade",
+        3
+      ],
+      [
+        "h3|Media enquiries:",
+        3
+      ]
+    ]
+  },
+  "images": {
+    "total": 442,
+    "altEmpty": 433,
+    "altEmptyPct": 98,
+    "altGeneric": {}
+  },
+  "systemComponents": [
+    {
+      "kind": "header",
+      "name": "Wedge header (divisions-nav Personal|Business, logo, primary-nav, search, fixed/shrunk on scroll, nav-tray on mobile)",
+      "occurrences": 310,
+      "selector": "#header.header--wedge"
+    },
+    {
+      "kind": "footer",
+      "name": "Black footer strip (5 links + © HSBC Group)",
+      "occurrences": 310,
+      "selector": ".footer"
+    },
+    {
+      "kind": "overlay",
+      "name": "Tealium cookie modal + external-link leaving-confirmation modal",
+      "occurrences": 307,
+      "selector": ".cookie-modal, .leaving-confirmation"
+    },
+    {
+      "kind": "strip",
+      "name": "Share actions (X / Facebook / LinkedIn) overlapping hero base",
+      "occurrences": 249,
+      "selector": ".share-actions"
+    },
+    {
+      "kind": "strip",
+      "name": "Media enquiries disclaimer block (article foot)",
+      "occurrences": 273,
+      "selector": ".disclaimer"
+    }
+  ],
+  "crossPromo": {
+    "detected": false
+  },
+  "register": "brand"
+}

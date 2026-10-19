@@ -136,6 +136,14 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Article description",
+            "value": "article-description"
+          },
+          {
+            "name": "Disclaimer",
+            "value": "disclaimer"
           }
         ]
       }
@@ -211,6 +219,18 @@
         "name": "text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "share",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Label and share links",
         "valueType": "string"
       }
     ]

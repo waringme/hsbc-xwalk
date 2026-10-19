@@ -1,0 +1,679 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "writtenAt": "2026-10-18T19:25:55Z",
+  "phase": "preserve-direction"
+ },
+ "breakpoints": [
+  1440,
+  360
+ ],
+ "register": "stardust/replica/inconsistency-register.md (4 deferred)",
+ "pageTypes": {
+  "article": {
+   "archetype": "news-and-media-100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+   "pages": 310,
+   "siblings": 309,
+   "iterations": 4,
+   "gates": {
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 11.69,
+      "dh": -104
+     },
+     {
+      "iter": 2,
+      "pixel": 9.41,
+      "dh": 2
+     },
+     {
+      "iter": 3,
+      "pixel": 11.01,
+      "dh": 73,
+      "contentRed": 3,
+      "chromeDeltas": 8,
+      "clipped": 0,
+      "overflow": "ok"
+     },
+     {
+      "iter": 4,
+      "pixel": 8.18,
+      "dh": 5,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok",
+      "note": "owner-approved 4th round"
+     },
+     {
+      "iter": "confirm",
+      "pixel": 8.18,
+      "dh": 5,
+      "contentRed": 0,
+      "clipped": 0,
+      "afterInteraction": true
+     }
+    ],
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 9.91,
+      "dh": -107
+     },
+     {
+      "iter": 2,
+      "pixel": 7.21,
+      "dh": -17
+     },
+     {
+      "iter": 3,
+      "pixel": 6.36,
+      "dh": -9,
+      "contentRed": 3,
+      "chromeDeltas": 8,
+      "clipped": 0,
+      "overflow": "ok"
+     },
+     {
+      "iter": 4,
+      "pixel": 5.56,
+      "dh": 5,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok",
+      "note": "owner-approved 4th round"
+     },
+     {
+      "iter": "confirm",
+      "pixel": 5.56,
+      "dh": 5,
+      "contentRed": 0,
+      "clipped": 0,
+      "afterInteraction": true
+     }
+    ],
+    "cap": {
+     "width": 2560,
+     "verdict": "PASS",
+     "rows": "4/4"
+    },
+    "chrome": {
+     "headerCrop": {
+      "360": "0.11% PASS",
+      "1440": "1.85% PASS"
+     },
+     "remaining": "text-width deltas 2–6px from the substitute font only"
+    },
+    "prototypeTable": {
+     "360": "PASS",
+     "1440": "PASS"
+    }
+   },
+   "residuals": [
+    {
+     "id": "font-substitute",
+     "kind": "permanent-justified",
+     "note": "Noto Sans substitute for licensed Univers Next for HSBC; nav/footer text 2–6px width deltas; disappears if the licensed kit is used"
+    },
+    {
+     "id": "header-landmark",
+     "kind": "justified",
+     "note": "build <header> vs live div#header (content-diff 🟠 EXTRA; chrome-parity needs --region header=#header|#header)"
+    },
+    {
+     "id": "header--cookie-dissabled",
+     "kind": "deferred",
+     "note": "consent-state class from Tealium banner — dynamics decision batch #1"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "leaving lightbox (lightbox--active, overlay, lock-scroll, no-scroll)",
+     "header search reveal"
+    ],
+    "implemented": [
+     "leaving lightbox",
+     "header search reveal"
+    ],
+    "dead": [
+     "hover deltas (none measured)",
+     "header scroll-morph (none)"
+    ],
+    "compare": "6 parity, 1 missing (consent class, deferred), 1 advisory extra (search-box--open state class)"
+   },
+   "status": "approved",
+   "prototype": "stardust/prototypes/news-and-media-100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk-proposed.html",
+   "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/article.css"
+   ],
+   "captureState": [
+    {
+     "what": "share links",
+     "note": "hrefs carry literal {URL}/{title} placeholders as captured"
+    }
+   ]
+  },
+  "form": {
+   "archetype": "search",
+   "pages": 2,
+   "siblings": 1,
+   "iterations": 4,
+   "gates": {
+    "360": {
+     "pixel": 1.35,
+     "dh": 0,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "1440": {
+     "pixel": 0.55,
+     "dh": 0,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "cap": {
+     "verdict": "PASS 3/3"
+    }
+   },
+   "residuals": [],
+   "motion": null,
+   "status": "approved",
+   "prototype": "stardust/prototypes/search-proposed.html",
+   "css": [
+    "canon.css",
+    "program.css",
+    "form.css"
+   ],
+   "iterationNote": "4th run = structural fix (tabs is a block, not a float) after round 3",
+   "notes": "results state is server-rendered — search behaviour is dynamics row #1 (index-backed, Phase 4/5)"
+  },
+  "landing": {
+   "archetype": "index",
+   "pages": 6,
+   "siblings": 5,
+   "iterations": 4,
+   "gates": {
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 20,
+      "dh": 19,
+      "contentRed": 1
+     },
+     {
+      "iter": 2,
+      "pixel": 22.53,
+      "dh": -23
+     },
+     {
+      "iter": 3,
+      "pixel": 3.04,
+      "dh": -3,
+      "contentRed": 1
+     },
+     {
+      "iter": 4,
+      "pixel": 2.8,
+      "dh": 0,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok"
+     }
+    ],
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 10.09,
+      "dh": 19,
+      "contentRed": 1
+     },
+     {
+      "iter": 2,
+      "pixel": 2.61,
+      "dh": -3
+     },
+     {
+      "iter": 3,
+      "pixel": 2.61,
+      "dh": -3,
+      "contentRed": 1
+     },
+     {
+      "iter": 4,
+      "pixel": 2.28,
+      "dh": 0,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok"
+     }
+    ],
+    "cap": {
+     "width": 2560,
+     "verdict": "PASS",
+     "rows": "9/9"
+    },
+    "chrome": "font-width residual only (2–6px)",
+    "prototypeTable": {
+     "360": "PASS",
+     "1440": "PASS"
+    }
+   },
+   "residuals": [
+    {
+     "id": "font-substitute",
+     "kind": "permanent-justified"
+    },
+    {
+     "id": "header--cookie-dissabled",
+     "kind": "deferred",
+     "note": "consent class — tags decision"
+    },
+    {
+     "id": "icon-pause-sampler",
+     "kind": "justified",
+     "note": "local video starts before motion-observe attaches; state verified: load=playing+icon-pause, click=paused+poster+icon-play"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "cinemagraph autoplay muted loop",
+     "toggle pause/play",
+     "nav item hover background #d7d8d6"
+    ],
+    "implemented": [
+     "cinemagraph autoplay (skipped under prefers-reduced-motion)",
+     "toggle",
+     "nav hover (canon)"
+    ],
+    "dead": [
+     "promo hover",
+     "doormat on hover"
+    ],
+    "notes": "external promo tile navigates (no leaving lightbox)"
+   },
+   "status": "approved",
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/landing.css"
+   ],
+   "js": "stardust/prototypes/interactions.js",
+   "iterationNote": "round 4 = structural content fix (Careers icon pseudo-elements) after round 3 — one over the default cap; recorded, not owner-pre-approved",
+   "canonChanges": [
+    "shared hero/page-description/text h2 moved to canon (A1 re-gated: unchanged)",
+    "9-3 column rules scoped to .layout--9-3",
+    "nav-tray label display:none ≤959 (live)",
+    "nav hover background"
+   ]
+  },
+  "listing": {
+   "archetype": "news-and-media",
+   "pages": 2,
+   "siblings": 1,
+   "iterations": 3,
+   "gates": {
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 8.49,
+      "dh": -62,
+      "contentRed": 30
+     },
+     {
+      "iter": 2,
+      "pixel": 3.94,
+      "dh": 0,
+      "contentRed": 4
+     },
+     {
+      "iter": 3,
+      "pixel": 3.94,
+      "dh": 0,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok"
+     }
+    ],
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 8.4,
+      "dh": -35,
+      "contentRed": 30
+     },
+     {
+      "iter": 2,
+      "pixel": 2.17,
+      "dh": 0,
+      "contentRed": 4
+     },
+     {
+      "iter": 3,
+      "pixel": 2.17,
+      "dh": 0,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok"
+     }
+    ],
+    "cap": {
+     "width": 2560,
+     "verdict": "PASS",
+     "rows": "4/4"
+    },
+    "chrome": "font-width residual only",
+    "prototypeTable": {
+     "360": "PASS (3/3)",
+     "1440": "PASS (3/3)"
+    }
+   },
+   "residuals": [
+    {
+     "id": "font-substitute",
+     "kind": "permanent-justified"
+    },
+    {
+     "id": "accordion-open-height",
+     "kind": "justified",
+     "note": "open 2026 panel +26px (0.8%) @1440, +107px (1.8%) @360 — wrap forks from the substitute font; not a gated state"
+    },
+    {
+     "id": "accordion-label-metric",
+     "kind": "justified",
+     "note": "button padding-bottom +0.0807em compensates the Univers inline-block line box (2.42px@30px / 1.45px@18px)"
+    },
+    {
+     "id": "header--cookie-dissabled",
+     "kind": "deferred"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "accordion open + 0.2s heading background transition",
+     "mailto → email confirmation lightbox"
+    ],
+    "implemented": [
+     "accordion toggle",
+     "email lightbox (shared lightbox engine)"
+    ],
+    "compare": "6 parity, 1 missing (consent class, deferred)"
+   },
+   "status": "approved",
+   "prototype": "stardust/prototypes/news-and-media-proposed.html",
+   "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/listing.css"
+   ],
+   "content": {
+    "archiveEntries": 323,
+    "pdfEntries": 13,
+    "note": "archive re-authored from extracted data; 13 PDF releases recorded in state.site.documents"
+   },
+   "canonChanges": [
+    "base long-form promo moved to canon; 6-6 overlap kept as desktop variant in landing.css (A2 re-gated unchanged)",
+    "lightbox engine generalised to leaving + email templates (A1 re-checked: 6 parity)"
+   ]
+  },
+  "program": {
+   "archetype": "hsbc-uk-inclusion",
+   "pages": 5,
+   "siblings": 4,
+   "iterations": 2,
+   "gates": {
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 12.93,
+      "dh": -107,
+      "contentRed": 4
+     },
+     {
+      "iter": 2,
+      "pixel": 8.33,
+      "dh": 5,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok"
+     }
+    ],
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 6.9,
+      "dh": -30,
+      "contentRed": 4
+     },
+     {
+      "iter": 2,
+      "pixel": 4.49,
+      "dh": 0,
+      "contentRed": 0,
+      "clipped": 0,
+      "overflow": "ok"
+     }
+    ],
+    "cap": {
+     "width": 2560,
+     "verdict": "PASS",
+     "rows": "3/3"
+    },
+    "chrome": "font-width residual + 4px footer offset @360",
+    "prototypeTable": {
+     "360": "PASS (4/4)",
+     "1440": "PASS (4/4)"
+    }
+   },
+   "residuals": [
+    {
+     "id": "font-substitute",
+     "kind": "permanent-justified"
+    },
+    {
+     "id": "header--cookie-dissabled",
+     "kind": "deferred"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "leaving lightbox on every off-site link in page body + footer, except *.hsbc.com (navigates)"
+    ],
+    "implemented": [
+     "rule encoded in interactions.js — also corrects A1 (its hsbc.com links no longer open the lightbox)"
+    ],
+    "compare": "4 parity, 1 missing (consent class)"
+   },
+   "status": "approved",
+   "prototype": "stardust/prototypes/hsbc-uk-inclusion-proposed.html",
+   "css": [
+    "canon.css",
+    "landing.css",
+    "program.css"
+   ],
+   "builder": ".work/replica/build-page.mjs (generic allow-list re-author)",
+   "siblingNotes": "regulated-covered-bond-programme adds accordion + document table + form--fancy; postcode-lending-data uses 6-3-3; fintechs plain — run sibling-variance before cloning"
+  },
+  "static": {
+   "archetype": "terms-of-use",
+   "pages": 7,
+   "siblings": 6,
+   "iterations": 3,
+   "gates": {
+    "360": {
+     "pixel": 9.61,
+     "dh": 73,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "1440": {
+     "pixel": 5.38,
+     "dh": -24,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "cap": {
+     "verdict": "FAIL 1/4 (justified)",
+     "note": "wrapper cap 880=880; failing row is a module-root tie-break (live text block vs build long inline link), not a sizing rule"
+    }
+   },
+   "residuals": [
+    {
+     "id": "font-wrap-forks",
+     "kind": "permanent-justified",
+     "note": "Δh −24 @1440 (1 line), +73 @360 (3 lines) on a 10,000px legal page; every delta is a whole-line wrap fork"
+    }
+   ],
+   "motion": null,
+   "status": "approved",
+   "prototype": "stardust/prototypes/terms-of-use-proposed.html",
+   "css": [
+    "canon.css",
+    "program.css",
+    "static.css"
+   ]
+  },
+  "unique": {
+   "archetype": "history-timeline",
+   "pages": 4,
+   "siblings": 3,
+   "iterations": 3,
+   "gates": {
+    "360": {
+     "pixel": 6.73,
+     "dh": 48,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "1440": {
+     "pixel": 2.37,
+     "dh": 0,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "cap": {
+     "verdict": "PASS 4/4"
+    }
+   },
+   "residuals": [
+    {
+     "id": "font-wrap-forks",
+     "kind": "permanent-justified",
+     "note": "Δh +48 @360 = 2 whole-line wrap forks"
+    }
+   ],
+   "motion": null,
+   "status": "approved",
+   "prototype": "stardust/prototypes/history-timeline-proposed.html",
+   "css": [
+    "canon.css",
+    "program.css",
+    "unique.css"
+   ]
+  },
+  "unique-2": {
+   "archetype": "management-team",
+   "pages": 2,
+   "siblings": 1,
+   "iterations": 3,
+   "gates": {
+    "360": {
+     "pixel": 3.13,
+     "dh": 0,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "1440": {
+     "pixel": 2.55,
+     "dh": 0,
+     "contentRed": 0,
+     "clipped": 0
+    },
+    "cap": {
+     "verdict": "PASS 4/4"
+    }
+   },
+   "residuals": [],
+   "motion": null,
+   "status": "approved",
+   "note": "unique type holds two distinct layouts (timeline vs exec bios)",
+   "prototype": "stardust/prototypes/management-team-proposed.html",
+   "css": [
+    "canon.css",
+    "program.css",
+    "unique.css"
+   ]
+  },
+  "landing-group": {
+   "archetype": "en",
+   "pages": 1,
+   "siblings": 0,
+   "iterations": 0,
+   "gates": {},
+   "residuals": [],
+   "motion": null,
+   "status": "awaiting-owner",
+   "note": "/en/ About HSBC group page — in scope? (decision batch 3)"
+  }
+ },
+ "recreationOrder": [
+  "article",
+  "landing",
+  "listing",
+  "program",
+  "static",
+  "unique",
+  "unique-2",
+  "form"
+ ],
+ "canonRegressionNote": "2026-10-18: .text h3 and .text > p:last-child initially regressed A3 (accordion h3) and A4 (rail text); scoped to .text h3:not(.accordion__heading) and .text:last-child > p:last-child; final table 8/8 PASS at both widths",
+ "delivery": {
+  "decision": "split",
+  "decidedBy": "owner",
+  "at": "2026-10-18",
+  "stardust": "gated prototypes → EDS block JS/CSS + foundation styles",
+  "xwalk": "Universal Editor block models (_<block>.json, npm run build:json) + content import into AEM author via tools/importer/page-templates.json",
+  "article": {
+   "status": "local-gated",
+   "at": "2026-10-19",
+   "origin": "local EDS render via doctype relay",
+   "gates": {
+    "360": {
+     "pixel": 8.16,
+     "dh": 5,
+     "contentRed": 0,
+     "clipped": 0,
+     "overflow": "ok"
+    },
+    "1440": {
+     "pixel": 5.56,
+     "dh": 5,
+     "contentRed": 0,
+     "clipped": 0,
+     "overflow": "ok"
+    }
+   },
+   "cap": "PASS@2560",
+   "chromeCrop": {
+    "header": [
+     98.15,
+     100
+    ],
+    "footer": [
+     95.97,
+     92.21
+    ],
+    "footerResidual": "substitute-font glyphs (Univers licence)"
+   },
+   "interactions": "pass",
+   "content": [
+    "news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+    "nav",
+    "footer"
+   ],
+   "pending": [
+    "published-origin gate",
+    "sibling-variance + 309 siblings"
+   ]
+  }
+ }
+}

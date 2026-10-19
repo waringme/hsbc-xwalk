@@ -1,0 +1,972 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-18T10:52:40Z",
+    "mode": "descriptive",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json"
+    ],
+    "synthesizedInputs": []
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T10:52:40Z",
+  "title": "Design System: About HSBC — HSBC UK (current state)",
+  "extensions": {
+    "colorMeta": {
+      "text-primary": {
+        "role": "text-primary",
+        "canonical": "#333333",
+        "occurrences": 2928,
+        "usedAs": [
+          "text"
+        ]
+      },
+      "background": {
+        "role": "background",
+        "canonical": "#ffffff",
+        "occurrences": 1198,
+        "usedAs": [
+          "background",
+          "text"
+        ]
+      },
+      "surface-inverse": {
+        "role": "surface-inverse",
+        "canonical": "#000000",
+        "occurrences": 205,
+        "usedAs": [
+          "text",
+          "background"
+        ]
+      },
+      "border": {
+        "role": "border",
+        "canonical": "#d7d8d6",
+        "occurrences": 195,
+        "usedAs": [
+          "border",
+          "background"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "canonical": "#da0011",
+        "occurrences": 8,
+        "usedAs": [
+          "background",
+          "border"
+        ]
+      },
+      "border-strong": {
+        "role": "border-strong",
+        "canonical": "#505050",
+        "occurrences": 35,
+        "usedAs": [
+          "border"
+        ]
+      },
+      "surface-dark": {
+        "role": "surface-dark",
+        "canonical": "#253038",
+        "occurrences": 34,
+        "usedAs": [
+          "background"
+        ]
+      },
+      "surface": {
+        "role": "surface",
+        "canonical": "#ededed",
+        "occurrences": 20,
+        "usedAs": [
+          "background"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "purpose": "Page H1 (univers-ultra-light / univers-thin 56px; 40–48px at 360)"
+      },
+      "headline": {
+        "purpose": "Section H2 thin 36px"
+      },
+      "title": {
+        "purpose": "H2/H3 light 30px"
+      },
+      "subtitle": {
+        "purpose": "H2/H3 regular 24px (medium at 360)"
+      },
+      "body": {
+        "purpose": "univers-regular 16–18px"
+      }
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 1px 4px 0px",
+        "use": "site header (#header)",
+        "sources": [
+          "https://www.about.hsbc.co.uk/"
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.4) 0px 0px 5px 0px",
+        "count": 70,
+        "sources": [
+          "https://www.about.hsbc.co.uk/",
+          "https://www.about.hsbc.co.uk/accessibility",
+          "https://www.about.hsbc.co.uk/cookie-notice"
+        ],
+        "use": "consent modal dialog (Tealium) — overlay, not page chrome"
+      }
+    ],
+    "motion": [
+      {
+        "name": "cinemagraph-loop",
+        "value": "MP4 autoplay loop with play/pause, poster on pause",
+        "purpose": "home feature video"
+      },
+      {
+        "name": "header-shrink",
+        "value": "header--fixed / header--shrunk on scroll",
+        "purpose": "sticky header"
+      }
+    ],
+    "breakpoints": {
+      "source": [
+        1220,
+        1200,
+        1120,
+        1080,
+        959,
+        800,
+        780,
+        650,
+        640,
+        560
+      ],
+      "heaviest": [
+        800,
+        1080,
+        640
+      ],
+      "authoredAs": "max-width",
+      "containerMaxWidth": "1220px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1220px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1220,
+          "via": "max-width",
+          "selector": "#page > div.layout-container",
+          "pages": [
+            "https://www.about.hsbc.co.uk/news-and-media",
+            "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+            "https://www.about.hsbc.co.uk/terms-of-use",
+            "https://www.about.hsbc.co.uk/history-timeline"
+          ]
+        },
+        {
+          "kind": "content",
+          "px": 880,
+          "via": "fixed",
+          "selector": "#page > div.layout-container > div.layout--9-3 > div.layout__primary",
+          "pages": [
+            "https://www.about.hsbc.co.uk/terms-of-use",
+            "https://www.about.hsbc.co.uk/history-timeline"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1220,
+          "via": "max-width",
+          "selector": "#page > div.layout-container",
+          "pages": [
+            "https://www.about.hsbc.co.uk/",
+            "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+            "https://www.about.hsbc.co.uk/news-and-media",
+            "https://www.about.hsbc.co.uk/search"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 880,
+          "via": "fixed",
+          "selector": "#page > div.layout-container > div.layout--9-3 > div.layout__primary",
+          "pages": [
+            "https://www.about.hsbc.co.uk/",
+            "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+            "https://www.about.hsbc.co.uk/news-and-media",
+            "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+            "https://www.about.hsbc.co.uk/search"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 852,
+          "via": "fixed",
+          "selector": "div.text.text--editorial > ul > li > em",
+          "pages": [
+            "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+            "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 816,
+          "via": "fixed",
+          "selector": "div.layout__primary > div.text.text--editorial > p > em",
+          "pages": [
+            "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+            "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 763,
+          "via": "fixed",
+          "selector": "div.text.text--editorial > ul > li > em",
+          "pages": [
+            "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+            "https://www.about.hsbc.co.uk/news-and-media"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 680,
+          "via": "fixed",
+          "selector": "div.layout--9-3 > div.layout__primary > div.exec-bio > div.exec-bio__copy",
+          "pages": [
+            "https://www.about.hsbc.co.uk/history-timeline"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 580,
+          "via": "fixed",
+          "selector": "#page > div.layout-container > div.layout--6-6 > div.layout__primary",
+          "pages": [
+            "https://www.about.hsbc.co.uk/",
+            "https://www.about.hsbc.co.uk/search"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 500,
+          "via": "fixed",
+          "selector": "div.layout__primary > div.long-form-promo.long-form-promo--no-meta > a.long-form-promo__heading > div.long-form-promo__inner",
+          "pages": [
+            "https://www.about.hsbc.co.uk/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 400,
+          "via": "fixed",
+          "selector": "a.long-form-promo__heading > div.long-form-promo__inner > h2 > span",
+          "pages": [
+            "https://www.about.hsbc.co.uk/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 283,
+          "via": "fixed",
+          "selector": "div.layout__primary > div.layout-container > div.layout--4-4-4.layout--spaced > div.layout__primary",
+          "pages": [
+            "https://www.about.hsbc.co.uk/news-and-media",
+            "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 261,
+          "via": "fixed",
+          "selector": "a.long-form-promo__heading > div.long-form-promo__inner > h2 > span",
+          "pages": [
+            "https://www.about.hsbc.co.uk/news-and-media",
+            "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 0,
+          "selector": "#page > div.layout--full",
+          "px": null
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 1,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 2,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 3,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 4,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 5,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 6,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/",
+          "section": 7,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+          "section": 0,
+          "selector": "#page > div.layout--full",
+          "px": null
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+          "section": 1,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+          "section": 2,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/news-and-media",
+          "section": 0,
+          "selector": "#page > div.layout--full",
+          "px": null
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/news-and-media",
+          "section": 1,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/news-and-media",
+          "section": 2,
+          "selector": "#page > div.layout-container",
+          "px": 880
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+          "section": 0,
+          "selector": "#page > div.layout--full",
+          "px": null
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+          "section": 1,
+          "selector": "#page > div.layout-container",
+          "px": 880
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/terms-of-use",
+          "section": 0,
+          "selector": "div.layout-container > div.layout--9-3 > div.layout__primary > div.page-description.page-description--",
+          "px": null
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/terms-of-use",
+          "section": 1,
+          "selector": "div.layout-container > div.layout--9-3 > div.layout__primary > div.text.text--editorial",
+          "px": null
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/history-timeline",
+          "section": 0,
+          "selector": "#page > div.layout--full",
+          "px": null
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/history-timeline",
+          "section": 1,
+          "selector": "#page > div.layout-container",
+          "px": 680
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/search",
+          "section": 0,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        },
+        {
+          "url": "https://www.about.hsbc.co.uk/search",
+          "section": 1,
+          "selector": "#page > div.layout-container",
+          "px": 1220
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1220 (https://www.about.hsbc.co.uk/), 1220 (https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk), 1220 (https://www.about.hsbc.co.uk/news-and-media), 1220 (https://www.about.hsbc.co.uk/hsbc-uk/inclusion), 880 (https://www.about.hsbc.co.uk/terms-of-use), 880 (https://www.about.hsbc.co.uk/history-timeline), 1220 (https://www.about.hsbc.co.uk/search) — decide per template in the inconsistency register",
+        "shellMaxWidth differs between archetypes: fluid (https://www.about.hsbc.co.uk/), fluid (https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk), 1220 (https://www.about.hsbc.co.uk/news-and-media), 1220 (https://www.about.hsbc.co.uk/hsbc-uk/inclusion), 1220 (https://www.about.hsbc.co.uk/terms-of-use), 1220 (https://www.about.hsbc.co.uk/history-timeline), fluid (https://www.about.hsbc.co.uk/search)",
+        "module cap 680px on a single section (div.layout--9-3 > div.layout__primary > div.exec-bio > div.exec-bio__copy, https://www.about.hsbc.co.uk/history-timeline) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-18T10:52:59.481Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.about.hsbc.co.uk/",
+          "https://www.about.hsbc.co.uk/news-and-media/100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+          "https://www.about.hsbc.co.uk/news-and-media",
+          "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+          "https://www.about.hsbc.co.uk/terms-of-use",
+          "https://www.about.hsbc.co.uk/history-timeline",
+          "https://www.about.hsbc.co.uk/search"
+        ]
+      }
+    },
+    "componentStyle": {
+      "radius": "0 everywhere",
+      "links": "#333 underlined via 50% hard-stop gradient; hover #de0011",
+      "buttons": "rare; primary = #da0011 fill, white text, 10px pad, square"
+    },
+    "motifs": {
+      "borderRadius": {
+        "mode": 0,
+        "occurrences": [],
+        "note": "No non-zero border-radius measured on any of 35 pages — square-cornered system."
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.2) 0px 1px 4px 0px",
+          "use": "site header (#header)",
+          "sources": [
+            "https://www.about.hsbc.co.uk/"
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.4) 0px 0px 5px 0px",
+          "count": 70,
+          "sources": [
+            "https://www.about.hsbc.co.uk/",
+            "https://www.about.hsbc.co.uk/accessibility",
+            "https://www.about.hsbc.co.uk/cookie-notice"
+          ],
+          "use": "consent modal dialog (Tealium) — overlay, not page chrome"
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(51, 51, 51) 50%)",
+          "count": 198,
+          "use": "link underline (50% hard-stop text-decoration substitute)",
+          "sources": [
+            "https://www.about.hsbc.co.uk/accessibility",
+            "https://www.about.hsbc.co.uk/cookie-notice",
+            "https://www.about.hsbc.co.uk/hsbc-uk/inclusion"
+          ]
+        }
+      ],
+      "patterns": [
+        "hero-with-image (header-area, max-height 485px)",
+        "share bar (share-actions)",
+        "long-form-promo card",
+        "year accordion",
+        "exec-bio row",
+        "stat floating-container"
+      ]
+    },
+    "voice": {
+      "heroHeadline": "HSBC UK",
+      "heroImage": "https://www.about.hsbc.co.uk/-/media/uk/images/240703-hsbc-in-uk-1520x400.jpg",
+      "heroMedium": {
+        "kind": "video-loop (cinemagraph)",
+        "src": "https://www.about.hsbc.co.uk/-/media/uk/images/260618-tracking-slow-motion.mp4",
+        "poster": "yes (poster-on-pause)",
+        "pages": [
+          "/",
+          "/hsbc-uk",
+          "/hsbc-uk/community"
+        ],
+        "placement": "second section of home, play/pause control"
+      },
+      "firstParagraph": "We are opening up a world of opportunity, supporting the financial health of individuals, businesses and communities across the UK – now and for the future.",
+      "ctaSamples": [
+        "Main content",
+        "Personal",
+        "Business",
+        "Accessibility",
+        "Terms of use",
+        "Contact and support"
+      ]
+    },
+    "systemComponents": [
+      {
+        "kind": "header",
+        "name": "Wedge header (divisions-nav Personal|Business, logo, primary-nav, search, fixed/shrunk on scroll, nav-tray on mobile)",
+        "occurrences": 310,
+        "selector": "#header.header--wedge"
+      },
+      {
+        "kind": "footer",
+        "name": "Black footer strip (5 links + © HSBC Group)",
+        "occurrences": 310,
+        "selector": ".footer"
+      },
+      {
+        "kind": "overlay",
+        "name": "Tealium cookie modal + external-link leaving-confirmation modal",
+        "occurrences": 307,
+        "selector": ".cookie-modal, .leaving-confirmation"
+      },
+      {
+        "kind": "strip",
+        "name": "Share actions (X / Facebook / LinkedIn) overlapping hero base",
+        "occurrences": 249,
+        "selector": ".share-actions"
+      },
+      {
+        "kind": "strip",
+        "name": "Media enquiries disclaimer block (article foot)",
+        "occurrences": 273,
+        "selector": ".disclaimer"
+      }
+    ],
+    "iconFont": {
+      "family": "pwsicons",
+      "glyphs": [
+        {
+          "iconClass": "icon--icon-external",
+          "pseudo": "::after",
+          "codepoint": "U+E900",
+          "count": 24
+        },
+        {
+          "iconClass": "icon icon-external",
+          "pseudo": "::before",
+          "codepoint": "U+E900",
+          "count": 20
+        }
+      ]
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        56,
+        48,
+        40,
+        36,
+        30,
+        24,
+        18,
+        16,
+        14,
+        13.33,
+        12
+      ],
+      "ratios": [
+        1.17,
+        1.2,
+        1.11,
+        1.2,
+        1.25,
+        1.33,
+        1.13,
+        1.14,
+        1.05,
+        1.11
+      ],
+      "matchedScale": null
+    },
+    "modules": [
+      {
+        "id": "candidate-site-header",
+        "name": "header (wedge)",
+        "systemComponent": true,
+        "pages": 310,
+        "signal": "class header--wedge on 310/310 content pages",
+        "slots": [
+          {
+            "name": "divisions",
+            "type": "link-list"
+          },
+          {
+            "name": "logo",
+            "type": "image"
+          },
+          {
+            "name": "primary-nav",
+            "type": "link-list"
+          },
+          {
+            "name": "search",
+            "type": "form"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "#header"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-site-footer",
+        "name": "footer",
+        "systemComponent": true,
+        "pages": 310,
+        "signal": "class footer on 310/310",
+        "slots": [
+          {
+            "name": "links",
+            "type": "link-list"
+          },
+          {
+            "name": "copyright",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".footer"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-hero-banner",
+        "name": "hero image banner + page description",
+        "pages": 301,
+        "signal": "header-area 301 + page-description 310",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "date",
+            "type": "text"
+          },
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "standfirst",
+            "type": "richtext"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "news-and-media-100-year-biodiversity-bid-for-south-of-scotland-gets-boost-from-hsbc-uk",
+            "selector": ".header-area, .page-description"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-share-actions",
+        "name": "share actions (X / Facebook / LinkedIn)",
+        "pages": 249,
+        "signal": "share-actions 249",
+        "slots": [
+          {
+            "name": "networks",
+            "type": "link-list"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "management-team",
+            "selector": ".share-actions"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-editorial-text",
+        "name": "editorial rich text (+dropcap, inline image, inline table)",
+        "pages": 298,
+        "signal": "text--editorial 298, inline-image 57, inline-table-wrapper 26",
+        "slots": [
+          {
+            "name": "body",
+            "type": "richtext",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "terms-of-use",
+            "selector": ".text--editorial"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-media-enquiries",
+        "name": "media enquiries disclaimer",
+        "pages": 273,
+        "signal": "disclaimer 273; heading 'Media enquiries to:' on 143 pages",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text"
+          },
+          {
+            "name": "contacts",
+            "type": "richtext"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "news-and-media-11bn-to-back-businesses-and-households",
+            "selector": ".disclaimer"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-long-form-promo",
+        "name": "long-form promo tile grid",
+        "pages": 8,
+        "signal": "long-form-promo 8 (home, hsbc-uk, community, inclusion, /en/)",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "heading",
+            "type": "link"
+          },
+          {
+            "name": "text",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".long-form-promo"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-stats",
+        "name": "stats / fact panel (floating-container, factbox)",
+        "pages": 13,
+        "signal": "floating-container 11, factbox 2",
+        "slots": [
+          {
+            "name": "figure",
+            "type": "text"
+          },
+          {
+            "name": "label",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".floating-container"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-cinemagraph",
+        "name": "cinemagraph video feature",
+        "pages": 5,
+        "signal": "cinemagraph 5 (home + its duplicates); MP4 loop with play/pause",
+        "slots": [
+          {
+            "name": "video",
+            "type": "media"
+          },
+          {
+            "name": "poster",
+            "type": "image"
+          },
+          {
+            "name": "caption",
+            "type": "richtext"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".cinemagraph"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-year-accordion",
+        "name": "year accordion + tabular list",
+        "pages": 3,
+        "signal": "accordion 3, tabular-list 2",
+        "slots": [
+          {
+            "name": "items",
+            "type": "repeat(heading, richtext)"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "news-and-media",
+            "selector": ".accordion"
+          },
+          {
+            "slug": "hsbc-uk-regulated-covered-bond-programme",
+            "selector": ".accordion"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-news-cards",
+        "name": "news card row (date + headline + summary + image)",
+        "pages": 2,
+        "signal": "listing + 'Views on HSBC.com' rows on /news-and-media",
+        "slots": [
+          {
+            "name": "cards",
+            "type": "repeat(image, date, link, text)"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "news-and-media",
+            "selector": ".layout--4-4-4"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-exec-bio",
+        "name": "exec bio / timeline entry",
+        "pages": 2,
+        "signal": "exec-bio 2 (management-team, history-timeline)",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "name",
+            "type": "text"
+          },
+          {
+            "name": "role",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "management-team",
+            "selector": ".exec-bio"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-image-viewer",
+        "name": "zoomable image viewer (infographic lightbox)",
+        "pages": 3,
+        "signal": "image-viewer 3",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "news-and-media-hsbc-uk-issues-urgent-fraud-warning-against-dummy-apps",
+            "selector": ".image-viewer"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-search",
+        "name": "search tabs + results",
+        "pages": 2,
+        "signal": "tabs 2, search-results 2",
+        "slots": [
+          {
+            "name": "query",
+            "type": "form"
+          },
+          {
+            "name": "results",
+            "type": "repeat"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "search",
+            "selector": ".search-results"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-carousel-video",
+        "name": "carousel + video (single article)",
+        "pages": 1,
+        "signal": "carousel 1, video 1 — speculative (one page)",
+        "slots": [
+          {
+            "name": "slides",
+            "type": "repeat(image)"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "news-and-media-hsbc-uk-to-open-new-branch-in-loughborough",
+            "selector": ".carousel"
+          }
+        ],
+        "status": "candidate"
+      }
+    ]
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "The Annual-Report Page",
+    "keyCharacteristics": [
+      "One typeface, weight via face families",
+      "White canvas, #333 text, red as signal",
+      "Zero radius",
+      "Full-bleed hero banner with share bar",
+      "12-col 9+3 editorial grid"
+    ]
+  }
+}

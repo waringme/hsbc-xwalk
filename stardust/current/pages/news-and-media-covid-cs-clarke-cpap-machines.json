@@ -1,0 +1,157 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-18T11:40:34.312Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "news-and-media-covid-cs-clarke-cpap-machines",
+  "url": "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-18T11:40:34.312Z",
+  "finalUrl": "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines",
+  "title": "Welsh engineers begin manufacturing vital equipment amid coronavirus threat - About HSBC | HSBC UK",
+  "description": "C R Clarke & Co in Carmarthenshire has been given MHRA (Medical Health Regulatory Authority) authorisation to begin manufacturing a breathing aid needed to support Covid-19 patients in Wales.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Welsh engineers begin manufacturing vital equipment amid coronavirus threat"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookies on this website"
+    }
+  ],
+  "body": [
+    "1 May 2020",
+    "The MHRA authorisation allows a limited clinical trial to be started in NHS hospitals. Should the trial be successful the company is hoping to supply thousands more units to the Health Service over the next six months.",
+    "The new unit was jointly designed by C R Clarke & Co and Dr Rhys Thomas, a consultant at Glangwilli Hospital who identified a serious need for CPAP equipment in Welsh hospitals.",
+    "Maurice Clarke, Manging Director of C R Clarke & Co, said: “We’ve been working tirelessly to get our prototype to the manufacturing stage and we’re thrilled that with the support of HSBC UK, Industry Wales and Welsh Government, we’re now able to start production. Our Relationship Manager at the bank, Andrew Drummond, has been incredibly supportive of our move into production of this important piece of equipment in the fight against coronavirus. We hope that the equipment that we can now manufacture here in Wales will play a vital role in supporting patients across Wales and the rest of the UK.”",
+    "Phil Sargeant, HSBC UK’s Area Director for Business Banking in South Wales, commented: “C R Clarke & Co is an exceptional business that has responded quickly to ensure help can reach the many patients and hospitals across Wales battling with Covid-19. We are delighted to have been able to support this effort alongside Welsh Government and we look forward to seeing how the business has contributed to curbing the pandemic in the near future.”",
+    "C R Clarke & Co, which was established in 1974, is hoping to release a blueprint for the design so other businesses in countries across the world can begin manufacturing CPAPs, which is said to be the equipment most needed by healthcare professionals at the current time.",
+    "In Wales there are currently over 8,100 coronavirus patients to date. A majority of patients that require breathing support will use CPAP ventilators, with only a small percentage requiring more complex breathing equipment."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Cookie Notice",
+      "href": "https://www.about.hsbc.co.uk/cookie-notice"
+    }
+  ],
+  "links": [
+    "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines#",
+    "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines#nav-tray-sub-view-1",
+    "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines#nav-tray-sub-view-2",
+    "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines#nav-tray-sub-view-3",
+    "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines#nav-tray-sub-view-4",
+    "https://www.hsbc.co.uk/",
+    "https://www.business.hsbc.uk/en-gb",
+    "https://www.about.hsbc.co.uk/hsbc-uk",
+    "https://www.about.hsbc.co.uk/hsbc-uk/postcode-lending-data",
+    "https://www.about.hsbc.co.uk/hsbc-uk/inclusion",
+    "https://www.about.hsbc.co.uk/hsbc-uk/working-with-fintechs",
+    "https://www.about.hsbc.co.uk/hsbc-uk/regulated-covered-bond-programme",
+    "https://www.about.hsbc.co.uk/news-and-media",
+    "https://www.about.hsbc.co.uk/management-team",
+    "https://www.about.hsbc.co.uk/history-timeline",
+    "https://www.about.hsbc.co.uk/news-and-media/covid-cs-clarke-cpap-machines#page",
+    "https://www.about.hsbc.co.uk/",
+    "https://www.about.hsbc.co.uk/accessibility",
+    "https://www.about.hsbc.co.uk/privacy-notice",
+    "https://www.about.hsbc.co.uk/terms-of-use",
+    "https://www.about.hsbc.co.uk/cookie-notice",
+    "https://www.hsbc.co.uk/help/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/uk/images/news-and-media/200506-covid-cs-clarke-cpap-machines-1520x400.jpg",
+        "alt": "",
+        "w": 1520,
+        "h": 495
+      }
+    ],
+    "allImgCount": 3,
+    "cssBackgrounds": [],
+    "modals": [
+      "Cookies on this websiteWe use cookies to help keep our website and services working properly. These cookies are necessary and set automatically.We'd also like to use some optional cookies that:Make your visit more personalImprove our website based on how you use itSupport our marketingYou can either 'Accept' or 'Decline' these cookies or choose what cookies to accept in 'Manage cookies'.To learn more about how we use cookies, visit our Cookie Notice."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 2,
+    "mainTextLen": 2718,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "akamai.tiqcdn.com",
+        "path": "/location/location.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 18,
+        "hits": 1,
+        "example": "https://akamai.tiqcdn.com/location/location.js",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 3
+      },
+      {
+        "host": "sadmin.brightcove.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/news-and-media-covid-cs-clarke-cpap-machines.png",
+  "renderedHtml": "pages/news-and-media-covid-cs-clarke-cpap-machines.html"
+}

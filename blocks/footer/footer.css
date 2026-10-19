@@ -1,20 +1,61 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* about.hsbc.co.uk footer — black utility bar. Values: stardust/prototypes/canon.css */
+footer .footer-utility {
+  padding: 14px 0 8px;
+  background: var(--black);
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer-inner {
+  display: flow-root;
+  position: relative;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
 }
 
-footer .footer p {
+footer .footer-utility ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .footer-utility li {
+  float: left;
+  margin: 0 20px 8px 0;
+}
+
+footer .footer-utility a:any-link {
+  color: #fff;
+}
+
+footer .footer-copyright {
+  float: right;
+}
+
+footer .footer-copyright p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+/* confirmation templates wait here until the lightbox borrows them */
+footer .leaving-confirmation {
+  display: none;
+}
+
+@media (width <= 640px) {
+  footer .footer-inner {
+    padding: 0 13px;
+  }
+
+  footer .footer-utility {
+    line-height: 18.76px;
+  }
+
+  footer .footer-copyright {
+    float: left;
+    clear: both;
+    padding: 1px 0 7px;
   }
 }

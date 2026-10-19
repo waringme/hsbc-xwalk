@@ -1,0 +1,209 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-18T10:29:12.348Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en",
+  "url": "https://www.about.hsbc.co.uk/en/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-18T10:29:12.348Z",
+  "finalUrl": "https://www.about.hsbc.co.uk/en/",
+  "title": null,
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "About HSBC"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookies on this website"
+    }
+  ],
+  "body": [
+    "Share link to this page on X",
+    "Share link to this page on Facebook",
+    "Share link to this page on LinkedIn",
+    "HSBC offers a range of retail, commercial and private banking services in the UK. Find out about the bank's history, management structure, education and environmental programmes.",
+    "Find news information for the UK, including press releases and contact details for the retail banking and commercial banking media teams.",
+    "Current and potential investors can find information about HSBC, including financial results, dividend information, stock exchange announcements and investor presentations, on our corporate website.",
+    "We offer a world of interesting and varied opportunities to suit every stage of your career. We encourage our people to be their best in an inclusive and inspiring environment. For details go to our corporate website.",
+    "Since its foundation in 1865, HSBC has helped serve the needs of a changing world. We recognise our wider commitments to the communities in which we operate and understand that economic growth must also be sustainable.",
+    "Our ambition is to be the preferred international financial partner for our clients.",
+    "HSBC is one of the world’s leading international banks. We have developed a long-term strategy that reflects our purpose and enables us to connect our customers to opportunities around the world.",
+    "HSBC was born from one simple idea – a local bank serving international needs. In March 1865, HSBC opened its doors for business in Hong Kong. Today we are one of the world’s largest banking and financial services organisations."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Cookie Notice",
+      "href": "https://www.about.hsbc.co.uk/cookie-notice"
+    }
+  ],
+  "links": [
+    "https://www.about.hsbc.co.uk/en/#",
+    "https://www.hsbc.co.uk/",
+    "https://www.business.hsbc.uk/en-gb",
+    "https://www.about.hsbc.co.uk/en/#page",
+    "https://www.about.hsbc.co.uk/",
+    "http://twitter.com/intent/tweet?url={URL}",
+    "https://www.facebook.com/sharer/sharer.php?u={URL}",
+    "http://www.linkedin.com/shareArticle?mini=true&url={URL}&title={title}",
+    "https://www.about.hsbc.co.uk/en/hsbc-uk",
+    "https://www.about.hsbc.co.uk/en/news-and-media",
+    "https://www.hsbc.com/investors",
+    "https://www.hsbc.com/careers",
+    "https://www.hsbc.com/our-approach/building-a-sustainable-future",
+    "https://www.hsbc.com/who-we-are/purpose-values-and-strategy",
+    "https://www.hsbc.com/our-approach/our-strategy",
+    "https://history.hsbc.com/",
+    "https://www.about.hsbc.co.uk/en/accessibility",
+    "https://www.about.hsbc.co.uk/en/privacy-notice",
+    "https://www.about.hsbc.co.uk/en/terms-of-use",
+    "https://www.about.hsbc.co.uk/en/cookie-notice",
+    "https://www.hsbc.co.uk/help/",
+    "https://www.about.hsbc.co.uk/cookie-notice"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/pws171/Logos/HSBC-logo.svg",
+        "alt": "HSBC",
+        "w": 125,
+        "h": 24
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/about-hsbc-e-2017-1520x345.jpg",
+        "alt": "",
+        "w": 1520,
+        "h": 345
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/uk/images/240703-hsbc-in-uk-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/112323-news-and-media-new-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/240112-investor-relations-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/231222-careers-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/sustainability-2017-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/purpose-values-and-strategy-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/our-strategy-v2-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      },
+      {
+        "src": "https://www.about.hsbc.co.uk/-/media/Images/images-v2/company-history-2017-800x495.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 495
+      }
+    ],
+    "allImgCount": 11,
+    "cssBackgrounds": [],
+    "modals": [
+      "Cookies on this websiteWe use cookies to help keep our website and services working properly. These cookies are necessary and set automatically.We'd also like to use some optional cookies that:Make your visit more personalImprove our website based on how you use itSupport our marketingYou can either 'Accept' or 'Decline' these cookies or choose what cookies to accept in 'Manage cookies'.To learn more about how we use cookies, visit our Cookie Notice."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 2,
+    "mainTextLen": 2310,
+    "realImageCount": 11,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "akamai.tiqcdn.com",
+        "path": "/location/location.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 18,
+        "hits": 1,
+        "example": "https://akamai.tiqcdn.com/location/location.js",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 3
+      },
+      {
+        "host": "sadmin.brightcove.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/en.png",
+  "renderedHtml": "pages/en.html"
+}
